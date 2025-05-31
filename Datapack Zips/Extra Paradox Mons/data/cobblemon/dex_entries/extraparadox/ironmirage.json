@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ironmirage",
+  "speciesId": "cobblemon:ironmirage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

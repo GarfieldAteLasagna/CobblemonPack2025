@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ironmight",
+  "speciesId": "cobblemon:ironmight",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

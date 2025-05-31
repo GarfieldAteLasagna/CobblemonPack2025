@@ -1,0 +1,36 @@
+version 16
+-iron virus special atk -10, special def +10
+-tempest fang battle_idle fix
+-tempest fang profile/portrait fixes
+-iron victory remodeled/texture/anims
+
+version 17
+-iron mirage stat changes -20 special atk, +10 def, +10 atk
+-iron might stat changes -10 atk, -10 spe, +10 hp, +10 def
+-iron virus stat changes -6 atk, -4 special atk, +10 hp
+-iron justice stat changes -20 atk, -10 special atk, -10 spe, +20 special def, +20 def
+-iron drone stat changes -10 spe, -10 def, -10 special def, +10 hp, +20 atk
+-iron core stat changes -30 def, -10 hp, -10 spe, +30 atk, +20 special def
+-tempest fang stat changes -10 atk, -4 spe, -10 special atk, +4 def, +10 hp, +10 special def
+-ancient gale stat changes -10 atk, +10 def
+-crimson veil stat changes -10 atk, -10 hp, -10 def, -10 spe, +10 special def, +40 special atk
+-lumin tail stat changes -10 speed, -10 special atk, +20 atk
+-feral wish stat changes -30 special atk, +10 spe, +10 atk, +10 def
+-toxic melody stat changes -20 special def, -20 spe, +40 atk
+-iron victory stat changes -20 spe, -20 special atk, +20 atk, +20 special def
+-wild gene shiny fix
+-toxic melody remodeled/texture/anims
+-toxic melody move pool revamp
+-crimson veil move pool revamp
+-lumin tail move pool revamp
+-feral wish move pool revamp
+-wild gene move pool revamp
+-ancient gale move pool revamp
+-tempest fang move pool revamp
+-iron victory move pool revamp
+-iron core move pool revamp
+-iron drone move pool revamp
+-iron virus move pool revamp
+-iron justice move pool revamp
+-iron might move pool revamp
+-iron mirage move pool revamp

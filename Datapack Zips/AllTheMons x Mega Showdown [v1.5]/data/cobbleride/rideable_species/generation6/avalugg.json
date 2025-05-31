@@ -1,0 +1,47 @@
+{
+  "name": "Avalugg",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.3,
+      "z": 0.4
+    },
+    "SWIMMING": {
+      "x": 0.0,
+      "y": -1.4,
+      "z": 0.0
+    },
+    "DIVING": {
+      "x": 0.0,
+      "y": -1.4,
+      "z": 0.0
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 1.0,
+  "forms": [
+	{
+	  "name": "Hisuian",
+	  "enabled": true,
+	  "offsets": {
+	    "DEFAULT": {
+		  "x": 0.0,
+	  	  "y": -0.3,
+		  "z": 0.4
+	    },
+	    "SWIMMING": {
+		  "x": 0.0,
+		  "y": -1.4,
+		  "z": 0.0
+	    },
+	    "DIVING": {
+		  "x": 0.0,
+		  "y": -1.4,
+		  "z": 0.0
+	    }
+	  }
+	}
+  ]
+}

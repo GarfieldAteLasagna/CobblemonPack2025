@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:incineroar",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:incineroar_ultravariant",
+      "model": "cobblemon:incineroar_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/incineroar_ultravariant.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/incineroar_ultravariant_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/incineroar_ultravariant_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/incineroar_ultravariant_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shining"],
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/incineroar_ultravariant_shining.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/incineroar_ultravariant_shining_emissive.png"
+        }
+      ]
+    }
+  ]
+}

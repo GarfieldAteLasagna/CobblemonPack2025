@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:warabbit-spaceworldmons",
+    "speciesId": "cobblemon:warabbit",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

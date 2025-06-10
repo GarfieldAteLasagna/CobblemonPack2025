@@ -1,0 +1,169 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2400,
+    "name": "Vegonk",
+    "primaryType": "grass",
+    "secondaryType": "ground",
+    "maleRatio": 0.5,
+    "height": 5,
+    "weight": 102,
+    "pokedex": [
+      "cobblemon.species.vegonk.desc"
+    ],
+    "labels": [],
+    "aspects": [],
+    "abilities": [
+      "aromaveil",
+      "gluttony",
+      "h:thickfat"
+    ],
+    "eggGroups": [
+      "field"
+    ],
+    "baseStats": {
+      "hp": 54,
+      "attack": 45,
+      "defence": 40,
+      "special_attack": 35,
+      "special_defence": 45,
+      "speed": 35
+    },
+    "evYield": {
+      "hp": 1,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 51,
+    "experienceGroup": "medium_fast",
+    "catchRate": 255,
+    "eggCycles": 15,
+    "baseFriendship": 50,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 0.6,
+      "height": 0.6,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.12
+        }
+      }
+    },
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:pumpkin",
+          "quantityRange": "1"
+        },
+        {
+          "item": "minecraft:pumpkin_seeds",
+          "percentage": 25
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:tailwhip",
+      "5:disarmingvoice",
+      "8:echoedvoice",
+      "12:mudshot",
+      "15:covet",
+      "17:dig",
+      "21:headbutt",
+      "24:yawn",
+      "27:takedown",
+      "30:workup",
+      "32:uproar",
+      "35:doubleedge",
+      "egg:endeavor",
+      "egg:spitup",
+      "egg:stockpile",
+      "egg:stuffcheeks",
+      "egg:swallow",
+      "tm:bodyslam",
+      "tm:bulldoze",
+      "tm:bulletseed",
+      "tm:chillingwater",
+      "tm:covet",
+      "tm:curse",
+      "tm:dig",
+      "tm:disarmingvoice",
+      "tm:doubleedge",
+      "tm:echoedvoice",
+      "tm:endeavor",
+      "tm:endure",
+      "tm:facade",
+      "tm:headbutt",
+      "tm:helpinghand",
+      "tm:hypervoice",
+      "tm:ironhead",
+      "tm:mudshot",
+      "tm:mudslap",
+      "tm:playrough",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:seedbomb",
+      "tm:sleeptalk",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:superfang",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:thief",
+      "tm:trailblaze",
+      "tm:uproar",
+      "tm:workup",
+      "tm:zenheadbutt",
+      "tutor:bulldoze",
+      "tutor:covet",
+      "tutor:endeavor",
+      "tutor:helpinghand",
+      "tutor:hypervoice",
+      "tutor:ironhead",
+      "tutor:mudslap",
+      "tutor:playrough",
+      "tutor:rest",
+      "tutor:seedbomb",
+      "tutor:sleeptalk",
+      "tutor:superfang",
+      "tutor:uproar",
+      "tutor:zenheadbutt"
+    ],
+    "evolutions": [
+      {
+        "id": "vegonk_squashologne",
+        "variant": "level_up",
+        "result": "squashologne",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 18
+          }
+        ]
+      },
+      {
+        "id": "vegonk_pumpkaboo",
+        "variant": "item_interact",
+        "result": "pumpkaboo jetian",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "cobblemon:tamato_berry"
+      }
+    ]
+  }
+  

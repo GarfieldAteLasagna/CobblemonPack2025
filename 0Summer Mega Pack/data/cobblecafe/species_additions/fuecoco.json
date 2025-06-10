@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:fuecoco",
+  "evolutions": [
+    {
+      "id": "fuecoco_cafe_fuecoco",
+      "variant": "item_interact",
+      "result": "cafe_fuecoco",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:red_wool"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "pokemon": [
+        "veluza",
+        "feebas",
+        "milotic",
+        "hoothoot",
+        "noctowl",
+        "aipom",
+        "ambipom",
+		"wooper",
+		"quagsire",
+		"torkoal",
+		"foongus",
+		"amoonguss",
+		"murkrow",
+		"honchkrow"
+    ]
+}

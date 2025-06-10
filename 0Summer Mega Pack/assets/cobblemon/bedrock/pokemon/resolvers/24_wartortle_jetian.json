@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:wartortle",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:wartortle",
+        "model": "cobblemon:wartortle_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_jetian_shiny.png"
+      }
+    ]
+  }

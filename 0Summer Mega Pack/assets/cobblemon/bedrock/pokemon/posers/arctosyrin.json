@@ -1,0 +1,38 @@
+{
+  "portraitScale": 1.1,
+  "portraitTranslation": [-3, 2.9, 0.0],
+  "profileScale": 0.25,
+  "profileTranslation": [-0.1, 1.2, 0],
+  "rootBone": "arctosyrin",
+  "animations": {},
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('arctosyrin', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('arctosyrin', 'blink')"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["bedrock(arctosyrin, ground_idle)"],
+      "quirks": ["q.bedrock_quirk('arctosyrin', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('arctosyrin', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('arctosyrin', 'blink')"]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('arctosyrin', 'ground_sleep')"]
+    }
+  }
+}

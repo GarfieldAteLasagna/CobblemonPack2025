@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:toxeon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:toxeon",
+      "model": "cobblemon:toxeon.geo",
+      "texture": "cobblemon:textures/pokemon/3197_toxeon/toxeon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3197_toxeon/toxeon_shiny.png"
+    }
+  ]
+}

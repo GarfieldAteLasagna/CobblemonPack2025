@@ -1,0 +1,68 @@
+{
+  "species": "cobblemon:ivysaur",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["shadow"],
+      "poser": "cobblemon:ivysaur",
+      "model": "cobblemon:ivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_m.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow",
+        "female"
+      ],
+      "poser": "cobblemon:ivysaur",
+      "model": "cobblemon:ivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_f.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow",
+        "shiny"
+      ],
+      "poser": "cobblemon:ivysaur",
+      "model": "cobblemon:ivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_shiny_m.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow",
+        "female",
+        "shiny"
+      ],
+      "poser": "cobblemon:ivysaur",
+      "model": "cobblemon:ivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_shiny_f.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

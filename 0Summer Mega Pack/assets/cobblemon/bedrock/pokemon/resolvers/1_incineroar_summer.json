@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:incineroar",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["summer"],
+      "poser": "cobblemon:summer_incineroar",
+      "model": "cobblemon:summer_incineroar.geo",
+      "texture": "cobblemon:textures/pokemon/summer_incineroar/summer_incineroar.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "summer"],
+      "texture": "cobblemon:textures/pokemon/summer_incineroar/summer_incineroar_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portraitScale": 1.75,
+  "portraitTranslation": [-1.14, 2.45, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 1.1, 0],
+  "rootBone": "butterfree_gmax",
+  "animations": {
+    "faint": "q.bedrock_stateful('butterfree_gmax', 'faint')",
+	"cry": "q.bedrock_stateful('butterfree_gmax', 'cry')"
+  },
+  "poses": {
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": ["q.bedrock('butterfree_gmax', 'air_idle')"],
+      "quirks": []
+    },
+	"hover": {
+      "poseName": "hover",
+      "poseTypes": ["FLOAT", "HOVER", "PROFILE", "PORTRAIT"],
+      "quirks": [],
+      "animations": ["q.look('head')", "q.bedrock('butterfree_gmax', 'air_idle')"]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": ["FLY", "SWIM"],
+      "quirks": [],
+      "animations": ["q.look('head')", "q.bedrock('butterfree_gmax', 'air_fly')"]
+    },
+	"sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('butterfree_gmax', 'sleep')"]
+    }
+  }
+}

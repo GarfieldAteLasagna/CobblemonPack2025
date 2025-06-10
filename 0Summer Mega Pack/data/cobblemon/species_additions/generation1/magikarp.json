@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:magikarp",
+  "evolutions": [
+    {
+      "id": "magikarp_maguskeg",
+      "variant": "item_interact",
+      "result": "maguskeg",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:kings_rock"
+    }
+  ]
+}

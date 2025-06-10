@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:golisopod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:golisopod_ultravariant",
+      "model": "cobblemon:golisopod_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0768_golisopod/golisopod_ultravariant.png"
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0768_golisopod/golisopod_ultravariant_shiny.png"
+    },
+    {
+      "aspects": ["ultravariant", "shining"],
+      "texture": "cobblemon:textures/pokemon/0768_golisopod/golisopod_ultravariant_shining.png"
+    }
+  ]
+}

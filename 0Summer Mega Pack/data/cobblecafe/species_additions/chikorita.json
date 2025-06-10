@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:chikorita",
+  "evolutions": [
+    {
+      "id": "chikorita_cafe_chikorita",
+      "variant": "item_interact",
+      "result": "cafe_chikorita",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:echolyte",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:echolyte",
+      "model": "cobblemon:echolyte.geo",
+      "texture": "cobblemon:textures/pokemon/echolyte/echolyte.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/echolyte/echolyte_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/echolyte/echolyte_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/echolyte/echolyte_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

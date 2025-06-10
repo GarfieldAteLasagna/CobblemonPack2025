@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:quarbink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:quarbink",
+        "model": "cobblemon:quarbink.geo",
+        "texture": "cobblemon:textures/pokemon/quarbink/quarbink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/quarbink/quarbink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/quarbink/quarbink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/quarbink/quarbink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

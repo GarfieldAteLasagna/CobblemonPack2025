@@ -1,0 +1,81 @@
+{
+  "species": "cobblemon:wooper",
+  "order": 4,
+  "variations": [
+    {"aspects": ["kobellian"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_lucy.png",
+      "layers": []
+    },
+    {
+      "aspects": ["kobellian-lucy"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_lucy.png",
+      "layers": []
+    },
+
+    {
+      "aspects": ["kobellian-cyan"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_cyan.png",
+      "layers": []
+    },
+
+    {
+      "aspects": ["kobellian-gold"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_gold.png",
+      "layers": []
+    },
+
+    {
+      "aspects": ["kobellian-wild"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_wild.png",
+      "layers": []
+    },
+
+    {"aspects": ["kobellian", "shiny"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_blue.png",
+      "layers": []
+    },
+    {
+      "aspects": ["kobellian-lucy", "shiny"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_blue.png",
+      "layers": []
+    },
+
+    {
+      "aspects": ["kobellian-cyan", "shiny"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+     "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_blue.png",
+      "layers": []
+    },
+
+    {
+      "aspects": ["kobellian-gold", "shiny"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_blue.png",
+      "layers": []
+    },
+
+    {
+      "aspects": ["kobellian-wild", "shiny"],
+      "poser": "cobblemon:wooper_kobellian",
+      "model": "cobblemon:wooper_kobellian.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_kobellian_blue.png",
+      "layers": []
+    }
+  ]
+}

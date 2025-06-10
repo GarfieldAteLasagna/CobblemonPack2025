@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:hoothoot",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:hoothoot",
+      "model": "cobblemon:hoothoot_qlovean.geo",
+      "texture": "cobblemon:textures/pokemon/0163_hoothoot/hoothoot_qlovean.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0163_hoothoot/hoothoot_qlovean_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "qlovean"],
+      "texture": "cobblemon:textures/pokemon/0163_hoothoot/hoothoot_qlovean_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0163_hoothoot/hoothoot_qlovean_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

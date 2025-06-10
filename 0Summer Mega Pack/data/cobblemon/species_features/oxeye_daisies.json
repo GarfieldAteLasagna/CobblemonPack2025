@@ -1,0 +1,20 @@
+{
+  "type": "integer",
+  "keys": ["oxeye_daisies"],
+  "default": 0,
+  "min": 0,
+  "max": 256,
+  "visible": true,
+  "display": {
+    "name": "cobblemon.ui.stash.bone_meal",
+    "colour": [214, 232, 232],
+    "underlay": "cobblemon:textures/gui/summary/summary_stats_other_bar.png",
+    "overlay": "cobblemon:textures/gui/summary/summary_stats_daisy_overlay.png"
+  },
+  "itemPoints": {
+    "minecraft:bone_meal": 1,
+    "minecraft:bone": 3,
+    "minecraft:bone_block": 9,
+    "minecraft:suspicious_stew": 81
+  }
+}

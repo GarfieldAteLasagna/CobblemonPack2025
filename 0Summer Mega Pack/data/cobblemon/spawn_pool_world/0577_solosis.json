@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-solosis-1",
+            "pokemon": "solosis",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-35",
+            "weight": 2.05,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        },
+        {
+            "id": "deeper-solosis-2",
+            "pokemon": "solosis",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-35",
+            "weight": 8.4,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "G#G",
+        "CPC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "cobblemon:pink_apricorn"
+        },
+        "G": {
+            "item": "minecraft:tinted_glass"
+        },
+        "P": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "cobblemon:dubious_disc",
+        "count": 1
+    }
+}

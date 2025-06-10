@@ -1,0 +1,51 @@
+{
+  "species": "cobblemon:ralts",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["altered"],
+      "poser": "cobblemon:ralts_altered",
+      "model": "cobblemon:ralts_altered.geo",
+      "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered"],
+      "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered", "gamma-true"],
+      "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered_gamma_emissive.png",
+              "translucent": true
+        },
+        {
+              "name": "gammawisp",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_altered_gammawisp.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+
+}

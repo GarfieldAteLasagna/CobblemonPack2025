@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:whitepickmin",
+  "speciesId": "cobblemon:whitepickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

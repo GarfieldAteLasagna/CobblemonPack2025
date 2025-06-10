@@ -1,0 +1,38 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:cake"
+	  },
+	  "title": {
+		"translate": "advancements.cobblemon.bakery_mons"
+	  },
+	  "description": {
+		"translate": "advancements.cobblemon.bakery_mons.description"
+	  },
+	  "hidden": false
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+		"falinks": {
+					"trigger": "cobblemon:aspects_collected",
+					"conditions": {
+						"pokemon": "cobblemon:falinks",
+						"aspects": ["jetian"]
+					}
+				},
+		"boltund": {
+					"trigger": "cobblemon:aspects_collected",
+					"conditions": {
+						"pokemon": "cobblemon:boltund",
+						"aspects": ["jetian"]
+					}
+				},
+		"dodrio": {
+					"trigger": "cobblemon:aspects_collected",
+					"conditions": {
+						"pokemon": "cobblemon:dodrio",
+						"aspects": ["jetian"]
+					}
+				}
+}}
+  

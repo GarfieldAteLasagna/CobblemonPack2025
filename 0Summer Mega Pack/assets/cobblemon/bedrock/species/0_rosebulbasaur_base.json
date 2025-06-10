@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rosebulbasaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rosebulbasaur",
+      "model": "cobblemon:rosebulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/rosebulbasaur/rosebulbasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rosebulbasaur/rosebulbasaur_shiny.png"
+    }
+  ]
+}

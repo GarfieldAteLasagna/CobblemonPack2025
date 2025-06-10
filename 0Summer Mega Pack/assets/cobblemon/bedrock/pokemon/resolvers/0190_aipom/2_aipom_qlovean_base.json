@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:aipom",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:aipom",
+      "model": "cobblemon:aipom_male.geo",
+      "texture": "cobblemon:textures/pokemon/0190_aipom/aipom_qlovean.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "qlovean"],
+      "texture": "cobblemon:textures/pokemon/0190_aipom/aipom_qlovean_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-typenull-1",
+            "pokemon": "typenull",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "55-75",
+            "weight": 1.3,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands"
+                ]
+            }
+        }
+    ]
+}

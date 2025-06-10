@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:dhelmise",
+  "forms": [
+    {
+      "displayForm": "Sculk",
+      "unlockForms": ["Sculk"]
+    }
+  ]
+}

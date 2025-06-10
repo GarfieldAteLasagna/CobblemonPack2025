@@ -1,0 +1,51 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [-0.2, -0.4, 0],
+  "profileScale": 1.2,
+  "profileTranslation": [-0.1, 0.2, 0],
+  "rootBone": "magnemite",
+  "animations": {
+    "faint": "q.bedrock_primary('magnemite', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('magnemite', 'cry')"
+  },
+  "poses": {
+    "hover": {
+      "poseTypes": ["HOVER", "STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10,
+      "animations": ["q.bedrock('magnemite', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('magnemite', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM", "WALK"],
+      "transformTicks": 10,
+      "animations": ["q.bedrock('magnemite', 'air_fly')"]
+    },
+    "sleep": {
+ "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('magnemite', 'sleep')"]
+  },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": ["q.look('head')", "q.bedrock('magnemite', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('magnemite', 'blink')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [8, 0, 0]
+        }
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": ["q.look('head')", "q.bedrock('magnemite', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('magnemite', 'blink')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [-8, 0, 0]
+        }
+      ]
+    }
+}
+}

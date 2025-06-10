@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:evolotto-spaceworldmons",
+    "speciesId": "cobblemon:evolotto",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

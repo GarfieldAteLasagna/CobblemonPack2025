@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "omanyte-twilight-1",
+            "pokemon": "omanyte",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        },
+        {
+            "id": "omanyte-twilight-2",
+            "pokemon": "omanyte",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        }
+    ]
+}

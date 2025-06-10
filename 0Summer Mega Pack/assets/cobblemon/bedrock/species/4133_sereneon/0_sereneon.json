@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sereneon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sereneon",
+      "model": "cobblemon:sereneon.geo",
+      "texture": "cobblemon:textures/pokemon/4133_sereneon/sereneon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4133_sereneon/sereneon_shiny.png"
+    }
+  ]
+}

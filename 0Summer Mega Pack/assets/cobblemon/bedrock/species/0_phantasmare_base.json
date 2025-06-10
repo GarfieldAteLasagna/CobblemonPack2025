@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:phantasmare",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:phantasmare",
+      "model": "cobblemon:phantasmare.geo",
+      "texture": "cobblemon:textures/pokemon/phantasmare/phantasmare.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/phantasmare/phantasmare_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/phantasmare/phantasmare_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/phantasmare/phantasmare_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

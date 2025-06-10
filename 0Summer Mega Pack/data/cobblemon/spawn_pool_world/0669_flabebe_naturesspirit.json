@@ -1,0 +1,189 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "flabebe-pink-naturesspirit",
+            "pokemon": "flabebe flower=pink",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:bleeding_heart",
+                    "natures_spirit:snapdragon",
+                    "natures_spirit:dwarf_blossoms",
+                    "natures_spirit:protea",
+                    "natures_spirit:lotus_flower",
+                    "natures_spirit:lotus_stem"
+                ]
+            }
+        },
+        {
+            "id": "flabebe-red-naturesspirit",
+            "pokemon": "flabebe flower=red",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:carnation",
+                    "natures_spirit:red_heather",
+                    "natures_spirit:hibiscus",
+                    "natures_spirit:ruby_blossoms"
+                ]
+            }
+        },
+        {
+            "id": "flabebe-orange-naturesspirit",
+            "pokemon": "flabebe flower=orange",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:begonia",
+                    "natures_spirit:marigold",
+                    "natures_spirit:tiger_lily"
+                ]
+            }
+        },
+        {
+            "id": "flabebe-yellow-naturesspirit",
+            "pokemon": "flabebe flower=yellow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:marigold",
+                    "natures_spirit:yellow_wildflower"
+                ]
+            }
+        },
+        {
+            "id": "flabebe-blue-naturesspirit",
+            "pokemon": "flabebe flower=blue",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:blue_bulbs",
+                    "natures_spirit:bluebell",
+                    "natures_spirit:blue_iris"
+                ]
+            }
+        },
+        {
+            "id": "flabebe-white-naturesspirit",
+            "pokemon": "flabebe flower=white",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:gardenia",
+                    "natures_spirit:white_heather"
+                ]
+            }
+        }
+    ]
+}

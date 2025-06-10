@@ -1,0 +1,34 @@
+{
+  "portraitScale": 1.18,
+  "portraitTranslation": [-0.17, -0.14, 0],
+  "profileScale": 0.55,
+  "profileTranslation": [-0.09, 0.67, 0],
+  "rootBone": "sableye",
+  "animations": {
+    "cry": "q.bedrock_stateful('sableye_sculkborne', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('sableye_sculkborne', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('sableye_sculkborne', 'ground_walk')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sableye_sculkborne', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sableye_sculkborne', 'shoulder_right')"
+      ]
+    }
+  }
+}

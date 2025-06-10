@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:aipom",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["female", "qlovean"],
+      "model": "cobblemon:aipom_qlovean_female.geo"
+    }
+  ]
+}

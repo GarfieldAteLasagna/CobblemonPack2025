@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:coalbink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:coalbink",
+        "model": "cobblemon:coalbink.geo",
+        "texture": "cobblemon:textures/pokemon/coalbink/coalbink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/coalbink/coalbink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/coalbink/coalbink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/coalbink/coalbink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

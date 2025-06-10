@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:arctosyrin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:arctosyrin",
+      "model": "cobblemon:arctosyrin.geo",
+      "texture": "cobblemon:textures/pokemon/arctosyrin/arctosyrin.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/arctosyrin/arctosyrin_shiny.png"
+    }
+  ]
+}

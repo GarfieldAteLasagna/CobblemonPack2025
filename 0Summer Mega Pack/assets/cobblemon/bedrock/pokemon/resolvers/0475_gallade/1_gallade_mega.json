@@ -1,0 +1,54 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [ "mega", "altered" ],
+      "poser": "cobblemon:gallade_altered_mega",
+      "model": "cobblemon:gallade_altered_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega_shiny_emissive.png",
+              "translucent": true
+            }
+          ]
+        },
+    {
+      "aspects": [ "mega", "altered", "shiny" ],
+      "poser": "cobblemon:gallade_altered_mega",
+      "model": "cobblemon:gallade_altered_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega_shiny_emissive.png",
+              "translucent": true
+            }
+          ]
+        },
+    {
+      "aspects": [ "mega", "altered", "shiny", "gamma-true" ],
+      "poser": "cobblemon:gallade_altered_mega",
+      "model": "cobblemon:gallade_altered_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega_gamma_emissive.png",
+              "translucent": true
+        },
+        {
+              "name": "gammawisp",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_altered_mega_gammawisp.png",
+              "translucent": true
+            }
+          ]
+        }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:fairhino",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:aurorus",
+        "model": "cobblemon:fairhino.geo",
+        "texture": "cobblemon:textures/pokemon/fairhino/fairhino.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/fairhino/fairhino_shiny.png",
+        "layers": []
+      }
+    ]
+  }

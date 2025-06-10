@@ -1,0 +1,6 @@
+{
+  "keys": ["regional"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

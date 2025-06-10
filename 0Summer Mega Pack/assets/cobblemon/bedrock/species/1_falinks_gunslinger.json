@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:falinks",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["gunslinger"],
+      "poser": "cobblemon:falinks_gunslinger",
+      "model": "cobblemon:falinks_gunslinger.geo",
+      "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_gunslinger.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","gunslinger"],
+      "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_gunslinger_shiny.png",
+      "layers": []
+    }
+  ]
+}

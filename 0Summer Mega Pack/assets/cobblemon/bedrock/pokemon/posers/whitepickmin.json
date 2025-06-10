@@ -1,0 +1,94 @@
+{
+  "Head": "Head",
+  "portraitScale": 3.5,
+  "portraitTranslation": [ 0.2, -2.1, 0.5 ],
+  "profileScale": 1.5,
+  "profileTranslation": [ 0, -0.4, 0 ],
+  "rootBone": "Main",
+  "animations": {
+    "cry": "q.bedrock_stateful('whitepickmin', 'cry')",
+    "faint": "q.bedrock_stateful('whitepickmin', 'faint')",
+    "sleep": "q.bedrock_stateful('whitepickmin', 'sleep')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('whitepickmin', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": ["q.look('Head')", "q.bedrock('whitepickmin', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": ["q.look('Head')", "q.bedrock('whitepickmin', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('whitepickmin', 'sleep')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "isTouchingWater": true,
+      "animations": ["q.look('Head')", "q.bedrock('whitepickmin', 'swim')"],
+      "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+    },
+    "float": {
+     "poseTypes": ["FLOAT"],
+     "isTouchingWater": true,
+     "animations": [
+       "q.look('Head')",
+       "q.bedrock('whitepickmin', 'swim')"
+     ],
+     "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+   },
+    "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.look('Head')",
+       "q.bedrock('whitepickmin', 'shoulder_left')"
+     ],
+     "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.look('Head')",
+       "q.bedrock('whitepickmin', 'shoulder_right')"
+     ],
+     "quirks": ["q.bedrock_quirk('whitepickmin', 'blink')"]
+   },
+   "surface_swim": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('Head')",
+        "q.bedrock('whitepickmin', 'swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('whitepickmin', 'blink')"
+      ]
+    },
+    "surface_idle": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('Head')",
+        "q.bedrock('whitepickmin', 'swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('whitepickmin', 'blink')"
+      ]
+    }
+  }
+}
+

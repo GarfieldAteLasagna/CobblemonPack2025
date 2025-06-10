@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-goomy-1",
+            "pokemon": "goomy",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-42",
+            "weight": 3.5,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands"
+                ]
+            }
+        },
+        {
+            "id": "deeper-goomy-2",
+            "pokemon": "goomy",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-42",
+            "weight": 8.26,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BAC",
+        "DEF",
+        "GHI"
+    ],
+    "key": {
+        "A": {
+            "item": "mega_showdown:griseous_core"
+        },
+        "B": {
+            "item": "mega_showdown:adamant_crystal"
+        },
+        "C": {
+            "item": "mega_showdown:lustrous_globe"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "E": {
+            "item": "mega_showdown:red_chain"
+        },
+        "F": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "G": {
+            "item": "mega_showdown:adamant_orb"
+        },
+        "H": {
+            "item": "mega_showdown:griseous_orb"
+        },
+        "I": {
+            "item": "mega_showdown:lustrous_orb"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:azure_flute",
+        "count": 1
+    }
+}

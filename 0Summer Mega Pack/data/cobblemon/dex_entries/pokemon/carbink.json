@@ -1,0 +1,35 @@
+{
+  "id": "cobblemon:carbink",
+  "speciesId": "cobblemon:carbink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "coalbink",
+      "unlockForms": ["coalbink"]
+    },
+    {
+      "displayForm": "emebink",
+      "unlockForms": ["emebink"]
+    },
+    {
+      "displayForm": "golbink",
+      "unlockForms": ["golbink"]
+    },
+    {
+      "displayForm": "irbink",
+      "unlockForms": ["irbink"]
+    },
+    {
+      "displayForm": "rubink",
+      "unlockForms": ["rubink"]
+    }
+  ],
+  "variations": []
+}

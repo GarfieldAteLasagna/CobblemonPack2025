@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "coppink-1",
+          "pokemon": "coppink",
+          "presets": [
+              "natural"
+          ],
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "30-60",
+          "weight": 100.0,
+          "condition": {
+              "minSkyLight": 0,
+              "maxSkyLight": 7,
+              "biomes": [
+                  "#cobblemon:is_overworld"
+              ],
+              "neededNearbyBlocks": [
+                  "#minecraft:copper_ores"
+              ]
+              
+          }
+      }
+             ]
+ }

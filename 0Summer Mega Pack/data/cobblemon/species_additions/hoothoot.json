@@ -1,0 +1,203 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "forms": [
+        {
+            "abilities": [
+                "insomnia",
+                "keeneye",
+                "h:tintedlens"
+            ],
+            "aspects": [
+                "qlovean"
+            ],
+            "baseExperienceYield": 52,
+            "baseFriendship": 50,
+            "baseScale": 0.7,
+            "baseStats": {
+                "attack": 32,
+                "defence": 32,
+                "hp": 60,
+                "special_attack": 34,
+                "special_defence": 54,
+                "speed": 50
+            },
+            "behaviour": {
+                "moving": {
+                    "fly": {
+                        "canFly": true
+                    }
+                },
+                "resting": {
+                    "canSleep": true,
+                    "light": "0-4"
+                }
+            },
+            "catchRate": 255,
+            "drops": {
+                "amount": 4,
+                "entries": [
+                    {
+                        "item": "minecraft:feather",
+                        "quantityRange": "0-1"
+                    },
+                    {
+                        "item": "minecraft:chicken"
+                    },
+                    {
+                        "item": "cobblemon:wise_glasses",
+                        "percentage": 2.5
+                    },
+                    {
+                        "item": "cobblemon:never_melt_ice",
+                        "percentage": 3.0
+                    }
+                ]
+            },
+            "eggCycles": 15,
+            "eggGroups": [
+                "flying"
+            ],
+            "evolutions": [
+                {
+                    "id": "hoothoot_noctowl",
+                    "variant": "level_up",
+                    "result": "noctowl qlovean",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 20
+                        }
+                    ]
+                }
+            ],
+            "evYield": {
+                "attack": 0,
+                "defence": 0,
+                "hp": 1,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "experienceGroup": "medium_fast",
+            "height": 7,
+            "hitbox": {
+                "fixed": false,
+                "height": 1,
+                "width": 0.7
+            },
+            "labels": [
+                "gen2",
+                "qlovean"
+            ],
+            "moves": [
+                "1:mist",
+                "1:foresight",
+                "1:peck",
+                "3:powdersnow",
+                "6:echoedvoice",
+                "9:confusion",
+                "12:reflect",
+                "15:psychoshift",
+                "18:airslash",
+                "21:extrasensory",
+                "24:powdersnow",
+                "27:uproar",
+                "30:roost",
+                "33:moonblast",
+                "36:hypnosis",
+                "39:drillpeck",
+                "egg:featherdance",
+                "egg:feintattack",
+                "egg:meanlook",
+                "egg:mirrormove",
+                "egg:nightshade",
+                "egg:supersonic",
+                "egg:synchronoise",
+                "egg:whirlwind",
+                "egg:wingattack",
+                "tm:acrobatics",
+                "tm:aerialace",
+                "tm:agility",
+                "tm:aircutter",
+                "tm:airslash",
+                "tm:amnesia",
+                "tm:bravebird",
+                "tm:calmmind",
+                "tm:defog",
+                "tm:dualwingbeat",
+                "tm:echoedvoice",
+                "tm:endure",
+                "tm:facade",
+                "tm:featherdance",
+                "tm:fly",
+                "tm:haze",
+                "tm:hurricane",
+                "tm:imprison",
+                "tm:magiccoat",
+                "tm:nastyplot",
+                "tm:nightshade",
+                "tm:ominouswind",
+                "tm:pluck",
+                "tm:protect",
+                "tm:hail",
+                "tm:recycle",
+                "tm:reflect",
+                "tm:rest",
+                "tm:roost",
+                "tm:screech",
+                "tm:iceball",
+                "tm:frostbreath",
+                "tm:shadowball",
+                "tm:silverwind",
+                "tm:skillswap",
+                "tm:skyattack",
+                "tm:sleeptalk",
+                "tm:spite",
+                "tm:steelwing",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:swift",
+                "tm:tailwind",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:thief",
+                "tm:uproar",
+                "tm:workup",
+                "tutor:aerialace",
+                "tutor:aircutter",
+                "tutor:calmmind",
+                "tutor:defog",
+                "tutor:dualwingbeat",
+                "tutor:hypervoice",
+                "tutor:magiccoat",
+                "tutor:ominouswind",
+                "tutor:psychic",
+                "tutor:recycle",
+                "tutor:rest",
+                "tutor:roost",
+                "tutor:shadowball",
+                "tutor:skillswap",
+                "tutor:skyattack",
+                "tutor:sleeptalk",
+                "tutor:spite",
+                "tutor:swift",
+                "tutor:tailwind",
+                "tutor:uproar",
+                "tutor:zenheadbutt"
+            ],
+            "name": "Qlovean",
+            "pokedex": [
+                "cobblemon.species.hoothoot_qlovean.desc"
+            ],
+            "primaryType": "ice",
+            "secondaryType": "flying",
+            "weight": 212
+        }
+    ],
+    "target": "cobblemon:hoothoot"
+}

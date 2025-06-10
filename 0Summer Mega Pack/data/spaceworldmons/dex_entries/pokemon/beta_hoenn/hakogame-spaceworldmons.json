@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hakogame-spaceworldmons",
+    "speciesId": "cobblemon:hakogame",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

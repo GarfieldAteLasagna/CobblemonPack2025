@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:spirikid",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tyrogue",
+        "model": "cobblemon:spirikid.geo",
+        "texture": "cobblemon:textures/pokemon/spirikid/spirikid.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/spirikid/spirikid_shiny.png",
+        "layers": []
+      }
+    ]
+  }

@@ -1,0 +1,47 @@
+{
+  "head": "head",
+  "portraitScale": 1.1,
+  "portraitTranslation": [0, 0.6, 0],
+  "profileScale": 0.65,
+  "profileTranslation": [0, 0.85, 0],
+  "animations": {
+	"cry": "q.bedrock_stateful('plux-spaceworldmons', 'cry')",
+	"faint": "q.bedrock_stateful('plux-spaceworldmons', 'ground_idle')"
+  },
+  "poses": {
+    "battle-idle": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "transformedParts": [],
+      "animations": ["bedrock(plux-spaceworldmons, battle_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('plux-spaceworldmons', 'blink')"
+      ]
+    },
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(plux-spaceworldmons, ground_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('plux-spaceworldmons', 'blink')"
+      ]
+    },
+    "walking": {
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(plux-spaceworldmons, ground_walk)"],
+	  "quirks": [
+		"q.bedrock_quirk('plux-spaceworldmons', 'blink')"
+      ]
+    },
+    "sleeping": {
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "bedrock(plux-spaceworldmons, sleep)"
+      ]
+    }
+  }
+}

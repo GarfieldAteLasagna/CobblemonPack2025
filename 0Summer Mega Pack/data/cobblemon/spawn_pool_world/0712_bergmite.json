@@ -1,0 +1,343 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bergmite_ultravariant-1",
+            "pokemon": "bergmite ultravariant bore=diamond",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:diamond_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-2",
+            "pokemon": "bergmite ultravariant bore=diamond",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_diamond_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-3",
+            "pokemon": "bergmite ultravariant bore=coal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:coal_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-4",
+            "pokemon": "bergmite ultravariant bore=coal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_coal_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-5",
+            "pokemon": "bergmite ultravariant bore=iron",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:iron_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-6",
+            "pokemon": "bergmite ultravariant bore=iron",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_iron_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-7",
+            "pokemon": "bergmite ultravariant bore=emerald",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:emerald_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-8",
+            "pokemon": "bergmite ultravariant bore=emerald",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_emerald_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-9",
+            "pokemon": "bergmite ultravariant bore=gold",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:gold_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-10",
+            "pokemon": "bergmite ultravariant bore=gold",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_gold_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-11",
+            "pokemon": "bergmite ultravariant bore=redstone",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:redstone_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-12",
+            "pokemon": "bergmite ultravariant bore=redstone",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_redstone_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-13",
+            "pokemon": "bergmite ultravariant bore=copper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:copper_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-14",
+            "pokemon": "bergmite ultravariant bore=copper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_copper_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-15",
+            "pokemon": "bergmite ultravariant bore=lapis",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lapis_ore"
+                ]
+            }
+        },
+        {
+            "id": "bergmite_ultravariant-16",
+            "pokemon": "bergmite ultravariant bore=lapis",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:deepslate_lapis_ore"
+                ]
+            }
+        }
+    ]
+}

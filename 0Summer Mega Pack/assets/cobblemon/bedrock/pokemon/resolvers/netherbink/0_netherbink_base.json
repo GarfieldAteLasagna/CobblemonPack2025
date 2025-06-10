@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:netherbink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:netherbink",
+        "model": "cobblemon:netherbink.geo",
+        "texture": "cobblemon:textures/pokemon/netherbink/netherbink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/netherbink/netherbink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/netherbink/netherbink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/netherbink/netherbink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

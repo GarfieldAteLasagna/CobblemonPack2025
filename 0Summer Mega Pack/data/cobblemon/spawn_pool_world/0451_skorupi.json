@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-skorupi-1",
+            "pokemon": "skorupi",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-43",
+            "weight": 13.8,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

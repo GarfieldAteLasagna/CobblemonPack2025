@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:golett",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["copper"],
+      "poser": "cobblemon:golett_copper",
+      "model": "cobblemon:golett_copper.geo",
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["copper","shiny"],
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["exposed_copper"],
+      "poser": "cobblemon:golett_copper",
+      "model": "cobblemon:golett_copper.geo",
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_exposed.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["exposed_copper","shiny"],
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_exposed_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["weathered_copper"],
+      "poser": "cobblemon:golett_copper",
+      "model": "cobblemon:golett_copper.geo",
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_weathered.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["weathered_copper","shiny"],
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_weathered_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["oxidized_copper"],
+      "poser": "cobblemon:golett_copper",
+      "model": "cobblemon:golett_copper.geo",
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_oxidized.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["oxidized_copper","shiny"],
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_oxidized_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_copper_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2063 @@
+{
+  "implemented": true,
+  "name": "Haunter",
+  "nationalPokedexNumber": 93,
+  "primaryType": "ghost",
+  "secondaryType": "poison",
+  "abilities": [
+    "levitate"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 115,
+    "special_defence": 55,
+    "speed": 95
+  },
+  "features": [
+    "ultravariant",
+    "pokeball",
+    "shining"
+  ],
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [
+    {
+      "name": "ultravariant",
+      "primaryType": "ghost",
+      "secondaryType": "psychic",
+      "abilities": [
+        "pickup",
+        "h:magician"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:poke_ball",
+            "percentage": 100.0
+          },
+          {
+            "item": "cobblemon:revive",
+            "percentage": 25.0
+          },
+          {
+            "item": "cobblemon:antidote",
+            "percentage": 30.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 40,
+        "defence": 45,
+        "special_attack": 105,
+        "special_defence": 45,
+        "speed": 105
+      },
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 142,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous"
+      ],
+      "moves": [
+        "1:confuseray",
+        "1:hypnosis",
+        "1:lick",
+        "1:meanlook",
+        "1:shadowpunch",
+        "12:payback",
+        "16:spite",
+        "20:curse",
+        "24:hex",
+        "30:nightshade",
+        "34:psybeam",
+        "36:suckerpunch",
+        "42:darkpulse",
+        "46:twinbeam",
+        "48:shadowball",
+        "54:destinybond",
+        "55:aurasphere",
+        "60:dreameater",
+        "61:nightmare",
+        "65:expandingforce",
+        "67:bittermalice",
+        "egg:psystrike",
+        "tm:acidspray",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:captivate",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:embargo",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:infestation",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:naturalgift",
+        "tm:nightshade",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:phantomforce",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snatch",
+        "tm:snore",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:torment",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:uproar",
+        "tm:venoshock",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tutor:allyswitch",
+        "tutor:attract",
+        "tutor:bide",
+        "tutor:confuseray",
+        "tutor:corrosivegas",
+        "tutor:curse",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:destinybond",
+        "tutor:doubleteam",
+        "tutor:dreameater",
+        "tutor:endure",
+        "tutor:explosion",
+        "tutor:facade",
+        "tutor:firepunch",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:gigadrain",
+        "tutor:headbutt",
+        "tutor:hiddenpower",
+        "tutor:hypnosis",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:knockoff",
+        "tutor:lick",
+        "tutor:meanlook",
+        "tutor:megadrain",
+        "tutor:mimic",
+        "tutor:nightmare",
+        "tutor:nightshade",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:payback",
+        "tutor:poisongas",
+        "tutor:poisonjab",
+        "tutor:poltergeist",
+        "tutor:protect",
+        "tutor:psychic",
+        "tutor:psychup",
+        "tutor:psywave",
+        "tutor:rage",
+        "tutor:raindance",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:selfdestruct",
+        "tutor:shadowball",
+        "tutor:shadowpunch",
+        "tutor:skillswap",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:smog",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:taunt",
+        "tutor:telekinesis",
+        "tutor:thief",
+        "tutor:thunder",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:toxic",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:willowisp",
+        "tutor:wonderroom",
+        "tutor:zapcannon"
+      ],
+      "labels": [
+        "gen1",
+        "ultravariant_regional"
+      ],
+      "pokedex": [
+        
+      ],
+      "preEvolution": "gastly ultravariant",
+       "evolutions": [
+        {
+          "id": "haunter_gengather",
+          "variant": "item_interact",
+          "result": "gengather",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:kings_rock"
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_azure_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_azure_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_azure_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_citrine_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_citrine_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_citrine_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_feather_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_feather_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_feather_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_gigaton_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_gigaton_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_gigaton_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_great_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_great_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_great_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_heavy_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_heavy_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_heavy_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_ivory_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_ivory_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_ivory_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_jet_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_jet_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_jet_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_leaden_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_leaden_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_leaden_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_origin_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_origin_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_origin_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_poke_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_poke_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_poke_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_roseate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_roseate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_roseate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_slate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_slate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_slate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_ultra_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_ultra_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_ultra_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_verdant_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_verdant_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_verdant_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_wing_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_wing_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_wing_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-azure_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=azure_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:azure_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-beast_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=beast_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:beast_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-cherish_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=cherish_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:cherish_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-citrine_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=citrine_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:citrine_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-dive_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=dive_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dive_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-dream_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=dream_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dream_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-dusk_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=dusk_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dusk_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-fast_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=fast_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:fast_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-friend_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=friend_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:friend_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-great_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=great_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:great_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-heal_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=heal_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:heal_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-heavy_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=heavy_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:heavy_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-level_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=level_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:level_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-love_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=love_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-lure_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=lure_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:lure_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-luxury_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=luxury_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:luxury_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-master_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=master_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:master_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-moon_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=moon_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:moon_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-nest_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=nest_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:nest_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-net_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=net_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:net_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-park_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=park_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:park_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-poke_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=poke_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:poke_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-premier_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=premier_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:premier_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-quick_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=quick_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:quick_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-repeat_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=repeat_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:repeat_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-roseate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=roseate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:roseate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-safari_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=safari_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:safari_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-slate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=slate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:slate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-sport_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=sport_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:sport_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-strange_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=strange_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:iron_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-timer_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=timer_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:timer_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ultra_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ultra_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ultra_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-verdant_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=verdant_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:verdant_ball"
+          }
+        ]
+        }
+      ],
+      "baseScale": 1.2,
+      "hitbox": {
+        "width": 1.1,
+        "height": 1.4,
+        "fixed": false},
+      "aspects": [
+        "ultravariant"
+      ],
+      "height": 16,
+      "weight": 2,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "ultravariant shiny",
+      "primaryType": "ghost",
+      "secondaryType": "psychic",
+      "abilities": [
+        "pickup",
+        "h:magician"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:poke_ball",
+            "percentage": 100.0
+          },
+          {
+            "item": "cobblemon:revive",
+            "percentage": 25.0
+          },
+          {
+            "item": "cobblemon:antidote",
+            "percentage": 30.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 40,
+        "defence": 45,
+        "special_attack": 105,
+        "special_defence": 45,
+        "speed": 105
+      },
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 142,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous"
+      ],
+      "moves": [
+        "1:confuseray",
+        "1:hypnosis",
+        "1:lick",
+        "1:meanlook",
+        "1:shadowpunch",
+        "12:payback",
+        "16:spite",
+        "20:curse",
+        "24:hex",
+        "30:nightshade",
+        "34:psybeam",
+        "36:suckerpunch",
+        "42:darkpulse",
+        "46:twinbeam",
+        "48:shadowball",
+        "54:destinybond",
+        "55:aurasphere",
+        "60:dreameater",
+        "61:nightmare",
+        "65:expandingforce",
+        "67:bittermalice",
+        "egg:psystrike",
+        "tm:acidspray",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:captivate",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:embargo",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:infestation",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:naturalgift",
+        "tm:nightshade",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:phantomforce",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snatch",
+        "tm:snore",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:torment",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:uproar",
+        "tm:venoshock",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tutor:allyswitch",
+        "tutor:attract",
+        "tutor:bide",
+        "tutor:confuseray",
+        "tutor:corrosivegas",
+        "tutor:curse",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:destinybond",
+        "tutor:doubleteam",
+        "tutor:dreameater",
+        "tutor:endure",
+        "tutor:explosion",
+        "tutor:facade",
+        "tutor:firepunch",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:gigadrain",
+        "tutor:headbutt",
+        "tutor:hiddenpower",
+        "tutor:hypnosis",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:knockoff",
+        "tutor:lick",
+        "tutor:meanlook",
+        "tutor:megadrain",
+        "tutor:mimic",
+        "tutor:nightmare",
+        "tutor:nightshade",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:payback",
+        "tutor:poisongas",
+        "tutor:poisonjab",
+        "tutor:poltergeist",
+        "tutor:protect",
+        "tutor:psychic",
+        "tutor:psychup",
+        "tutor:psywave",
+        "tutor:rage",
+        "tutor:raindance",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:selfdestruct",
+        "tutor:shadowball",
+        "tutor:shadowpunch",
+        "tutor:skillswap",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:smog",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:taunt",
+        "tutor:telekinesis",
+        "tutor:thief",
+        "tutor:thunder",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:toxic",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:willowisp",
+        "tutor:wonderroom",
+        "tutor:zapcannon"
+      ],
+      "labels": [
+        "gen1",
+        "ultravariant_regional"
+      ],
+      "pokedex": [
+        
+      ],
+      "preEvolution": "gastly ultravariant",
+       "evolutions": [
+        {
+          "id": "haunter_gengather",
+          "variant": "item_interact",
+          "result": "gengather",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:kings_rock"
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_azure_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_azure_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_azure_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_citrine_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_citrine_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_citrine_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_feather_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_feather_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_feather_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_gigaton_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_gigaton_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_gigaton_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_great_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_great_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_great_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_heavy_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_heavy_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_heavy_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_ivory_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_ivory_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_ivory_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_jet_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_jet_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_jet_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_leaden_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_leaden_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_leaden_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_origin_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_origin_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_origin_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_poke_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_poke_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_poke_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_roseate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_roseate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_roseate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_slate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_slate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_slate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_ultra_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_ultra_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_ultra_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_verdant_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_verdant_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_verdant_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ancient_wing_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ancient_wing_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ancient_wing_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-azure_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=azure_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:azure_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-beast_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=beast_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:beast_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-cherish_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=cherish_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:cherish_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-citrine_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=citrine_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:citrine_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-dive_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=dive_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dive_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-dream_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=dream_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dream_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-dusk_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=dusk_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dusk_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-fast_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=fast_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:fast_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-friend_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=friend_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:friend_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-great_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=great_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:great_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-heal_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=heal_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:heal_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-heavy_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=heavy_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:heavy_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-level_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=level_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:level_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-love_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=love_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-lure_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=lure_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:lure_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-luxury_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=luxury_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:luxury_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-master_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=master_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:master_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-moon_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=moon_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:moon_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-nest_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=nest_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:nest_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-net_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=net_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:net_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-park_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=park_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:park_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-poke_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=poke_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:poke_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-premier_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=premier_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:premier_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-quick_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=quick_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:quick_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-repeat_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=repeat_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:repeat_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-roseate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=roseate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:roseate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-safari_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=safari_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:safari_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-slate_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=slate_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:slate_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-sport_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=sport_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:sport_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-strange_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=strange_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:iron_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-timer_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=timer_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:timer_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-ultra_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=ultra_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ultra_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-pokeball-verdant_ball",
+        "variant": "level_up",
+        "result": "haunter ultravariant pokeball=verdant_ball",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:verdant_ball"
+          }
+        ]
+        },
+        {
+        "id": "haunter_haunter_ultravariant-shining",
+        "variant": "level_up",
+        "result": "haunter ultravariant shining",
+        "consumeHeldItem": true,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:shiny_stone_block"
+          }
+        ]
+        }
+      ],
+      "baseScale": 1.2,
+      "hitbox": {
+        "width": 1.1,
+        "height": 1.4,
+        "fixed": false},
+      "aspects": [
+        "ultravariant",
+        "shiny"
+      ],
+      "height": 16,
+      "weight": 2,
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    }
+  },
+  "moves": [
+    "1:confuseray",
+    "1:hypnosis",
+    "1:lick",
+    "1:meanlook",
+    "1:shadowpunch",
+    "12:payback",
+    "16:spite",
+    "20:curse",
+    "24:hex",
+    "30:nightshade",
+    "36:suckerpunch",
+    "42:darkpulse",
+    "48:shadowball",
+    "54:destinybond",
+    "60:dreameater",
+    "61:nightmare",
+    "tm:acidspray",
+    "tm:allyswitch",
+    "tm:attract",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:snore",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:attract",
+    "tutor:bide",
+    "tutor:confuseray",
+    "tutor:corrosivegas",
+    "tutor:curse",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:destinybond",
+    "tutor:doubleteam",
+    "tutor:dreameater",
+    "tutor:endure",
+    "tutor:explosion",
+    "tutor:facade",
+    "tutor:firepunch",
+    "tutor:foulplay",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:headbutt",
+    "tutor:hiddenpower",
+    "tutor:hypnosis",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lick",
+    "tutor:meanlook",
+    "tutor:megadrain",
+    "tutor:mimic",
+    "tutor:nightmare",
+    "tutor:nightshade",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:payback",
+    "tutor:poisongas",
+    "tutor:poisonjab",
+    "tutor:poltergeist",
+    "tutor:protect",
+    "tutor:psychic",
+    "tutor:psychup",
+    "tutor:psywave",
+    "tutor:rage",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:selfdestruct",
+    "tutor:shadowball",
+    "tutor:shadowpunch",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:smog",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:substitute",
+    "tutor:suckerpunch",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:taunt",
+    "tutor:telekinesis",
+    "tutor:thief",
+    "tutor:thunder",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:toxic",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:willowisp",
+    "tutor:wonderroom",
+    "tutor:zapcannon"
+  ],
+  "labels": [
+    "gen1"
+  ],
+  "pokedex": [
+    "cobblemon.species.haunter.desc"
+  ],
+  "preEvolution": "gastly",
+  "evolutions": [
+    {
+      "id": "haunter_gengar",
+      "variant": "trade",
+      "result": "gengar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": []
+    }
+  ],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 1,
+  "aspects": [],
+  "cannotDynamax": false
+}

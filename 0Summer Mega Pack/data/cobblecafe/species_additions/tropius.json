@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:tropius",
+  "evolutions": [
+    {
+      "id": "tropius_cafe_tropius",
+      "variant": "item_interact",
+      "result": "cafe_tropius",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

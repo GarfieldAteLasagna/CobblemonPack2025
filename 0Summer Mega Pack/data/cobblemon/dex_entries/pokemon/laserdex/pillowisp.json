@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:pillowisp",
+  "speciesId": "cobblemon:pillowisp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Bad_Dream",
+      "unlockForms": [
+        "Bad_Dream"
+      ]
+    }
+  ],
+  "variations": []
+}

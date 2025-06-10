@@ -1,0 +1,14 @@
+{
+    "type": "cobblemon:aggregate_pokedex_def",
+    "id": "spaceworldmons:beta_national",
+    "sortOrder": 2002,
+    "squash": true,
+    "subDexIds": [
+        "spaceworldmons:beta_kanto",
+        "spaceworldmons:beta_johto",
+        "spaceworldmons:beta_hoenn",
+        "spaceworldmons:beta_sinnoh",
+        "spaceworldmons:beta_unova",
+        "spaceworldmons:beta_kalos"
+    ]
+}

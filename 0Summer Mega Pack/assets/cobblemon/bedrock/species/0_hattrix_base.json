@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hattrix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hattrix",
+      "model": "cobblemon:hattrix.geo",
+      "texture": "cobblemon:textures/pokemon/hattrix/hattrix.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/hattrix/hattrix_shiny.png",
+      "layers": []
+    }
+  ]
+}

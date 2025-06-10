@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "regisecto-1",
+            "pokemon": "regisecto",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "56-76",
+            "weight": 5.0,
+            "condition": {
+                "isRaining": true,
+                "canSeeSky": true
+            }
+        }
+    ]
+}

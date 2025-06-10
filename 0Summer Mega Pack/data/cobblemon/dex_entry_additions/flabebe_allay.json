@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:flabebe",
+  "forms": [
+    {
+      "displayForm": "Allay",
+      "unlockForms": ["Allay"]
+    }
+  ]
+}

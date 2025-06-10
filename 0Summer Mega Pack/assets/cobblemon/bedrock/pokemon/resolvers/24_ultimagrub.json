@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:ultimagrub",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:weedle",
+        "model": "cobblemon:omnigrub.geo",
+        "texture": "cobblemon:textures/pokemon/omnigrub/omnigrub.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/omnigrub/omnigrub_shiny.png",
+        "layers": []
+      }
+    ]
+  }

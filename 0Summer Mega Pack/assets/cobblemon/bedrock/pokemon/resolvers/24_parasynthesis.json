@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:parasynthesis",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:armaldo",
+        "model": "cobblemon:parasynthesis.geo",
+        "texture": "cobblemon:textures/pokemon/parasynthesis/parasynthesis.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/parasynthesis/parasynthesis_shiny.png",
+        "layers": []
+      }
+    ]
+  }

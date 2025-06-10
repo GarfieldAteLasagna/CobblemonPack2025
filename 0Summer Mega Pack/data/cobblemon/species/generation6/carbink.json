@@ -1,0 +1,369 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 703,
+  "name": "Carbink",
+  "primaryType": "rock",
+  "secondaryType": "fairy",
+  "maleRatio": -1,
+  "height": 3,
+  "weight": 57,
+  "pokedex": [
+    "cobblemon.species.carbink.desc"
+  ],
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "abilities": [
+    "clearbody",
+    "h:sturdy"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 150,
+    "special_attack": 50,
+    "special_defence": 150,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 100,
+  "experienceGroup": "slow",
+  "catchRate": 60,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1,
+    "height": 1.15,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:diamond",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:float_stone",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "1:rockthrow",
+    "1:sharpen",
+    "5:guardsplit",
+    "10:smackdown",
+    "15:flail",
+    "20:ancientpower",
+    "25:rockpolish",
+    "30:lightscreen",
+    "35:rockslide",
+    "40:skillswap",
+    "45:powergem",
+    "50:stealthrock",
+    "55:moonblast",
+    "60:stoneedge",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:naturepower",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:mistyexplosion",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:telekinesis",
+    "tutor:terrainpulse",
+    "tutor:trick",
+    "tutor:wonderroom"
+  ],
+  "evolutions": [
+    {
+      "id": "carbink-dibink-diamond_ore",
+      "variant": "item_interact",
+      "result": "dibink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["iceshard"],
+      "requirements": [],
+      "requiredContext": "minecraft:diamond_ore"
+    },
+    {
+      "id": "carbink-dibink-deepslate_diamond_ore",
+      "variant": "item_interact",
+      "result": "dibink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["iceshard"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_diamond_ore"
+    },
+
+    {
+      "id": "carbink-coalbink-coal_ore",
+      "variant": "item_interact",
+      "result": "coalbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["sandtomb"],
+      "requirements": [],
+      "requiredContext": "minecraft:coal_ore"
+    },
+    {
+      "id": "carbink-coalbink-deepslate_coal_ore",
+      "variant": "item_interact",
+      "result": "coalbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["sandtomb"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_coal_ore"
+    },
+
+    {
+      "id": "carbink-emebink-emerald_ore",
+      "variant": "item_interact",
+      "result": "emebink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["vinewhip"],
+      "requirements": [],
+      "requiredContext": "minecraft:emerald_ore"
+    },
+    {
+      "id": "carbink-emebink-deepslate_emerald_ore",
+      "variant": "item_interact",
+      "result": "emebink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["vinewhip"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_emerald_ore"
+    },
+
+    
+    {
+      "id": "carbink-golbink-gold_ore",
+      "variant": "item_interact",
+      "result": "golbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["payday"],
+      "requirements": [],
+      "requiredContext": "minecraft:gold_ore"
+    },
+    {
+      "id": "carbink-golbink-deepslate_gold_ore",
+      "variant": "item_interact",
+      "result": "golbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["payday"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_gold_ore"
+    },
+
+
+    {
+      "id": "carbink-irbink-iron_ore",
+      "variant": "item_interact",
+      "result": "irbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["metalclaw"],
+      "requirements": [],
+      "requiredContext": "minecraft:iron_ore"
+    },
+    {
+      "id": "carbink-irbink-deepslate_iron_ore",
+      "variant": "item_interact",
+      "result": "irbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["metalclaw"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_iron_ore"
+    },
+
+    {
+      "id": "carbink-rubink-redstone_ore",
+      "variant": "item_interact",
+      "result": "rubink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["thundershock"],
+      "requirements": [],
+      "requiredContext": "minecraft:redstone_ore"
+    },
+    {
+      "id": "carbink-rubink-deepslate_redstone_ore",
+      "variant": "item_interact",
+      "result": "rubink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["thundershock"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_redstone_ore"
+    },
+    {
+      "id": "carbink-labink-lapis_ore",
+      "variant": "item_interact",
+      "result": "labink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["watergun"],
+      "requirements": [],
+      "requiredContext": "minecraft:lapis_ore"
+    },
+    {
+      "id": "carbink-labink-deepslate_lapis_ore",
+      "variant": "item_interact",
+      "result": "labink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["watergun"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_lapis_ore"
+    },
+    {
+      "id": "carbink-coppink-copper_ore",
+      "variant": "item_interact",
+      "result": "coppink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["acid"],
+      "requirements": [],
+      "requiredContext": "minecraft:copper_ore"
+    },
+    {
+      "id": "carbink-coppink-deepslate_copper_ore",
+      "variant": "item_interact",
+      "result": "coppink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["acid"],
+      "requirements": [],
+      "requiredContext": "minecraft:deepslate_copper_ore"
+    },
+    {
+      "id": "carbink-netherbink-nether_gold_ore",
+      "variant": "item_interact",
+      "result": "netherbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ember"],
+      "requirements": [],
+      "requiredContext": "minecraft:nether_gold_ore"
+    },
+    {
+      "id": "carbink-netherbink-gilded_blackstone",
+      "variant": "item_interact",
+      "result": "netherbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ember"],
+      "requirements": [],
+      "requiredContext": "minecraft:gilded_blackstone"
+    },
+    {
+      "id": "carbink-amebink-amethyst_cluster",
+      "variant": "item_interact",
+      "result": "amebink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["confusion"],
+      "requirements": [],
+      "requiredContext": "minecraft:amethyst_cluster"
+    },
+        {
+      "id": "carbink-quarbink-nether_quartz_ore",
+      "variant": "item_interact",
+      "result": "quarbink",
+      "consumeHeldItem": false,
+      "learnableMoves": ["rapidspin"],
+      "requirements": [],
+      "requiredContext": "minecraft:nether_quartz_ore"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+    
+    "target": "cobblemon:feebas",
+    "features": ["jetian"],
+    "forms": [
+      {
+        "implemented": true,
+        "nationalPokedexNumber": 349,
+        "name": "Jetian",
+        "primaryType": "water",
+        "secondaryType": "psychic",
+        "maleRatio": 0.5,
+        "height": 6,
+        "weight": 74,
+        "pokedex": [
+          "cobblemon.species.feebas_jetian.desc"
+        ],
+        "labels": [
+          "gen3",
+          "jetian"
+        ],
+        "aspects": ["jetian"],
+        "abilities": [
+          "swiftswim",
+          "oblivious",
+          "h:adaptability"
+        ],
+        "eggGroups": [
+          "water_1",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 20,
+          "attack": 10,
+          "defence": 20,
+          "special_attack": 15,
+          "special_defence": 55,
+          "speed": 80
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 0,
+          "defence": 0,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 1
+        },
+        "baseExperienceYield": 40,
+        "experienceGroup": "erratic",
+        "catchRate": 255,
+        "eggCycles": 20,
+        "baseFriendship": 50,
+        "baseScale": 1,
+        "hitbox": {
+          "width": 0.8,
+          "height": 0.8,
+          "fixed": false
+        },
+        "behaviour": {
+          "moving": {
+            "canLook": false,
+            "walk": {
+              "avoidsLand": true
+            },
+            "swim": {
+              "swimSpeed": 0.1,
+              "canBreatheUnderwater": true,
+              "canSwimInWater": true,
+              "canSwimInLava": false
+            }
+          },
+          "resting": {
+            "canSleep": true
+          }
+        },
+        "drops": {
+          "amount": 3,
+          "entries": [
+            {
+              "item": "minecraft:salmon"
+            },
+            {
+              "item": "minecraft:bone_meal",
+              "percentage": 5.0
+            },
+            {
+              "item": "cobblemon:star_sweet",
+              "percentage": 2.5
+            }
+          ]
+        },
+        "moves": [
+          "1:curse",
+          "1:tackle",
+          "3:growl",
+          "6:watergun",
+          "9:yawn",
+          "12:confusion",
+          "15:disable",
+          "18:waterpulse",
+          "21:headbutt",
+          "24:zenheadbutt",
+          "27:amnesia",
+          "30:surf",
+          "33:slackoff",
+          "36:psychic",
+          "39:psychup",
+          "42:raindance",
+          "45:healpulse",
+          "egg:belch",
+          "egg:bellydrum",
+          "egg:block",
+          "egg:mefirst",
+          "egg:mudsport",
+          "egg:snore",
+          "egg:stomp",
+          "tm:afteryou",
+          "tm:amnesia",
+          "tm:aquatail",
+          "tm:avalanche",
+          "tm:blizzard",
+          "tm:block",
+          "tm:bodyslam",
+          "tm:brine",
+          "tm:bulldoze",
+          "tm:calmmind",
+          "tm:chillingwater",
+          "tm:curse",
+          "tm:dig",
+          "tm:dive",
+          "tm:dreameater",
+          "tm:earthquake",
+          "tm:echoedvoice",
+          "tm:endure",
+          "tm:expandingforce",
+          "tm:facade",
+          "tm:fireblast",
+          "tm:flamethrower",
+          "tm:flash",
+          "tm:foulplay",
+          "tm:grassknot",
+          "tm:hail",
+          "tm:headbutt",
+          "tm:helpinghand",
+          "tm:hydropump",
+          "tm:icebeam",
+          "tm:icywind",
+          "tm:imprison",
+          "tm:incinerate",
+          "tm:irontail",
+          "tm:lightscreen",
+          "tm:liquidation",
+          "tm:magiccoat",
+          "tm:mudshot",
+          "tm:payday",
+          "tm:protect",
+          "tm:psybeam",
+          "tm:psychic",
+          "tm:psychicterrain",
+          "tm:psychup",
+          "tm:psyshock",
+          "tm:raindance",
+          "tm:recycle",
+          "tm:rest",
+          "tm:safeguard",
+          "tm:shadowball",
+          "tm:signalbeam",
+          "tm:skillswap",
+          "tm:sleeptalk",
+          "tm:snore",
+          "tm:snowscape",
+          "tm:storedpower",
+          "tm:strength",
+          "tm:substitute",
+          "tm:sunnyday",
+          "tm:surf",
+          "tm:swift",
+          "tm:takedown",
+          "tm:telekinesis",
+          "tm:terablast",
+          "tm:thunderwave",
+          "tm:triattack",
+          "tm:trick",
+          "tm:trickroom",
+          "tm:waterfall",
+          "tm:waterpulse",
+          "tm:weatherball",
+          "tm:whirlpool",
+          "tm:wonderroom",
+          "tm:zenheadbutt",
+          "tutor:afteryou",
+          "tutor:aquatail",
+          "tutor:block",
+          "tutor:bulldoze",
+          "tutor:calmmind",
+          "tutor:dive",
+          "tutor:expandingforce",
+          "tutor:flamethrower",
+          "tutor:foulplay",
+          "tutor:helpinghand",
+          "tutor:icebeam",
+          "tutor:icywind",
+          "tutor:irontail",
+          "tutor:liquidation",
+          "tutor:magiccoat",
+          "tutor:psychic",
+          "tutor:recycle",
+          "tutor:rest",
+          "tutor:shadowball",
+          "tutor:signalbeam",
+          "tutor:skillswap",
+          "tutor:sleeptalk",
+          "tutor:snore",
+          "tutor:swift",
+          "tutor:telekinesis",
+          "tutor:trick",
+          "tutor:waterpulse",
+          "tutor:wonderroom",
+          "tutor:zenheadbutt"      
+        ],
+        "evolutions": [
+          {
+            "id": "feebas_milotic_jetian",
+            "variant": "trade",
+            "result": "milotic jetian",
+            "consumeHeldItem": true,
+            "learnableMoves": [
+              "waterpulse"
+            ],
+            "requirements": [
+              {
+                "variant": "held_item",
+                "itemCondition": "cobblemon:star_sweet"
+              }
+            ]
+          }
+        ]
+      }
+      
+    ]}

@@ -1,0 +1,189 @@
+{
+    
+    "target": "cobblemon:emboar",
+    "features": ["jetian"],
+    "forms": [
+  {
+    "implemented": true,
+    "nationalPokedexNumber": 450,
+    "name": "Jetian",
+    "primaryType": "fairy",
+    "secondaryType": "ground",
+    "maleRatio": 0.875,
+    "height": 7,
+    "weight": 96,
+    "pokedex": [
+      "cobblemon.species.emboar_jetian.desc"
+    ],
+    "labels": [
+      "gen5",
+      "starter",
+      "jetian"
+    ],
+    "aspects": ["jetian"],
+    "abilities": [
+      "aromaveil",
+      "h:thickfat"
+    ],
+    "eggGroups": [
+      "fairy",
+      "field"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "attack": 100,
+      "defence": 123,
+      "special_attack": 65,
+      "special_defence": 65,
+      "speed": 65
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 3,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 1,
+      "height": 2.1,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.2
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:leek_and_potato_stew",
+          "percentage": 5.0
+        },
+        {
+            "item": "minecraft:porkchop",
+            "percentage": 85   
+        },
+        {
+            "item": "minecraft:brown_mushroom",
+            "percentage": 20
+        }
+      ]
+    },
+    "moves": [
+      "1:icefang",
+      "1:firefang",
+      "1:thunderfang",
+      "1:tackle",
+      "1:fairywind",
+      "1:bite",
+      "1:yawn",
+      "1:mudbomb",
+      "8:karatechop",
+      "12:moonblast",
+      "16:dig",
+      "20:crunch",
+      "24:sandstorm",
+      "28:disarmingvoice",
+      "32:hammerarm",
+      "32:sleeptalk",
+      "38:rest",
+      "42:playrough",
+      "44:earthquake",
+      "50:doubleedge",
+      "56:mistyexplosion",
+      "62:headlongrush",
+      "egg:curse",
+      "egg:mudbomb",
+      "egg:spitup",
+      "egg:stockpile",
+      "egg:swallow",
+      "egg:whirlwind",
+      "tm:amnesia",
+      "tm:bodypress",
+      "tm:bodyslam",
+      "tm:bulldoze",
+      "tm:crunch",
+      "tm:curse",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:earthpower",
+      "tm:earthquake",
+      "tm:endure",
+      "tm:facade",
+      "tm:firefang",
+      "tm:gigaimpact",
+      "tm:hardpress",
+      "tm:headbutt",
+      "tm:heavyslam",
+      "tm:helpinghand",
+      "tm:highhorsepower",
+      "tm:hyperbeam",
+      "tm:hypervoice",
+      "tm:icefang",
+      "tm:ironhead",
+      "tm:irontail",
+      "tm:muddywater",
+      "tm:mudshot",
+      "tm:mudslap",
+      "tm:protect",
+      "tm:rest",
+      "tm:revenge",
+      "tm:roar",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:sandstorm",
+      "tm:sandtomb",
+      "tm:scorchingsands",
+      "tm:sleeptalk",
+      "tm:stealthrock",
+      "tm:stompingtantrum",
+      "tm:stoneedge",
+      "tm:strength",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:superpower",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:thunderfang",
+      "tutor:bulldoze",
+      "tutor:earthpower",
+      "tutor:firefang",
+      "tutor:gigaimpact",
+      "tutor:helpinghand",
+      "tutor:highhorsepower",
+      "tutor:hyperbeam",
+      "tutor:hypervoice",
+      "tutor:icefang",
+      "tutor:ironhead",
+      "tutor:irontail",
+      "tutor:mudslap",
+      "tutor:rest",
+      "tutor:rockslide",
+      "tutor:rocksmash",
+      "tutor:scorchingsands",
+      "tutor:sleeptalk",
+      "tutor:stealthrock",
+      "tutor:stompingtantrum",
+      "tutor:stoneedge",
+      "tutor:superpower",
+      "tutor:thunderfang"
+  
+    ]
+  }]}

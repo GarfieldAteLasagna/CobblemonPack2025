@@ -1,0 +1,18 @@
+{
+  "type": "choice",
+  "keys": ["sword_material"],
+  "default": "false",
+  "choices": [
+    "normal",
+    "diamond",
+    "netherite",
+    "golden",
+    "iron",
+    "stone",
+    "wooden",
+    "emerald",
+    "copper"
+  ],
+  "isAspect": true,
+  "aspectFormat": "sword-material-{{choice}}"
+}

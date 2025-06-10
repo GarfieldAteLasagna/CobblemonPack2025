@@ -1,0 +1,17 @@
+{
+    "target": "cobblemon:farfetchd",
+    "evolutions": [{
+            "id": "farfetchd_madamuu",
+            "variant": "level_up",
+            "result": "madamuu spaceworldmons",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "friendship",
+                    "amount": 160
+                }
+            ]
+        }
+
+    ]
+}

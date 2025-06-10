@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:gildenose",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gildenose",
+      "model": "cobblemon:gildenose.geo",
+      "texture": "cobblemon:textures/pokemon/gildenose/gildenose.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/gildenose/gildenose_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/gildenose/gildenose_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/gildenose/gildenose_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

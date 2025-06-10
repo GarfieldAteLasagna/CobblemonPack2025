@@ -1,0 +1,20 @@
+{
+  "pokemon.plux.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/plux/plux_cry", "volume": 0.9 } ]
+  },
+  "pokemon.madamuu.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/madamuu/madamuu_cry", "volume": 0.8 } ]
+  },
+  "pokemon.gorochu.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/gorochu/gorochu_cry", "volume": 0.6 } ]
+  },
+  "pokemon.animon.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/animon/animon_cry", "volume": 0.6 } ]
+  },
+  "pokemon.evolotto.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/evolotto/evolotto_cry", "volume": 0.9 } ]
+  },  
+  "pokemon.evolotto.faint": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/evolotto/evolotto_faint", "volume": 0.9 } ]
+  }
+}

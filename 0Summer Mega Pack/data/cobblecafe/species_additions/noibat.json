@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:noibat",
+  "evolutions": [
+    {
+      "id": "noibat_cafe_noibat",
+      "variant": "item_interact",
+      "result": "cafe_noibat",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:purple_wool"
+    }
+  ]
+}

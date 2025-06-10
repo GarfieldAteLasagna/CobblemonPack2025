@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sableye-jetian-1",
+            "pokemon": "sableye jetian",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "13-38",
+            "weight": 10.0,
+            "condition": {
+                "isRaining": true,
+                "canSeeSky": true
+            }
+        }
+    ]
+}

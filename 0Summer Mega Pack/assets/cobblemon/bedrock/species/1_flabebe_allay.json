@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:flabebe",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["allay"],
+      "poser": "cobblemon:flabebe_allay",
+      "model": "cobblemon:flabebe_allay.geo",
+      "texture": "cobblemon:textures/pokemon/0669_flabebe/flabebe_allay.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0669_flabebe/flabebe_allay_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["allay", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0669_flabebe/flabebe_allay_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0669_flabebe/flabebe_allay_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

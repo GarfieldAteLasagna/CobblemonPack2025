@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:tanpu-spaceworldmons",
+    "speciesId": "cobblemon:tanpu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

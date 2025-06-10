@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-dusclops-1",
+            "pokemon": "dusclops",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-51",
+            "weight": 1.1,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

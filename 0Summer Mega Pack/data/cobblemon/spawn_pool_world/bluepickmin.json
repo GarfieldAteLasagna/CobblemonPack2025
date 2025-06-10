@@ -1,0 +1,65 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "bluepickmin-1",
+     "pokemon": "bluepickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "1-22",
+     "weight": 4,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest", "#cobblemon:is_plains" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "bluepickmin-2",
+     "pokemon": "bluepickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "1-22",
+     "weight": 6.5,
+     "condition": {
+       "biomes": [ "minecraft:flower_forest", "minecraft:meadow", "minecraft:sunflower_plains", "minecraft:lush_caves" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "bluepickmin-3",
+     "pokemon": "bluepickmin",
+     "presets": [ "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "common",
+     "level": "1-22",
+     "weight": 4.5,
+     "condition": {
+       "biomes": [ "minecraft:mangrove_swamp", "minecraft:swamp"],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "bluepickmin-4",
+     "pokemon": "bluepickmin",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "common",
+     "level": "1-22",
+     "weight": 2.5,
+     "condition": {
+       "biomes": [ "#cobblemon:is_river" ]
+     }
+   }
+ ]
+}

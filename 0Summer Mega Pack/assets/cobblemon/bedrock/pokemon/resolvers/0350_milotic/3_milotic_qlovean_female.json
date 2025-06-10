@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:milotic",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["female", "qlovean"],
+      "poser": "cobblemon:milotic",
+      "model": "cobblemon:milotic_qlovean_female.geo"
+    },
+    {
+      "aspects": ["shiny", "female", "qlovean"],
+      "texture": "cobblemon:textures/pokemon/0350_milotic/milotic_qlovean_shiny.png"
+    }
+  ]
+}

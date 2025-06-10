@@ -1,0 +1,14 @@
+{
+  "entryId": "cobblemon:yellowpickmin",
+  "variations": [
+    {
+      "displayName": "Outfits",
+      "icon": "cobblemon:textures/gui/pokedex/variation/outfit.png",
+      "aspects": [
+        "y-outfit-normal",
+        "y-outfit-frenchfries"
+      ]
+    }
+  ]
+}
+

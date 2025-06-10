@@ -1,0 +1,15 @@
+{
+  "name": "scolipedewarmount",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.5,
+      "z": -0.2
+    }
+  },
+  "baseSpeedModifier": 0.45,
+  "landSpeedModifier": 1.4,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

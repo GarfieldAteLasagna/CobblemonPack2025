@@ -1,0 +1,23 @@
+{
+    "species": "cobblemon:lurantis",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:lurantis",
+        "model": "cobblemon:lurantis_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0754_lurantis/lurantis_jetian.png",
+        "layers": [
+          {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/0754_lurantis/lurantis_jetian_transparent.png",
+          "translucent": true
+        }
+]
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0754_lurantis/lurantis_jetian_shiny.png"
+      }
+    ]
+  }

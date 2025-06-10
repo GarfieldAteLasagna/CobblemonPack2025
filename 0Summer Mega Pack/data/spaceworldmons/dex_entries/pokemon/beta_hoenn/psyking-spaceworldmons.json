@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:psyking-spaceworldmons",
+    "speciesId": "cobblemon:psyking",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

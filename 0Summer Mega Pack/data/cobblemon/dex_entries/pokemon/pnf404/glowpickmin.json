@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:glowpickmin",
+  "speciesId": "cobblemon:glowpickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:pillowisp",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["bad"],
+      "poser": "cobblemon:pillowisp_bad",
+      "model": "cobblemon:pillowisp_bad.geo",
+      "texture": "cobblemon:textures/pokemon/pillowisp/pillowisp_bad.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/pillowisp/pillowisp_bad_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "bad"],
+      "texture": "cobblemon:textures/pokemon/pillowisp/pillowisp_bad_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/pillowisp/pillowisp_bad_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "shibirefugu-spaceworldmons-1",
+            "pokemon": "shibirefugu spaceworldmons",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "26-53",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:warm_ocean"
+                ]
+            }
+        }, {
+            "id": "shibirefugu-spaceworldmons-2",
+            "pokemon": "shibirefugu spaceworldmons",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "rare",
+            "level": "26-53",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "minecraft:warm_ocean"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "redpickmin-1",
+     "pokemon": "redpickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "1-22",
+     "weight": 4,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest", "#cobblemon:is_plains" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "redpickmin-2",
+     "pokemon": "redpickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "1-22",
+     "weight": 6.5,
+     "condition": {
+       "biomes": [ "minecraft:flower_forest", "minecraft:meadow", "minecraft:sunflower_plains", "minecraft:lush_caves" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "redpickmin-3",
+     "pokemon": "redpickmin",
+     "presets": [ "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "1-22",
+     "weight": 8.5,
+     "condition": {
+       "biomes": [ "#minecraft:is_badlands", "#cobblemon:is_savanna"],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   }
+ ]
+}

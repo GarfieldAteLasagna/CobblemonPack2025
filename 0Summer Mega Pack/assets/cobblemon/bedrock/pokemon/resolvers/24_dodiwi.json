@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:dodiwi",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:doduo",
+        "model": "cobblemon:dodiwi.geo",
+        "texture": "cobblemon:textures/pokemon/dodiwi/dodiwi.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/dodiwi/dodiwi_shiny.png",
+        "layers": []
+      }
+    ]
+  }

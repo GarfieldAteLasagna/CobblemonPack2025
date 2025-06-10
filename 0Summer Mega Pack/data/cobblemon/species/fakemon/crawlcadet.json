@@ -1,0 +1,207 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2403,
+    "name": "Crawlcadet",
+    "primaryType": "bug",
+    "maleRatio": 0.5,
+    "height": 6,
+    "weight": 105,
+    "pokedex": [
+      "cobblemon.species.crawlcadet.desc"
+    ],
+    "labels": [],
+    "aspects": [],
+    "abilities": [
+      "swarm",
+      "guts",
+      "h:steadfast"
+    ],
+    "eggGroups": [
+      "human_like"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 50,
+      "defence": 40,
+      "special_attack": 50,
+      "special_defence": 40,
+      "speed": 35
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 1,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 51,
+    "experienceGroup": "slow",
+    "catchRate": 90,
+    "eggCycles": 35,
+    "baseFriendship": 50,
+    "shoulderMountable": true,
+    "standingEyeHeight": 0.67,
+    "baseScale": 0.55,
+    "hitbox": {
+      "width": 0.6,
+      "height": 1.3,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      }
+    },
+    "drops": {
+      "amount": 4,
+      "entries": [
+        {
+          "item": "minecraft:string",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "cobblemon:silver_powder",
+          "percentage": 2.5
+        },
+        {
+          "item": "cobblemon:rawst_berry",
+          "percentage": 2.5
+        }
+      ]
+    },
+    "moves": [
+      "1:quickattack",
+        "1:leer",
+        "1:pursuit",
+        "4:furycutter",
+        "8:falseswipe",
+        "12:wingattack",
+        "16:doubleteam",
+        "20:doublehit",
+        "24:slash",
+        "28:focusenergy",
+        "32:agility",
+        "36:airslash",
+        "40:xscissor",
+        "44:swordsdance",
+        "egg:counter",
+        "egg:defog",
+        "egg:feint",
+        "egg:nightslash",
+        "egg:quickguard",
+        "egg:razorwind",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:assurance",
+        "tm:batonpass",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bugbite",
+        "tm:bugbuzz",
+        "tm:closecombat",
+        "tm:crosspoison",
+        "tm:cut",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dualwingbeat",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:focusenergy",
+        "tm:furycutter",
+        "tm:gigaimpact",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:lunge",
+        "tm:ominouswind",
+        "tm:pounce",
+        "tm:protect",
+        "tm:psychocut",
+        "tm:raindance",
+        "tm:rest",
+        "tm:reversal",
+        "tm:rocksmash",
+        "tm:roost",
+        "tm:safeguard",
+        "tm:scaryface",
+        "tm:silverwind",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:steelwing",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:uturn",
+        "tm:vacuumwave",
+        "tm:xscissor",
+        "tutor:aerialace",
+        "tutor:aircutter",
+        "tutor:bugbite",
+        "tutor:defog",
+        "tutor:dualwingbeat",
+        "tutor:falseswipe",
+        "tutor:focusenergy",
+        "tutor:furycutter",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:laserfocus",
+        "tutor:ominouswind",
+        "tutor:psychocut",
+        "tutor:rest",
+        "tutor:rocksmash",
+        "tutor:roost",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:swift",
+        "tutor:tailwind",
+        "tutor:vacuumwave",
+        "tutor:xscissor"
+    ],
+    "evolutions": [
+      {
+        "id": "crawlcadet_armacrawl",
+        "variant": "item_interact",
+        "result": "armacrawl",
+        "consumeHeldItem": false,
+        "learnableMoves": [
+          "spiritshackle"
+        ],
+        "requirements": [],
+        "requiredContext": "cobblemon:auspicious_armor"
+      },
+      {
+        "id": "crawlcadet_crawledge",
+        "variant": "item_interact",
+        "result": "crawledge",
+        "consumeHeldItem": false,
+        "learnableMoves": [
+          "stoneaxe"
+        ],
+        "requirements": [],
+        "requiredContext": "cobblemon:malicious_armor"
+      }
+    ]
+  }
+  

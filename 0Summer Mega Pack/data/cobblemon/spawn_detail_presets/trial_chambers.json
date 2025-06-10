@@ -1,0 +1,48 @@
+{
+  "condition": {
+	"structures": [
+	  "minecraft:trial_chambers"
+    ],
+	"neededBaseBlocks": [
+          "minecraft:copper_block",
+          "minecraft:waxed_copper_block",
+          "minecraft:copper_grate",
+          "minecraft:waxed_copper_grate",
+          "minecraft:cut_copper",
+          "minecraft:waxed_cut_copper",
+          "minecraft:oxidized_copper",
+          "minecraft:waxed_oxidized_copper",
+          "minecraft:oxidized_copper_grate",
+          "minecraft:waxed_oxidized_copper_grate",
+          "minecraft:oxidized_cut_copper",
+          "minecraft:waxed_oxidized_cut_copper",
+          "minecraft:tuff_bricks"
+	],
+	"neededNearbyBlocks": [
+          "minecraft:copper_block",
+          "minecraft:waxed_copper_block",
+          "minecraft:copper_grate",
+          "minecraft:waxed_copper_grate",
+          "minecraft:cut_copper",
+          "minecraft:waxed_cut_copper",
+          "minecraft:oxidized_copper",
+          "minecraft:waxed_oxidized_copper",
+          "minecraft:oxidized_copper_grate",
+          "minecraft:waxed_oxidized_copper_grate",
+          "minecraft:oxidized_cut_copper",
+          "minecraft:waxed_oxidized_cut_copper",
+          "minecraft:polished_tuff",
+          "minecraft:tuff_bricks",
+          "minecraft:chiseled_tuff",
+          "minecraft:chiseled_tuff_bricks",
+          "minecraft:copper_bulb",
+          "minecraft:exposed_copper_bulb",
+          "minecraft:weathered_copper_bulb",
+          "minecraft:oxidized_copper_bulb",
+          "minecraft:waxed_copper_bulb",
+          "minecraft:waxed_exposed_copper_bulb",
+          "minecraft:waxed_weathered_copper_bulb",
+          "minecraft:waxed_oxidized_copper_bulb"
+	]
+  }
+}

@@ -1,0 +1,104 @@
+{
+    "implemented": true,
+    "name": "Arctosyrin",
+    "nationalPokedexNumber": 1506,
+    "primaryType": "water",
+    "secondaryType": "ice",
+    "baseStats": {
+        "hp": 140,
+        "attack": 40,
+        "defence": 85,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 50
+    },
+    "catchRate": 100,
+    "maleRatio": 0.5,
+    "baseExperienceYield": 270,
+    "experienceGroup": "slow",
+    "eggCycles": 25,
+    "eggGroups": [
+        "water_1",
+        "monster"
+    ],
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 2,
+        "special_attack": 1
+    },
+    "moves": [
+        "egg:aquajet",
+        "egg:freezedry",
+        "egg:mirrorcoat",
+        "egg:yawn",
+        "egg:haze",
+        "egg:amnesia",
+        "egg:signalbeam",
+        "egg:waterpulse",
+        "egg:ancientpower",
+        "egg:mudbomb",
+        "egg:bodyslam",
+        "egg:iciclespear",
+        "egg:whirlpool",
+        "egg:irontail",
+        "egg:dragontail",
+        "1:powdersnow",
+        "1:bubble",
+        "7:bite",
+        "14:mist",
+        "21:bide",
+        "28:ancientpower",
+        "35:extrasensory",
+        "42:avalanche",
+        "49:slam",
+        "56:freezedry",
+        "63:hydropump",
+        "70:iciclecrash",
+        "77:blizzard",
+        "tm:rest",
+        "tm:protect",
+        "tm:thunderwave",
+        "tm:icywind",
+        "tm:surf",
+        "tm:bodyslam",
+        "tm:snore",
+        "tm:hyperbeam",
+        "tm:waterfall",
+        "tm:ironhead",
+        "tm:rockslide",
+        "tm:thunder"
+    ],
+    "abilities": [
+        "waterabsorb",
+        "h:slushrush"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 3,
+        "height": 3,
+        "fixed": false
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [
+            {
+                "item": "minecraft:snow_block",
+                "quantityRange": "1-2",
+                "percentage": 66
+            }
+        ]
+    },
+    "behaviour": {
+        "moving": {
+            "canLook": false,
+            "fly": {
+                "canFly": false
+            },
+            "swim": {
+                "swimSpeed": 0.3,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            }
+        }
+    }
+}

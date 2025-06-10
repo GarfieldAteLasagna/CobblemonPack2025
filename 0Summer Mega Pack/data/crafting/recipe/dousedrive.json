@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A D"
+    ],
+    "key": {
+        "D": {
+            "item": "cobblemon:dubious_disc"
+        },
+        "A": {
+            "item": "mega_showdown:watermemory"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:dousedrive",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["meteor_shield"],
+  "default": "core",
+  "choices": [
+    "meteor",
+    "core"
+
+],
+  "isAspect": true,
+  "visible": true,
+  "aspectFormat": "meteor_shield-{{choice}}"
+}

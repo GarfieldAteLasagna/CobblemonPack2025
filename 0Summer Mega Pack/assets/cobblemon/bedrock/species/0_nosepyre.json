@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:nosepyre",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nosepyre",
+      "model": "cobblemon:nosepyre.geo",
+      "texture": "cobblemon:textures/pokemon/nosepyre/nosepyre.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/nosepyre/nosepyre_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/nosepyre/nosepyre_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/nosepyre/nosepyre_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

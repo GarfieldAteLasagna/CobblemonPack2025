@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "squirtle-jetian-1",
+            "pokemon": "squirtle jetian",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ],
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "canSeeSky": true
+            }
+        }
+    ]
+}

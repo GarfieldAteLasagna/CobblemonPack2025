@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:clarissie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:clarissie",
+      "model": "cobblemon:clarissie.geo",
+      "texture": "cobblemon:textures/pokemon/clarissie/clarissie.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/clarissie/clarissie_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/clarissie/clarissie_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/clarissie/clarissie_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

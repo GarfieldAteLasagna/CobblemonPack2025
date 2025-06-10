@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:gardevoir",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["altered"],
+      "poser": "cobblemon:gardevoir_altered",
+      "model": "cobblemon:gardevoir_altered.geo",
+      "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered.png",
+      "layers": [
+        {
+          "name": "wisp",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_wisp1.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_wisp2.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_wisp3.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_wisp4.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered"],
+      "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered_shiny.png",
+      "layers": [
+        {
+          "name": "wisp",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_shiny_wisp1.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_shiny_wisp2.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_shiny_wisp3.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_shiny_wisp4.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered", "gamma-true"],
+      "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered_gamma.png",
+      "layers": [
+        {
+          "name": "wisp",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_gamma_wisp1.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_gamma_wisp2.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_gamma_wisp3.png",
+              "cobblemon:textures/pokemon/0282_gardevoir/animation/gardevoir_altered_gamma_wisp4.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered_gamma_emissive.png",
+              "translucent": true
+        },
+        {
+              "name": "gammawisp",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_altered_gammawisp.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+
+}

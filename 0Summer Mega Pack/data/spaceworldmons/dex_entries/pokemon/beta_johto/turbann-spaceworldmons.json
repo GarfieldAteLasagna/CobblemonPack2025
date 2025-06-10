@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:turbann-spaceworldmons",
+    "speciesId": "cobblemon:turbann",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

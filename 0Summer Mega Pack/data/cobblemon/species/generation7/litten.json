@@ -1,0 +1,539 @@
+{
+  "implemented": true,
+  "name": "Litten",
+  "nationalPokedexNumber": 725,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 60,
+    "special_defence": 40,
+    "speed": 70
+  },
+  "features": [
+    "ultravariant",
+    "shining"
+  ],
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": true,
+  "forms": [
+    {
+      "name": "ultravariant",
+      "primaryType": "fighting",
+      "secondaryType": "bug",
+      "abilities": [
+        "innerfocus",
+        "h:hypercutter"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "percentage": 50.0
+          },
+          {
+            "item": "cobblemon:silver_powder",
+            "percentage": 25.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 75,
+        "defence": 30,
+        "special_attack": 60,
+        "special_defence": 30,
+        "speed": 70
+      },
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "shoulderMountable": true,
+      "baseExperienceYield": 63,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "bug"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.35
+          }
+        }
+      },
+      "moves": [
+        "1:growl",
+        "1:scratch",
+        "3:furycutter",
+        "6:lick",
+        "9:roar",
+        "11:leer",
+        "12:furyswipes",
+        "15:bite",
+        "18:doublekick",
+        "21:uturn",
+        "24:scaryface",
+        "27:swagger",
+        "30:aurasphere",
+        "33:thrash",
+        "36:closecombat",
+        "46:outrage",
+        "egg:bodyslam",
+        "egg:crunch",
+        "egg:fakeout",
+        "egg:heatwave",
+        "egg:nastyplot",
+        "egg:partingshot",
+        "egg:powertrip",
+        "egg:revenge",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:confide",
+        "tm:crunch",
+        "tm:doubleedge",
+        "tm:doubleteam",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firefang",
+        "tm:firepledge",
+        "tm:firespin",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:frustration",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:overheat",
+        "tm:payday",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:revenge",
+        "tm:roar",
+        "tm:round",
+        "tm:scaryface",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:temperflare",
+        "tm:terablast",
+        "tm:torment",
+        "tm:toxic",
+        "tm:trailblaze",
+        "tm:uturn",
+        "tm:willowisp",
+        "tm:workup",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:firepledge",
+        "tutor:heatwave",
+        "tutor:outrage",
+        "tutor:snore"
+      ],
+      "labels": [
+        "gen7",
+        "ultravariant_regional"
+      ],
+      "pokedex": [
+        
+      ],
+       "evolutions": [
+        {
+          "id": "litten_torracat_ultravariant",
+          "variant": "level_up",
+          "result": "torracat ultravariant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 17
+            }
+          ]
+        }
+      ],
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.7,
+        "height": 0.9,
+        "fixed": false},
+      "aspects": [
+        "ultravariant"
+      ],
+      "height": 4,
+      "weight": 43,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "ultravariant shiny",
+      "primaryType": "fighting",
+      "secondaryType": "bug",
+      "abilities": [
+        "innerfocus",
+        "h:hypercutter"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "percentage": 50.0
+          },
+          {
+            "item": "cobblemon:silver_powder",
+            "percentage": 25.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 75,
+        "defence": 30,
+        "special_attack": 60,
+        "special_defence": 30,
+        "speed": 70
+      },
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "shoulderMountable": true,
+      "baseExperienceYield": 63,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "bug"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.35
+          }
+        }
+      },
+      "moves": [
+        "1:growl",
+        "1:scratch",
+        "3:furycutter",
+        "6:lick",
+        "9:roar",
+        "11:leer",
+        "12:furyswipes",
+        "15:bite",
+        "18:doublekick",
+        "21:uturn",
+        "24:scaryface",
+        "27:swagger",
+        "30:aurasphere",
+        "33:thrash",
+        "36:closecombat",
+        "46:outrage",
+        "egg:bodyslam",
+        "egg:crunch",
+        "egg:fakeout",
+        "egg:heatwave",
+        "egg:nastyplot",
+        "egg:partingshot",
+        "egg:powertrip",
+        "egg:revenge",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:confide",
+        "tm:crunch",
+        "tm:doubleedge",
+        "tm:doubleteam",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firefang",
+        "tm:firepledge",
+        "tm:firespin",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:frustration",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:overheat",
+        "tm:payday",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:revenge",
+        "tm:roar",
+        "tm:round",
+        "tm:scaryface",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:temperflare",
+        "tm:terablast",
+        "tm:torment",
+        "tm:toxic",
+        "tm:trailblaze",
+        "tm:uturn",
+        "tm:willowisp",
+        "tm:workup",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:firepledge",
+        "tutor:heatwave",
+        "tutor:outrage",
+        "tutor:snore"
+      ],
+      "labels": [
+        "gen7",
+        "ultravariant_regional"
+      ],
+      "pokedex": [
+        
+      ],
+       "evolutions": [
+        {
+          "id": "litten_torracat_ultravariant",
+          "variant": "level_up",
+          "result": "torracat ultravariant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 17
+            }
+          ]
+        },
+        {
+        "id": "litten_litten_ultravariant-shining",
+        "variant": "level_up",
+        "result": "litten ultravariant shining",
+        "consumeHeldItem": true,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:shiny_stone_block"
+          }
+        ]
+        }
+      ],
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.7,
+        "height": 0.9,
+        "fixed": false},
+      "aspects": [
+        "ultravariant",
+        "shiny"
+      ],
+      "height": 4,
+      "weight": 43,
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:scratch",
+    "3:ember",
+    "6:lick",
+    "9:roar",
+    "11:leer",
+    "12:furyswipes",
+    "15:bite",
+    "18:doublekick",
+    "21:firefang",
+    "24:scaryface",
+    "27:swagger",
+    "30:flamethrower",
+    "33:thrash",
+    "36:flareblitz",
+    "46:outrage",
+    "egg:bodyslam",
+    "egg:crunch",
+    "egg:fakeout",
+    "egg:heatwave",
+    "egg:nastyplot",
+    "egg:partingshot",
+    "egg:powertrip",
+    "egg:revenge",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:confide",
+    "tm:crunch",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:frustration",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:leechlife",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:payday",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:revenge",
+    "tm:roar",
+    "tm:round",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firepledge",
+    "tutor:heatwave",
+    "tutor:outrage",
+    "tutor:snore"
+  ],
+  "labels": [
+    "gen7"
+  ],
+  "pokedex": [
+    "cobblemon.species.litten.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "litten_torracat",
+      "variant": "level_up",
+      "result": "torracat",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 43,
+  "aspects": [],
+  "cannotDynamax": false
+}

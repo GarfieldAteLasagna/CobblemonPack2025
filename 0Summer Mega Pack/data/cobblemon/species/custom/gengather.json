@@ -1,0 +1,1881 @@
+{
+  "implemented": true,
+  "name": "Gengather",
+  "nationalPokedexNumber": 5000,
+  "primaryType": "ghost",
+  "secondaryType": "psychic",
+  "abilities": [
+    "frisk",
+    "h:stickyhold"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:poke_ball",
+        "percentage": 100.0
+      },
+      {
+        "item": "cobblemon:leftovers",
+        "percentage": 15.0
+      },
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:sitrus_berry",
+        "percentage": 75.0
+      },
+      {
+        "item": "cobblemon:carbos",
+        "percentage": 20.0
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 60,
+    "speed": 120
+  },
+  "features": [
+    "pokeball",
+    "shining"
+  ],
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 250,
+  "forms": [
+    {
+      "name": "shiny",
+      "primaryType": "ghost",
+      "secondaryType": "psychic",
+      "abilities": [
+        "frisk",
+        "h:stickyhold"
+      ],
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "cobblemon:poke_ball",
+            "percentage": 100.0
+          },
+          {
+            "item": "cobblemon:leftovers",
+            "percentage": 15.0
+          },
+          {
+            "item": "cobblemon:kings_rock",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:sitrus_berry",
+            "percentage": 75.0
+          },
+          {
+            "item": "cobblemon:carbos",
+            "percentage": 20.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 50,
+        "defence": 60,
+        "special_attack": 120,
+        "special_defence": 60,
+        "speed": 120
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 250,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous"
+      ],
+      "moves": [
+        "1:confuseray",
+        "1:hypnosis",
+        "1:lick",
+        "1:meanlook",
+        "1:perishsong",
+        "1:reflecttype",
+        "1:shadowpunch",
+        "12:payback",
+        "16:spite",
+        "20:curse",
+        "24:hex",
+        "30:nightshade",
+        "35:psybeam",
+        "36:suckerpunch",
+        "42:darkpulse",
+        "46:twinbeam",
+        "48:shadowball",
+        "54:destinybond",
+        "55:aurasphere",
+        "60:dreameater",
+        "61:nightmare",
+        "65:bittermalice",
+        "67:expandingforce",
+        "85:spectralthief",
+        "tm:acidspray",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:captivate",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:dreameater",
+        "tm:embargo",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:infestation",
+        "tm:knockoff",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:naturalgift",
+        "tm:nightshade",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:phantomforce",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snatch",
+        "tm:snore",
+        "tm:spite",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:uproar",
+        "tm:venoshock",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tutor:allyswitch",
+        "tutor:astonish",
+        "tutor:attract",
+        "tutor:bide",
+        "tutor:bodyslam",
+        "tutor:brickbreak",
+        "tutor:confuseray",
+        "tutor:corrosivegas",
+        "tutor:counter",
+        "tutor:curse",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:destinybond",
+        "tutor:disable",
+        "tutor:doubleedge",
+        "tutor:doubleteam",
+        "tutor:drainpunch",
+        "tutor:dreameater",
+        "tutor:dynamicpunch",
+        "tutor:endure",
+        "tutor:explosion",
+        "tutor:facade",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:gigadrain",
+        "tutor:haze",
+        "tutor:headbutt",
+        "tutor:hiddenpower",
+        "tutor:hyperbeam",
+        "tutor:hypnosis",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:knockoff",
+        "tutor:laserfocus",
+        "tutor:lick",
+        "tutor:meanlook",
+        "tutor:megadrain",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:metronome",
+        "tutor:mimic",
+        "tutor:nightmare",
+        "tutor:nightshade",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poisongas",
+        "tutor:poisonjab",
+        "tutor:poltergeist",
+        "tutor:protect",
+        "tutor:psychic",
+        "tutor:psychup",
+        "tutor:psywave",
+        "tutor:rage",
+        "tutor:raindance",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:rocksmash",
+        "tutor:roleplay",
+        "tutor:seismictoss",
+        "tutor:selfdestruct",
+        "tutor:shadowball",
+        "tutor:shadowpunch",
+        "tutor:skillswap",
+        "tutor:skittersmack",
+        "tutor:skullbash",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:sludgewave",
+        "tutor:smog",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:strength",
+        "tutor:submission",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:takedown",
+        "tutor:taunt",
+        "tutor:telekinesis",
+        "tutor:thief",
+        "tutor:thunder",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:toxic",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:willowisp",
+        "tutor:wonderroom",
+        "tutor:zapcannon"
+      ],
+      "pokedex": [
+        
+      ],
+      "preEvolution": "haunter ultravariant",
+       "evolutions": [
+        {
+        "id": "gengather_gengather-shining",
+        "variant": "level_up",
+        "result": "gengather shining",
+        "consumeHeldItem": true,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:shiny_stone_block"
+          }
+        ]
+        },
+        {
+          "id": "gengather_gengather-pokeball-ancient_azure_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_azure_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_azure_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_citrine_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_citrine_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_citrine_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_feather_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_feather_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_feather_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_gigaton_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_gigaton_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_gigaton_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_great_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_great_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_great_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_heavy_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_heavy_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_heavy_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_ivory_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_ivory_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_ivory_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_jet_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_jet_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_jet_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_leaden_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_leaden_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_leaden_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_origin_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_origin_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_origin_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_poke_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_poke_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_poke_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_roseate_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_roseate_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_roseate_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_slate_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_slate_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_slate_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_ultra_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_ultra_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_ultra_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_verdant_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_verdant_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_verdant_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ancient_wing_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ancient_wing_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ancient_wing_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-azure_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=azure_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:azure_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-beast_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=beast_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:beast_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-cherish_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=cherish_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:cherish_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-citrine_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=citrine_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:citrine_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-dive_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=dive_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:dive_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-dream_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=dream_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:dream_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-dusk_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=dusk_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:dusk_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-fast_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=fast_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:fast_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-friend_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=friend_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:friend_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-great_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=great_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:great_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-heal_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=heal_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:heal_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-heavy_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=heavy_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:heavy_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-level_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=level_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:level_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-love_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=love_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:love_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-lure_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=lure_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:lure_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-luxury_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=luxury_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:luxury_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-master_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=master_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:master_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-moon_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=moon_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:moon_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-nest_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=nest_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:nest_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-net_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=net_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:net_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-park_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=park_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:park_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-poke_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=poke_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:poke_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-premier_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=premier_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:premier_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-quick_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=quick_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:quick_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-repeat_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=repeat_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:repeat_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-roseate_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=roseate_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:roseate_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-safari_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=safari_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:safari_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-slate_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=slate_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:slate_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-sport_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=sport_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:sport_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-strange_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=strange_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:iron_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-timer_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=timer_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:timer_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-ultra_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=ultra_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:ultra_ball"
+            }
+          ]
+          },
+          {
+          "id": "gengather_gengather-pokeball-verdant_ball",
+          "variant": "level_up",
+          "result": "gengather ultravariant pokeball=verdant_ball",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:verdant_ball"
+            }
+          ]
+          }
+      ],
+      "baseScale": 1.5,
+      "hitbox": {
+        "width": 2,
+        "height": 2,
+        "fixed": false},
+      "aspects": [
+        "shiny"
+      ],
+      "height": 15,
+      "weight": 605,
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "moves": [
+    "1:confuseray",
+    "1:hypnosis",
+    "1:lick",
+    "1:meanlook",
+    "1:perishsong",
+    "1:reflecttype",
+    "1:shadowpunch",
+    "12:payback",
+    "16:spite",
+    "20:curse",
+    "24:hex",
+    "30:nightshade",
+    "35:psybeam",
+    "36:suckerpunch",
+    "42:darkpulse",
+    "46:twinbeam",
+    "48:shadowball",
+    "54:destinybond",
+    "55:aurasphere",
+    "60:dreameater",
+    "61:nightmare",
+    "65:bittermalice",
+    "67:expandingforce",
+    "85:spectralthief",
+    "tm:acidspray",
+    "tm:allyswitch",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:snore",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:astonish",
+    "tutor:attract",
+    "tutor:bide",
+    "tutor:bodyslam",
+    "tutor:brickbreak",
+    "tutor:confuseray",
+    "tutor:corrosivegas",
+    "tutor:counter",
+    "tutor:curse",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:destinybond",
+    "tutor:disable",
+    "tutor:doubleedge",
+    "tutor:doubleteam",
+    "tutor:drainpunch",
+    "tutor:dreameater",
+    "tutor:dynamicpunch",
+    "tutor:endure",
+    "tutor:explosion",
+    "tutor:facade",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:haze",
+    "tutor:headbutt",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:hypnosis",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lick",
+    "tutor:meanlook",
+    "tutor:megadrain",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:metronome",
+    "tutor:mimic",
+    "tutor:nightmare",
+    "tutor:nightshade",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poisongas",
+    "tutor:poisonjab",
+    "tutor:poltergeist",
+    "tutor:protect",
+    "tutor:psychic",
+    "tutor:psychup",
+    "tutor:psywave",
+    "tutor:rage",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seismictoss",
+    "tutor:selfdestruct",
+    "tutor:shadowball",
+    "tutor:shadowpunch",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:skullbash",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:sludgewave",
+    "tutor:smog",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:strength",
+    "tutor:submission",
+    "tutor:substitute",
+    "tutor:suckerpunch",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:takedown",
+    "tutor:taunt",
+    "tutor:telekinesis",
+    "tutor:thief",
+    "tutor:thunder",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:toxic",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:willowisp",
+    "tutor:wonderroom",
+    "tutor:zapcannon"
+  ],
+  "labels": [],
+  "pokedex": [
+    "cobblemon.species.gengather.desc"
+  ],
+  "preEvolution": "haunter ultravariant",
+  "evolutions": [
+    {
+      "id": "gengather_gengather-pokeball-ancient_azure_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_azure_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_azure_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_citrine_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_citrine_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_citrine_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_feather_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_feather_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_feather_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_gigaton_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_gigaton_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_gigaton_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_great_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_great_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_great_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_heavy_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_heavy_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_heavy_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_ivory_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_ivory_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_ivory_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_jet_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_jet_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_jet_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_leaden_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_leaden_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_leaden_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_origin_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_origin_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_origin_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_poke_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_poke_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_poke_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_roseate_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_roseate_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_roseate_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_slate_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_slate_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_slate_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_ultra_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_ultra_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_ultra_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_verdant_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_verdant_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_verdant_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ancient_wing_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ancient_wing_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ancient_wing_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-azure_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=azure_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:azure_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-beast_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=beast_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:beast_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-cherish_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=cherish_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:cherish_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-citrine_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=citrine_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:citrine_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-dive_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=dive_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:dive_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-dream_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=dream_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:dream_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-dusk_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=dusk_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:dusk_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-fast_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=fast_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:fast_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-friend_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=friend_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:friend_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-great_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=great_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:great_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-heal_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=heal_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:heal_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-heavy_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=heavy_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:heavy_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-level_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=level_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:level_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-love_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=love_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:love_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-lure_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=lure_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:lure_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-luxury_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=luxury_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:luxury_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-master_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=master_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:master_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-moon_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=moon_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:moon_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-nest_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=nest_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:nest_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-net_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=net_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:net_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-park_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=park_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:park_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-poke_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=poke_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:poke_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-premier_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=premier_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:premier_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-quick_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=quick_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:quick_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-repeat_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=repeat_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:repeat_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-roseate_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=roseate_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:roseate_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-safari_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=safari_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:safari_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-slate_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=slate_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:slate_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-sport_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=sport_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:sport_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-strange_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=strange_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:iron_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-timer_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=timer_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:timer_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-ultra_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=ultra_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:ultra_ball"
+        }
+      ]
+      },
+      {
+      "id": "gengather_gengather-pokeball-verdant_ball",
+      "variant": "level_up",
+      "result": "gengather ultravariant pokeball=verdant_ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:verdant_ball"
+        }
+      ]
+      }
+    ],
+  "baseScale": 1.5,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 605,
+  "aspects": [],
+  "cannotDynamax": false
+}

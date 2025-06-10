@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:turtwig",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:turtwig_ultravariant",
+      "model": "cobblemon:turtwig_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0387_turtwig/turtwig_ultravariant.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0387_turtwig/turtwig_ultravariant_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0387_turtwig/turtwig_ultravariant_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0387_turtwig/turtwig_ultravariant_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shining"],
+      "texture": "cobblemon:textures/pokemon/0387_turtwig/turtwig_ultravariant_shining.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0387_turtwig/turtwig_ultravariant_shining_emissive.png"
+        }
+      ]
+    }
+  ]
+}

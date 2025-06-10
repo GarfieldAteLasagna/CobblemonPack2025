@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:rowlet",
+  "evolutions": [
+    {
+      "id": "rowlet_cafe_rowlet",
+      "variant": "item_interact",
+      "result": "cafe_rowlet",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

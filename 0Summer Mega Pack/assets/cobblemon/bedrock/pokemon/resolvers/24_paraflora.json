@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:paraflora",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:shieldon",
+        "model": "cobblemon:paraflora.geo",
+        "texture": "cobblemon:textures/pokemon/paraflora/paraflora.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/paraflora/paraflora_shiny.png",
+        "layers": []
+      }
+    ]
+  }

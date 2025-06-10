@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-marshadow-1",
+            "pokemon": "marshadow",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "55-75",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands"
+                ]
+            }
+        }
+    ]
+}

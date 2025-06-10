@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:soareon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:soareon",
+      "model": "cobblemon:soareon.geo",
+      "texture": "cobblemon:textures/pokemon/3700_soareon/soareon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3700_soareon/soareon_shiny.png"
+    }
+  ]
+}

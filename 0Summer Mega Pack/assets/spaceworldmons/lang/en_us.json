@@ -1,0 +1,35 @@
+{
+    "cobblemon.ui.pokedex.region.beta_national": "Beta National",
+    "cobblemon.ui.pokedex.region.beta_kanto": "Beta Kanto",
+    "cobblemon.ui.pokedex.region.beta_johto": "Beta Johto",
+    "cobblemon.ui.pokedex.region.beta_hoenn": "Beta Hoenn",
+    "cobblemon.ui.pokedex.region.beta_sinnoh": "Beta Sinnoh",
+    "cobblemon.ui.pokedex.region.beta_unova": "Beta Unova",
+    "cobblemon.ui.pokedex.region.beta_kalos": "Beta Kalos",
+
+
+    "cobblemon.species.gorochu.name": "Gorochu",
+    "spaceworldmons.species.gorochu.desc1": "This fierce and aggressive Pokémon is said to calm itself down by releasing lightning in a drum-like pattern, doing so atop high mountains.",
+    "spaceworldmons.species.gorochu.desc2": "\nIt is rumored that this Pokémon is an evolution of Raichu and is said to originally reside within the Kanto region.",
+
+
+    "cobblemon.species.shibirefugu.name": "Shibirefugu",
+    "spaceworldmons.species.shibirefugu.desc1": "The spines on its body emit electric shocks that can be used to immobilize foes much larger than itself. These spines emit electric waves through the water, paralyzing nearby prey.",
+    "spaceworldmons.species.shibirefugu.desc2": "\nIt is rumored that this Pokémon is an evolution of Qwilfish and is said to originally reside within the Johto region.",
+
+    "cobblemon.species.turbann.name": "Turbann",
+    "spaceworldmons.species.turbann.desc1": "Shellder take on many different forms depending on how they attach to Slowpoke. It is speculated that Turbann is the result of feeding Shellder severed Slowpoke tails, but few have the heart to test this.",
+    "spaceworldmons.species.turbann.desc2": "\nThis Pokémon is rumored to have once resided within the Johto region.",
+    "cobblemon.species.madamuu.name": "Madamuu",
+    "spaceworldmons.species.madamuu.desc1": "A rare species that is seldom seen. Recent studies have discovered that the object it holds is a spring onion flower. Those who claim to have seen are captivated by its beautiful feathers.",
+    "spaceworldmons.species.madamuu.desc2": "\nIt is rumored that this Pokémon is an evolution of Farfetch’d and is said to originally reside within the Johto region.",
+    "cobblemon.species.plux.name": "Plux",
+    "spaceworldmons.species.plux.desc1": "Taking advantage of its steel-like body, it lets itself take attacks, then pinches its opponent in its horns and flips them. Its elongated horns contain steel components.",
+    "spaceworldmons.species.plux.desc2": "\nIt is rumored that this Pokémon is an evolution of Pinsir and is said to originally reside within the Johto region.",
+    "cobblemon.species.animon.name": "Animon",
+    "spaceworldmons.species.animon.desc1": "Its body is made of a dense liquid metal, which can mold and reshape itself into any form. It feasts on any metal it can get ahold of using its sharp fangs and magnetic pull.",
+    "spaceworldmons.species.animon.desc2": "\nIt is rumored that this Pokémon is an evolution of Ditto and is said to originally reside within the Johto region.",
+    "cobblemon.species.tsubomitto.name": "Tsubomitto",
+    "spaceworldmons.species.tsubomitto.desc1": "It lives by absorbing nutrients in the ground through its root-like feet. This affectionate Pokémon loves giving hugs and kisses with its venomous lips, making it hard to raise.",
+    "spaceworldmons.species.tsubomitto.desc2": "\nIt is rumored that this Pokémon is an evolution of Weepinbell and is said to originally reside within the Johto region."
+}

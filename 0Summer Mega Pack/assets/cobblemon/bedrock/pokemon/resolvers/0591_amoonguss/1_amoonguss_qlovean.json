@@ -1,0 +1,16 @@
+{
+    "species": "cobblemon:amoonguss",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["qlovean"],
+        "poser": "cobblemon:amoonguss",
+        "model": "cobblemon:amoonguss_qlovean.geo",
+        "texture": "cobblemon:textures/pokemon/0591_amoonguss/amoonguss_qlovean.png"
+        },
+      {
+        "aspects": ["shiny", "qlovean"],
+        "texture": "cobblemon:textures/pokemon/0591_amoonguss/amoonguss_qlovean_shiny.png"
+      }
+    ]
+  }

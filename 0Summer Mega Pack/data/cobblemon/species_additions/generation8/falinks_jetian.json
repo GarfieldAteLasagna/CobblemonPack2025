@@ -1,0 +1,165 @@
+{
+    
+    "target": "cobblemon:falinks",
+    "features": ["jetian"],
+    "forms": [
+      {
+        "implemented": true,
+        "nationalPokedexNumber": 870,
+        "name": "Jetian",
+        "primaryType": "fairy",
+        "maleRatio": 0.1,
+        "height": 3,
+        "weight": 135,
+        "pokedex": [
+          "cobblemon.species.falinks_jetian.desc"
+        ],
+        "labels": [
+          "gen8",
+          "jetian"
+        ],
+        "aspects": ["jetian"],
+        "abilities": [
+          "sweetveil",
+          "h:unburden"      
+        ],
+        "eggGroups": [
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "attack": 60,
+          "defence": 100,
+          "special_attack": 75,
+          "special_defence": 100,
+          "speed": 65
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 0,
+          "defence": 1,
+          "special_attack": 0,
+          "special_defence": 1,
+          "speed": 0
+        },
+        "baseExperienceYield": 165,
+        "experienceGroup": "medium_fast",
+        "catchRate": 45,
+        "eggCycles": 25,
+        "baseFriendship": 50,
+        "baseScale": 1,
+        "hitbox": {
+          "width": 1,
+          "height": 1.4,
+          "fixed": false
+        },
+        "behaviour": {
+          "moving": {
+            "canLook": false,
+            "walk": {
+              "walkSpeed": 0.25
+            }
+          }
+        }
+      ,
+        "drops": {
+          "amount": 2,
+          "entries": [
+            {
+              "item": "minecraft:bread",
+              "quantityRange": "0-1"
+            },
+            {
+              "item": "cobblemon:wepear_berry",
+              "percentage": 2.5
+            }
+          ]
+        },
+        "moves": [
+          "1:sweetscent",
+          "1:tackle",
+          "1:fairywind",
+          "1:playnice",
+          "9:aromatherapy",
+          "12:drainingkiss",
+          "15:faketears",
+          "18:round",
+          "21:stringshot",
+          "24:cottonspore",
+          "27:energyball",
+          "30:wish",
+          "33:playrough",
+          "36:cottonguard",
+          "39:endeavor",
+          "42:stickyweb",
+          "egg:afteryou",
+          "egg:bellydrum",
+          "egg:copycat",
+          "egg:stickyweb",
+          "egg:yawn",
+          "tm:afteryou",
+          "tm:amnesia",
+          "tm:calmmind",
+          "tm:charm",
+          "tm:covet",
+          "tm:dazzlinggleam",
+          "tm:drainingkiss",
+          "tm:drainpunch",
+          "tm:dreameater",
+          "tm:endeavor",
+          "tm:endure",
+          "tm:energyball",
+          "tm:facade",
+          "tm:faketears",
+          "tm:flamethrower",
+          "tm:flash",
+          "tm:gastroacid",
+          "tm:gigaimpact",
+          "tm:healbell",
+          "tm:helpinghand",
+          "tm:hyperbeam",
+          "tm:lightscreen",
+          "tm:magiccoat",
+          "tm:metronome",
+          "tm:mistyexplosion",
+          "tm:playrough",
+          "tm:protect",
+          "tm:psychic",
+          "tm:psychup",
+          "tm:raindance",
+          "tm:rest",
+          "tm:round",
+          "tm:safeguard",
+          "tm:sleeptalk",
+          "tm:stringshot",
+          "tm:substitute",
+          "tm:sunnyday",
+          "tm:surf",
+          "tm:terablast",
+          "tm:thief",
+          "tm:thunder",
+          "tm:thunderbolt",
+          "tutor:afteryou",
+          "tutor:calmmind",
+          "tutor:covet",
+          "tutor:dazzlinggleam",
+          "tutor:drainpunch",
+          "tutor:endeavor",
+          "tutor:energyball",
+          "tutor:flamethrower",
+          "tutor:gastroacid",
+          "tutor:gigaimpact",
+          "tutor:healbell",
+          "tutor:helpinghand",
+          "tutor:hyperbeam",
+          "tutor:magiccoat",
+          "tutor:mistyexplosion",
+          "tutor:playrough",
+          "tutor:psychic",
+          "tutor:rest",
+          "tutor:sleeptalk",
+          "tutor:stringshot",
+          "tutor:thunderbolt"
+        ],
+        "evolutions": []
+      }]}

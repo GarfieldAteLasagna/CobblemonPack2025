@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:rhinostella",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:amaura",
+        "model": "cobblemon:rhinostella.geo",
+        "texture": "cobblemon:textures/pokemon/rhinostella/rhinostella.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/rhinostella/rhinostella_shiny.png",
+        "layers": []
+      }
+    ]
+  }

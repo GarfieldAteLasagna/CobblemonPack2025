@@ -1,0 +1,150 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2429,
+    "name": "Regifurr",
+    "primaryType": "normal",
+    "maleRatio": -1,
+    "height": 19,
+    "weight": 2050,
+    "pokedex": [
+      "cobblemon.species.regifurr.desc"
+    ],
+    "labels": [
+      "legendary"
+    ],
+    "aspects": [],
+    "abilities": [
+      "intimidate",
+      "h:angerpoint"
+    ],
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 75,
+      "defence": 150,
+      "special_attack": 75,
+      "special_defence": 150,
+      "speed": 50
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 3,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 290,
+    "experienceGroup": "slow",
+    "catchRate": 3,
+    "eggCycles": 80,
+    "baseFriendship": 35,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 1.65,
+      "height": 2.7,
+      "fixed": false
+    },
+    "behaviour": {
+        "moving": {
+        "walk": {
+          "walkSpeed": 0.2
+        }
+      }
+    },
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:leather"
+        }
+      ]
+    },
+    "moves": [
+    "1:dizzypunch",
+    "1:confuseray",
+    "1:foresight",
+    "1:pound",
+    "6:payback",
+    "12:facade",
+    "18:stomp",
+    "24:protect",
+    "30:hornattack",
+    "36:megapunch",
+    "42:bodypress",
+    "48:wideguard",
+    "54:zenheadbutt",
+    "60:heavyslam",
+    "66:thrash",
+    "72:gigaimpact",
+    "78:doubleedge",
+    "tm:ancientpower",
+    "tm:avalanche",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:confuseray",
+    "tm:darkestlariat",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:powershift",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:zenheadbutt"
+    ],
+    "evolutions": []
+  }
+  

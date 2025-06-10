@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#P#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:fairy_gem"
+        },
+        "P": {
+            "item": "cobblemon:upgrade"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:fairymemory",
+        "count": 1
+    }
+}

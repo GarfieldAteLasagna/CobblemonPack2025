@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:carbink",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["emerald"],
+      "poser": "cobblemon:carbink",
+      "model": "cobblemon:carbink_emerald.geo",
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_emerald.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_emerald_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["emerald", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_emerald_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_emerald_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

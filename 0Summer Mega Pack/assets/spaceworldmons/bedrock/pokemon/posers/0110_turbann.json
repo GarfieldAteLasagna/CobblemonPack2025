@@ -1,0 +1,56 @@
+{
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [0.1, -0.5, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.2, 0],
+  "animations": {
+	"cry": "q.bedrock_stateful('turbann-spaceworldmons', 'ground_idle')",
+	"faint": "q.bedrock_stateful('turbann-spaceworldmons', 'ground_idle')"
+  },
+  "poses": {
+    "battle-idle": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "transformedParts": [],
+      "animations": ["bedrock(turbann-spaceworldmons, ground_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('turbann-spaceworldmons', 'blink')"
+      ]
+    },
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(turbann-spaceworldmons, ground_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('turbann-spaceworldmons', 'blink')"
+      ]
+  },
+    "walking": {
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(turbann-spaceworldmons, ground_walk)"],
+	  "quirks": [
+		"q.bedrock_quirk('turbann-spaceworldmons', 'blink')"
+      ]
+    },
+    "floating": {
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": ["look", "bedrock(turbann-spaceworldmons, water_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('turbann-spaceworldmons', 'blink')"
+      ]
+    },
+    "swimming": {
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": ["look", "bedrock(turbann-spaceworldmons, water_swim)"],
+	  "quirks": [
+		"q.bedrock_quirk('turbann-spaceworldmons', 'blink')"
+      ]
+ 	}
+  }
+}

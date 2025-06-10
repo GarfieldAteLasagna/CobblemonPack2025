@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:salamence",
+  "evolutions": [
+    {
+      "id": "salamence_cafe_salamence",
+      "variant": "item_interact",
+      "result": "cafe_salamence",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:lime_wool"
+    }
+  ]
+}

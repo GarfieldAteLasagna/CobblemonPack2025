@@ -1,0 +1,23 @@
+{
+  "portraitScale": 1.35,
+  "portraitTranslation": [-0.11, 1.7, 0],
+  "profileScale": 0.56,
+  "profileTranslation": [-0.15, 1.15, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('phantasmare', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('phantasmare', 'cry')",
+    "recoil": "q.bedrock_stateful('phantasmare', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('phantasmare', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('phantasmare', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": ["q.bedrock('phantasmare', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('phantasmare', 'blink')"]
+    }
+  }
+}

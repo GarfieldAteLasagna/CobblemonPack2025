@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "netherbink-1",
+          "pokemon": "netherbink",
+          "presets": [
+              "natural"
+          ],
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "30-60",
+          "weight": 100.0,
+          "condition": {
+              "biomes": [
+                  "#cobblemon:is_nether"
+              ],
+              "neededNearbyBlocks": [
+                  "#minecraft:nether_gold_ore",
+                  "#minecraft:gilded_blackstone"
+              ]
+              
+          }
+      }
+             ]
+ }

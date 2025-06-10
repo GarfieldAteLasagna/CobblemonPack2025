@@ -1,0 +1,91 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "alloette-1",
+            "pokemon": "alloette",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-45",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cauldron",
+                    "minecraft:iron_bars"
+                ]
+            }
+        },
+        {
+            "id": "alloette-2",
+            "pokemon": "alloette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-45",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "minecraft:pillager_outpost"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:dark_oak_fence"
+                ]
+            }
+        },
+        {
+            "id": "alloette-3",
+            "pokemon": "alloette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-45",
+            "weight": 25.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:meadow"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:jukebox",
+                    "minecraft:note_block"
+                ]
+            }
+        },
+        {
+            "id": "alloette-4",
+            "pokemon": "alloette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:meadow"
+                ]
+            }
+        }
+    ]
+}

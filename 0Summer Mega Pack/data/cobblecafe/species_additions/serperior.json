@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:serperior",
+  "evolutions": [
+    {
+      "id": "serperior_cafe_serperior",
+      "variant": "item_interact",
+      "result": "cafe_serperior",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:lime_wool"
+    }
+  ]
+}

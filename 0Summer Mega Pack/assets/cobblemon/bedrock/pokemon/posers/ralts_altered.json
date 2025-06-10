@@ -1,0 +1,86 @@
+{
+ "head": "head",
+ "portraitScale": 2.6,
+ "portraitTranslation": [ -0.1, -1.1, 0],
+ "profileScale": 0.8,
+ "profileTranslation": [ 0, 0.6, 0 ],
+ "animations": {
+   "cry": "q.bedrock_stateful('ralts_altered', 'cry')"
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "isBattle": false,
+     "poseTypes": [ "STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "animations": ["look", "bedrock(ralts_altered, ground_idle)"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(ralts_altered, blink)"]
+       },
+       {
+         "name": "idlequirk",
+         "animations": ["bedrock(ralts_altered, quirk_idle)"]
+       }
+     ]
+   },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "transformTicks": 10,
+     "animations": ["look", "bedrock(ralts_altered, battle_idle)"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(ralts_altered, blink)"]
+       },
+       {
+         "name": "battlequirk",
+         "animations": ["bedrock(ralts_altered, quirk_battle_idle)"]
+       }
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(ralts_altered, ground_walk)" ]
+   },
+   "sleep": {
+     "poseName": "sleep",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(ralts_altered, sleep)" ]
+   },
+   "leftshoulder": {
+     "poseName": "leftshoulder",
+     "transformTicks": 10,
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": ["bedrock(ralts_altered, shoulder_left)", "look"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(ralts_altered, blink)"
+         ]
+       }
+     ]
+   },
+   "rightshoulder": {
+     "poseName": "rightshoulder",
+     "transformTicks": 10,
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": ["bedrock(ralts_altered, shoulder_right)", "look"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(ralts_altered, blink)"
+         ]
+       }
+     ]
+   }
+
+ }
+}

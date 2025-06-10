@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:fennekin",
+  "evolutions": [
+    {
+      "id": "fennekin_cafe_fennekin",
+      "variant": "item_interact",
+      "result": "cafe_fennekin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:white_wool"
+    }
+  ]
+}

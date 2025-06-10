@@ -1,0 +1,15 @@
+{
+  "type": "choice",
+  "keys": [
+    "region_bias"
+  ],
+  "default": "none",
+  "choices": [
+    "alola",
+    "galar",
+    "hisui",
+    "ultraspace"
+  ],
+  "isAspect": true,
+  "aspectFormat": "region-bias-{{choice}}"
+}

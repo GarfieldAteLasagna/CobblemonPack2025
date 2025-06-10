@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beryllius",
+  "speciesId": "cobblemon:beryllius",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

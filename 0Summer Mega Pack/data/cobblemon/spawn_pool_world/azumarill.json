@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "azumarill-1",
+            "pokemon": "azumarill",
+            "presets": [
+                "freshwater",
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "20-56",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "azumarill-2",
+            "pokemon": "azumarill",
+            "presets": [
+                "freshwater"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "20-56",
+            "weight": 0.5
+        }
+    ]
+ }

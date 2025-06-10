@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:eevee",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [ "regional" ],
+      "poser": "cobblemon:regional_eevee",
+      "model": "cobblemon:regional_eevee.geo",
+      "texture": "cobblemon:textures/pokemon/0133_eevee/regional_eevee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+		"regional",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0133_eevee/regional_eevee_shiny.png"
+    }
+  ]
+}

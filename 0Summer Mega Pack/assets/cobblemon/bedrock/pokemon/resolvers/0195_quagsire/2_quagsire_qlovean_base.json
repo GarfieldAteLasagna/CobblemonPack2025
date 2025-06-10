@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:quagsire",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:quagsire",
+      "model": "cobblemon:quagsire_qlovean.geo",
+      "texture": "cobblemon:textures/pokemon/0195_quagsire/quagsire_qlovean.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0195_quagsire/quagsire_qlovean_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["qlovean", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0195_quagsire/quagsire_qlovean_shiny.png",
+	  "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0195_quagsire/quagsire_qlovean_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

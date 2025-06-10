@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "cobblemon:iron_ball"
+    },
+    "base": {
+        "item": "minecraft:string"
+    },
+    "addition": {
+        "item": "cobblemon:hard_stone"
+    },
+    "result": {
+        "id": "mega_showdown:lagging_tail"
+    }
+}

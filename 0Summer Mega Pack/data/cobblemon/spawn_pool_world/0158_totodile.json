@@ -1,0 +1,25 @@
+
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "totodile-ultravariant-1",
+            "pokemon": "totodile ultravariant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-25",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        }
+    ]
+ }

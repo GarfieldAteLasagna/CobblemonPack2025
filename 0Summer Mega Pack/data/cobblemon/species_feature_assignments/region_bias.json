@@ -1,0 +1,24 @@
+{
+  "pokemon": [
+    "pikachu",
+    "exeggcute",
+    "cubone",
+    "koffing",
+    "cyndaquil",
+    "quilava",
+    "pichu",
+    "mimejr",
+    "oshawott",
+    "dewott",
+    "petilil",
+    "rufflet",
+    "goomy",
+    "bergmite",
+    "rowlet",
+    "dartrix",
+    "wimpod"
+  ],
+  "features": [
+    "region_bias"
+  ]
+}

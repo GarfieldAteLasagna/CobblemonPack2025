@@ -1,0 +1,51 @@
+{
+  "species": "cobblemon:kirlia",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["altered"],
+      "poser": "cobblemon:kirlia_altered",
+      "model": "cobblemon:kirlia_altered.geo",
+      "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered"],
+      "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered", "gamma-true"],
+      "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered_gamma_emissive.png",
+              "translucent": true
+        },
+        {
+              "name": "gammawisp",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_altered_gammawisp.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+
+}

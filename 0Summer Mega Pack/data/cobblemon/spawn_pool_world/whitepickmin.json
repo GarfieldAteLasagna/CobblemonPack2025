@@ -1,0 +1,65 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "whitepickmin-1",
+     "pokemon": "whitepickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "ultra-rare",
+     "level": "22-86",
+     "weight": 2.5,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest", "#cobblemon:is_plains" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "whitepickmin-2",
+     "pokemon": "whitepickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "1-22",
+     "weight": 6.5,
+     "condition": {
+       "biomes": [ "minecraft:flower_forest", "minecraft:meadow", "minecraft:sunflower_plains", "minecraft:lush_caves" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "whitepickmin-3",
+     "pokemon": "whitepickmin",
+     "presets": [ "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "common",
+     "level": "1-22",
+     "weight": 4.5,
+     "condition": {
+       "biomes": [ "#minecraft:dark_forest", "minecraft:mangrove_swamp"],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "whitepickmin-4",
+     "pokemon": "whitepickmin",
+     "presets": [ "mansion" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "22-86",
+     "weight": 5,
+     "condition": {
+       "structures": [ "minecraft:woodland_mansion" ]
+     }
+   }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+    
+    "target": "cobblemon:nickit",
+    "features": ["jetian"],
+    "forms": [
+{
+  "implemented": true,
+  "nationalPokedexNumber": 827,
+  "name": "Jetian",
+  "primaryType": "ice",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "height": 6,
+  "weight": 89,
+  "pokedex": [
+    "cobblemon.species.nickit_jetian.desc"
+  ],
+  "labels": [
+    "gen8",
+    "jetian"
+  ],
+  "aspects": ["jetian"],
+  "abilities": [
+    "runaway",
+    "unburden",
+    "h:magician"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 28,
+    "defence": 28,
+    "special_attack": 47,
+    "special_defence": 52,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 49,
+  "experienceGroup": "fast",
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4"
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:diamond",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:headbutt",
+    "1:astonish",
+    "5:leer",
+    "10:doubleteam",
+    "15:iceshard",
+    "20:protect",
+    "25:icywind",
+    "30:frostbreath",
+    "35:bite",
+    "40:icefang",
+    "45:snowscape",
+    "50:weatherball",
+    "55:crunch",
+    "60:blizzard",
+    "egg:bide",
+    "egg:block",
+    "egg:disable",
+    "egg:iciclecrash",
+    "egg:rollout",
+    "egg:switcheroo",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:frostbreath",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:spite",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:block",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:waterpulse"
+  ],
+  "evolutions": [
+    {
+      "id": "nickit_thievul_jetian",
+      "variant": "level_up",
+      "result": "thievul jetian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "thief"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ]}]}

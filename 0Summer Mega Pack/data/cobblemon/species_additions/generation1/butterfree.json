@@ -1,0 +1,22 @@
+{
+    "target": "cobblemon:butterfree",
+    "forms": [
+        {
+      "name": "Gmax",
+	  "baseScale": 1.5,
+      "pokedex": [
+        "cobblemon.species.butterfree-gmax.desc"
+      ],
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "aspects": [
+        "gmax"
+      ],
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+    ]
+}

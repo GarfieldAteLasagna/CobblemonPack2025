@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:phantasmare",
+  "speciesId": "cobblemon:phantasmare",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

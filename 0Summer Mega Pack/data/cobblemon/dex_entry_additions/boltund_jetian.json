@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:boltund",
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": ["Jetian"]
+      }
+    ]
+  }

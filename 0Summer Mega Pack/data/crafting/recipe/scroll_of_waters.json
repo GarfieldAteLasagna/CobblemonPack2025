@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "#PC",
+        " D "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:water_gem"
+        },
+        "P": {
+            "item": "minecraft:writable_book"
+        },
+        "A": {
+            "item": "minecraft:blue_dye"
+        },
+        "C": {
+            "item": "cobblemon:fighting_gem"
+        },
+        "D": {
+            "item": "cobblemon:expert_belt"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:scroll_of_waters",
+        "count": 1
+    }
+}

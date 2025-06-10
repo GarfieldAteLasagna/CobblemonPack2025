@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:feebas",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:feebas",
+        "model": "cobblemon:feebas_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0349_feebas/feebas_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0349_feebas/feebas_jetian_shiny.png"
+      }
+    ]
+  }

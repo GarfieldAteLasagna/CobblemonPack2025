@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:cherrim_jetian",
+    "speciesId": "cobblemon:cherrim",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

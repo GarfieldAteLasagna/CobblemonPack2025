@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:regifurr",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:mamoswine",
+        "model": "cobblemon:regifurr.geo",
+        "texture": "cobblemon:textures/pokemon/regifurr/regifurr.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/regifurr/regifurr_shiny.png",
+        "layers": []
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+{
+  "id": "cobblemon:papersol",
+  "speciesId": "cobblemon:papersol",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Yellow",
+      "unlockForms": [
+        "Yellow"
+      ]
+    },
+    {
+      "displayForm": "Light_Blue",
+      "unlockForms": [
+        "Light_Blue"
+      ]
+    },
+    {
+      "displayForm": "Blue",
+      "unlockForms": [
+        "Blue"
+      ]
+    },
+    {
+      "displayForm": "Pink",
+      "unlockForms": [
+        "Pink"
+      ]
+    },
+    {
+      "displayForm": "Green",
+      "unlockForms": [
+        "Green"
+      ]
+    }
+  ],
+  "variations": []
+}

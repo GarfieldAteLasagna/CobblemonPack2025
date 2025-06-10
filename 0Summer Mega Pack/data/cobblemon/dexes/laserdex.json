@@ -1,0 +1,33 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:custom",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:tuligant",
+    "cobblemon:pillowisp",
+    "cobblemon:dreaneuma",
+    "cobblemon:phantasmare",
+    "cobblemon:slugrit",
+    "cobblemon:dunecargo",
+    "cobblemon:papersol",
+    "cobblemon:umbrelligant",
+    "cobblemon:pumpkaboom",
+    "cobblemon:gourgrenade",
+    "cobblemon:norstar",
+    "cobblemon:starstellation",
+    "cobblemon:hattrix",
+    "cobblemon:hattertainer",
+    "cobblemon:nosepyre",
+    "cobblemon:gildenose",
+    "cobblemon:noseferatu",
+    "cobblemon:djinnferno",
+    "cobblemon:regisculk",
+    "cobblemon:clarissie",
+    "cobblemon:beryllius",
+    "cobblemon:echolyte",
+    "cobblemon:alloette",
+    "cobblemon:tanglare",
+    "cobblemon:clawviathan",
+    "cobblemon:spiritube"
+  ]
+}

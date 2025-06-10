@@ -1,0 +1,636 @@
+{
+  "implemented": true,
+  "name": "Turtwig",
+  "nationalPokedexNumber": 387,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:shellarmor"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 68,
+    "defence": 64,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 31
+  },
+  "features": [
+    "ultravariant",
+    "shining"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "fly": {
+        "canFly": false
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": true,
+  "forms": [
+    {
+      "name": "ultravariant",
+      "primaryType": "flying",
+      "secondaryType": "dragon",
+      "abilities": [
+        "weakarmor",
+        "h:cloudnine"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:dragon_scale",
+            "percentage": 25.0
+          },
+          {
+            "item": "minecraft:wind_charge",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 40,
+        "defence": 64,
+        "special_attack": 50,
+        "special_defence": 65,
+        "speed": 54
+      },
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "shoulderMountable": true,
+      "baseExperienceYield": 64,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "dragon"
+      ],
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.45
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "depth": "normal",
+          "light": "0-4"
+        }
+      },
+      "moves": [
+        "1:tackle",
+        "5:withdraw",
+        "9:gust",
+        "13:twister",
+        "17:curse",
+        "21:bite",
+        "25:aerialace",
+        "29:dragondance",
+        "33:tailwind",
+        "37:crunch",
+        "41:airslash",
+        "45:outrage",
+        "egg:amnesia",
+        "egg:bodyslam",
+        "egg:doubleedge",
+        "egg:earthpower",
+        "egg:grassyterrain",
+        "egg:growth",
+        "egg:heavyslam",
+        "egg:sandtomb",
+        "egg:seedbomb",
+        "egg:shellsmash",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:superpower",
+        "egg:swallow",
+        "egg:thrash",
+        "egg:tickle",
+        "egg:wideguard",
+        "egg:worryseed",
+        "tm:amnesia",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:confide",
+        "tm:crunch",
+        "tm:curse",
+        "tm:cut",
+        "tm:doubleedge",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grasspledge",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:heavyslam",
+        "tm:hiddenpower",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:leafstorm",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:roar",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sandtomb",
+        "tm:secretpower",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:solarbeam",
+        "tm:stealthrock",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:toxic",
+        "tm:trailblaze",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tutor:absorb",
+        "tutor:earthpower",
+        "tutor:gigadrain",
+        "tutor:grasspledge",
+        "tutor:headbutt",
+        "tutor:irontail",
+        "tutor:mudslap",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:stealthrock",
+        "tutor:stockpile",
+        "tutor:superpower",
+        "tutor:synthesis",
+        "tutor:withdraw",
+        "tutor:worryseed"
+      ],
+      "labels": [
+        "gen4",
+        "ultravariant_regional"
+      ],
+      "pokedex": [
+        
+      ],
+       "evolutions": [
+        {
+          "id": "turtwig_grotle_ultravariant",
+          "variant": "level_up",
+          "result": "grotle ultravariant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 18
+            }
+          ]
+        }
+      ],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 0.75,
+        "height": 1,
+        "fixed": false},
+      "aspects": [
+        "ultravariant"
+      ],
+      "height": 6,
+      "weight": 295,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "ultravariant",
+      "primaryType": "flying",
+      "secondaryType": "dragon",
+      "abilities": [
+        "weakarmor",
+        "h:cloudnine"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:dragon_scale",
+            "percentage": 25.0
+          },
+          {
+            "item": "minecraft:wind_charge",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 40,
+        "defence": 64,
+        "special_attack": 50,
+        "special_defence": 65,
+        "speed": 54
+      },
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "shoulderMountable": true,
+      "baseExperienceYield": 64,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "dragon"
+      ],
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.45
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "depth": "normal",
+          "light": "0-4"
+        }
+      },
+      "moves": [
+        "1:tackle",
+        "5:withdraw",
+        "9:gust",
+        "13:twister",
+        "17:curse",
+        "21:bite",
+        "25:aerialace",
+        "29:dragondance",
+        "33:tailwind",
+        "37:crunch",
+        "41:airslash",
+        "45:outrage",
+        "egg:amnesia",
+        "egg:bodyslam",
+        "egg:doubleedge",
+        "egg:earthpower",
+        "egg:grassyterrain",
+        "egg:growth",
+        "egg:heavyslam",
+        "egg:sandtomb",
+        "egg:seedbomb",
+        "egg:shellsmash",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:superpower",
+        "egg:swallow",
+        "egg:thrash",
+        "egg:tickle",
+        "egg:wideguard",
+        "egg:worryseed",
+        "tm:amnesia",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:confide",
+        "tm:crunch",
+        "tm:curse",
+        "tm:cut",
+        "tm:doubleedge",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grasspledge",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:heavyslam",
+        "tm:hiddenpower",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:leafstorm",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:roar",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sandtomb",
+        "tm:secretpower",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:solarbeam",
+        "tm:stealthrock",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:toxic",
+        "tm:trailblaze",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tutor:absorb",
+        "tutor:earthpower",
+        "tutor:gigadrain",
+        "tutor:grasspledge",
+        "tutor:headbutt",
+        "tutor:irontail",
+        "tutor:mudslap",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:stealthrock",
+        "tutor:stockpile",
+        "tutor:superpower",
+        "tutor:synthesis",
+        "tutor:withdraw",
+        "tutor:worryseed"
+      ],
+      "labels": [
+        "gen4",
+        "ultravariant_regional"
+      ],
+      "pokedex": [
+        
+      ],
+       "evolutions": [
+        {
+          "id": "turtwig_grotle_ultravariant",
+          "variant": "level_up",
+          "result": "grotle ultravariant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 18
+            }
+          ]
+        },
+        {
+        "id": "turtwig_turtwig_ultravariant-shining",
+        "variant": "level_up",
+        "result": "turtwig ultravariant shining",
+        "consumeHeldItem": true,
+        "learnableMoves": [],
+        "requirements": [
+          {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:shiny_stone_block"
+          }
+        ]
+        }
+      ],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 0.75,
+        "height": 1,
+        "fixed": false},
+      "aspects": [
+        "ultravariant",
+        "shiny"
+      ],
+      "height": 6,
+      "weight": 295,
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "moves": [
+    "1:tackle",
+    "5:withdraw",
+    "9:absorb",
+    "13:razorleaf",
+    "17:curse",
+    "21:bite",
+    "25:megadrain",
+    "29:leechseed",
+    "33:synthesis",
+    "37:crunch",
+    "41:gigadrain",
+    "45:leafstorm",
+    "egg:amnesia",
+    "egg:bodyslam",
+    "egg:doubleedge",
+    "egg:earthpower",
+    "egg:grassyterrain",
+    "egg:growth",
+    "egg:heavyslam",
+    "egg:sandtomb",
+    "egg:seedbomb",
+    "egg:shellsmash",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:superpower",
+    "egg:swallow",
+    "egg:thrash",
+    "egg:tickle",
+    "egg:wideguard",
+    "egg:worryseed",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:captivate",
+    "tm:confide",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:heavyslam",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sandtomb",
+    "tm:secretpower",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:absorb",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:headbutt",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:stockpile",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:withdraw",
+    "tutor:worryseed"
+  ],
+  "labels": [
+    "gen4"
+  ],
+  "pokedex": [
+    "cobblemon.species.turtwig.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "turtwig_grotle",
+      "variant": "level_up",
+      "result": "grotle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.75,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 102,
+  "aspects": [],
+  "cannotDynamax": false
+}

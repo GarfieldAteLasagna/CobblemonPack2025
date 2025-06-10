@@ -1,0 +1,56 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.9, -1.0, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.1, 0.75, 0],
+  "rootBone": "falinks",
+  "animations": {
+    "faint": "q.bedrock_stateful('falinks_last_soldier', 'faint')",
+    "cry": "q.bedrock_stateful('falinks_last_soldier', 'cry')",
+    "status": "q.bedrock_primary('falinks_last_soldier', 'cry')",
+    "physical": "q.bedrock_primary('falinks_last_soldier', 'physical_attack')"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('falinks_last_soldier', 'summary_idle')"],
+      "quirks": [
+          "q.bedrock_quirk('falinks_last_soldier', 'blink')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink2')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink3')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink4')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink5')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink6')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('falinks_last_soldier', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('falinks_last_soldier', 'blink')"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('falinks_last_soldier', 'battle_idle')"],
+      "quirks": [
+          "q.bedrock_quirk('falinks_last_soldier', 'blink')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink2')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink3')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink4')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink5')",
+          "q.bedrock_quirk('falinks_last_soldier', 'blink6')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.bedrock('falinks_last_soldier', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('falinks_last_soldier', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('falinks_last_soldier', 'sleep')"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:purplepickmin",
+  "speciesId": "cobblemon:purplepickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

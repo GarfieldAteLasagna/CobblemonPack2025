@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-yanma-1",
+            "pokemon": "yanma",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "16-35",
+            "weight": 8.3,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:trevenant",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["pale"],
+      "poser": "cobblemon:trevenant_pale",
+      "model": "cobblemon:trevenant_pale.geo",
+      "texture": "cobblemon:textures/pokemon/0709_trevenant/trevenant_pale.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0709_trevenant/trevenant_pale_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["pale","shiny"],
+      "texture": "cobblemon:textures/pokemon/0709_trevenant/trevenant_pale_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0709_trevenant/trevenant_pale_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

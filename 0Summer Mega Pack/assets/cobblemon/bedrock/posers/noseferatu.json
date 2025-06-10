@@ -1,0 +1,28 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [-0.4, 3.5, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.5, 0],
+  "rootBone": "noseferatu",
+  "animations": {
+    "faint": "q.bedrock_primary('noseferatu', 'faint')",
+    "cry": "q.bedrock_stateful('noseferatu', 'cry')",
+    "status": "q.bedrock_primary('noseferatu', 'cry')",
+    "physical": "q.bedrock_primary('noseferatu', 'cry')",
+    "special": "q.bedrock_primary('noseferatu', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('noseferatu', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": ["q.bedrock('noseferatu', 'ground_walk')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('noseferatu', 'sleep')"]
+    }
+  }
+}

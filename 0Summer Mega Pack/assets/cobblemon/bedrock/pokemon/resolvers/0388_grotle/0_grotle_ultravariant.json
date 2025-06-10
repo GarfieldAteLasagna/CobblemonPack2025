@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:grotle",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:grotle_ultravariant",
+      "model": "cobblemon:grotle_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0388_grotle/grotle_ultravariant.png"
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0388_grotle/grotle_ultravariant_shiny.png"
+    },
+    {
+      "aspects": ["ultravariant", "shining"],
+      "texture": "cobblemon:textures/pokemon/0388_grotle/grotle_ultravariant_shining.png"
+    }
+  ]
+}

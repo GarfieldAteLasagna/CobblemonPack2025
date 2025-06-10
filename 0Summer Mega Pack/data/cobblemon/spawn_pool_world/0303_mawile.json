@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-mawile-1",
+            "pokemon": "mawile",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "26-51",
+            "weight": 4.76,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands"
+                ]
+            }
+        },
+        {
+            "id": "deeper-mawile-1",
+            "pokemon": "mawile",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-51",
+            "weight": 3.65,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

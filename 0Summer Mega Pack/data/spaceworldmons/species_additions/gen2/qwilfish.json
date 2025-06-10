@@ -1,0 +1,15 @@
+{
+    "target": "cobblemon:qwilfish",
+    "evolutions": [{
+            "id": "qwilfish_shibirefugu-spaceworldmons",
+            "variant": "level_up",
+            "result": "shibirefugu spaceworldmons",
+            "consumeHeldItem": false,
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 18
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:incineroar",
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": ["Royal Mask"]
+    }
+  ]
+}

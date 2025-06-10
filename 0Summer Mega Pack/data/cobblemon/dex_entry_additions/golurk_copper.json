@@ -1,0 +1,21 @@
+{
+  "entryId": "cobblemon:golurk",
+  "forms": [
+    {
+      "displayForm": "Copper",
+      "unlockForms": ["Copper"]
+    },
+    {
+      "displayForm": "Exposed-Copper",
+      "unlockForms": ["Exposed-Copper"]
+    },
+    {
+      "displayForm": "Weathered-Copper",
+      "unlockForms": ["Weathered-Copper"]
+    },
+    {
+      "displayForm": "Oxidized-Copper",
+      "unlockForms": ["Oxidized-Copper"]
+    }
+  ]
+}

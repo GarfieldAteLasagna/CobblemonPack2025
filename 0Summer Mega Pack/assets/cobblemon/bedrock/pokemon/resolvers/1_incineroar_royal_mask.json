@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:incineroar",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["royal_mask"],
+      "poser": "cobblemon:royal_mask_incineroar",
+      "model": "cobblemon:royal_mask_incineroar.geo",
+      "texture": "cobblemon:textures/pokemon/royal_mask_incineroar/royal_mask_incineroar.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "royal_mask"],
+      "texture": "cobblemon:textures/pokemon/royal_mask_incineroar/royal_mask_incineroar_shiny.png"
+    }
+  ]
+}

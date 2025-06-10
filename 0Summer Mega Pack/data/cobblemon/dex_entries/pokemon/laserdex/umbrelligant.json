@@ -1,0 +1,45 @@
+{
+  "id": "cobblemon:umbrelligant",
+  "speciesId": "cobblemon:umbrelligant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Yellow",
+      "unlockForms": [
+        "Yellow"
+      ]
+    },
+    {
+      "displayForm": "Light_Blue",
+      "unlockForms": [
+        "Light_Blue"
+      ]
+    },
+    {
+      "displayForm": "Blue",
+      "unlockForms": [
+        "Blue"
+      ]
+    },
+    {
+      "displayForm": "Pink",
+      "unlockForms": [
+        "Pink"
+      ]
+    },
+    {
+      "displayForm": "Green",
+      "unlockForms": [
+        "Green"
+      ]
+    }
+  ],
+  "variations": []
+}

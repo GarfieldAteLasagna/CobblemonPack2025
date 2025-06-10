@@ -1,0 +1,10 @@
+{
+  "entryId": "cobblemon:carbink",
+  "forms": [
+    {
+      "displayForm": "dibink",
+      "unlockForms": ["dibink"]
+    }
+  ],
+  "variations": []
+}

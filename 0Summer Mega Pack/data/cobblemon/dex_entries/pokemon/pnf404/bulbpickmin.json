@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:bulbpickmin",
+  "speciesId": "cobblemon:bulbpickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

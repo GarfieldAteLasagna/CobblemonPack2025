@@ -1,0 +1,17 @@
+{
+  "type": "integer",
+  "keys": ["enchanted_golden_apple"],
+  "default": 0,
+  "min": 0,
+  "max": 1,
+  "visible": true,
+  "display": {
+    "name": "cobblemon.ui.stash.enchanted_golden_apple",
+    "colour": [236, 203, 69],
+    "underlay": "cobblemon:textures/gui/summary/summary_stats_other_bar.png",
+    "overlay": "cobblemon:textures/gui/summary/summary_stats_apple_overlay.png"
+  },
+  "itemPoints": {
+    "minecraft:enchanted_golden_apple": 1
+  }
+}

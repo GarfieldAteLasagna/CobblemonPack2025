@@ -1,0 +1,92 @@
+{
+    "portraitScale": 1.9,
+    "portraitTranslation": [-0.26, -0.42, 0],
+    "profileScale": 0.75,
+    "profileTranslation": [0, 0.6, 0],
+    "animations": {
+      "cry": "q.bedrock_stateful('marill', 'cry')",
+      "recoil": "q.bedrock_stateful('marill', 'recoil')",
+      "status": "q.bedrock_stateful('marill', 'cry', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isTouchingWater": false,
+        "animations": [
+          "q.look('head_ai', 1, 1, 10, -10, 45, -45)",
+          "q.bedrock('marill', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('marill', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "isTouchingWater": false,
+        "animations": [
+          "q.bedrock('marill', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('marill', 'blink')"]
+      },
+      "float": {
+        "poseTypes": ["FLOAT"],
+        "animations": [
+          "q.look('head_ai', 1, 1, 10, -10, 45, -45)",
+          "q.bedrock('marill', 'water_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('marill', 'blink')"]
+      },
+      "swim": {
+        "poseTypes": ["SWIM"],
+        "animations": [
+          "q.bedrock('marill', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('marill', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "isTouchingWater": false,
+        "animations": ["q.bedrock('marill', 'sleep')"],
+        "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+        }
+      },
+      "water_sleep": {
+        "poseTypes": ["SLEEP"],
+        "isTouchingWater": true,
+        "animations": ["q.bedrock('marill', 'water_sleep')"],
+        "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+        }
+      },
+      "surface_idle": {
+        "poseTypes": ["STAND", "FLOAT"],
+        "isTouchingWater": true,
+        "animations": [
+          "q.look('head_ai', 1, 1, 10, -10, 45, -45)",
+          "q.bedrock('marill', 'water_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('marill', 'blink')"],
+        "transformedParts": [
+          {
+            "part": "body",
+            "position": [0, 1, 0]
+          }
+        ]
+      },
+      "surface_swim": {
+        "poseTypes": ["WALK", "SWIM"],
+        "isTouchingWater": true,
+        "animations": [
+          "q.bedrock('marill', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('marill', 'blink')"],
+        "transformedParts": [
+          {
+            "part": "body",
+            "position": [0, 1, 0]
+          }
+        ]
+      }
+    }
+   }

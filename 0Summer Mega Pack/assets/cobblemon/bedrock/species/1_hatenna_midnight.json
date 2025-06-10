@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:hatenna",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["midnight"],
+      "poser": "cobblemon:hatenna_midnight",
+      "model": "cobblemon:hatenna_midnight.geo",
+      "texture": "cobblemon:textures/pokemon/0856_hatenna/hatenna_midnight.png",
+      "layers": []
+    },
+    {
+      "aspects": ["midnight","shiny"],
+      "texture": "cobblemon:textures/pokemon/0856_hatenna/hatenna_midnight_shiny.png"
+    }
+  ]
+}

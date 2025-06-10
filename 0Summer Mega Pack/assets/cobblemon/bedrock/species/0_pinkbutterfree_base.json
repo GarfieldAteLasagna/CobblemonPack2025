@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pinkbutterfree",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pinkbutterfree",
+      "model": "cobblemon:pinkbutterfree.geo",
+      "texture": "cobblemon:textures/pokemon/pinkbutterfree/pinkbutterfree.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pinkbutterfree/pinkbutterfree_shiny.png"
+    }
+  ]
+}

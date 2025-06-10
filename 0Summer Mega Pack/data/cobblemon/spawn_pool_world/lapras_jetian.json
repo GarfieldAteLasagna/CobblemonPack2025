@@ -1,0 +1,176 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lapras-jetian-1",
+            "pokemon": "lapras jetian",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "29-54",
+            "weight": 2.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "lapras-jetian-2",
+            "pokemon": "lapras jetian",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "29-54",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "lapras-jetian-3",
+            "pokemon": "lapras jetian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "29-54",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "lapras-jetian-4",
+            "pokemon": "lapras jetian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "29-54",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "lapras-jetian-5",
+            "pokemon": "lapras jetian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "29-54",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "lapras-jetian-6",
+            "pokemon": "lapras jetian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "29-54",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "lapras-jetian-7",
+            "pokemon": "lapras jetian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "29-54",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "lapras-jetian-8",
+            "pokemon": "lapras jetian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "29-54",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        }
+    ]
+}

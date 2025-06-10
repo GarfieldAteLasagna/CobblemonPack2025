@@ -1,0 +1,41 @@
+{
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "presets": [
+    "cobblemon:inanimate"
+  ],
+  "config": [
+    {
+      "variableName": "loot_function",
+      "displayName": "Loot Function",
+      "description": "The function the loot will run when claimed",
+      "type": "TEXT",
+      "defaultValue": "cobbledloot:pokeball_loot_give"
+    },
+    {
+      "variableName": "give_loot",
+      "displayName": "Give Loot",
+      "description": "Determines if Loot Ball should give loot",
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    {
+      "variableName": "item_count",
+      "displayName": "Item Stack Size",
+      "description": "The amount of the item that should be granted to the player (If \"Use Loot Table\" is False)",
+      "type": "NUMBER",
+      "defaultValue": "1"
+    }
+  ],
+  "names": [
+    "Poké Ball"
+  ],
+  "interaction": {
+    "type": "custom_script",
+    "script": "q.run_script('cobblemon:grant_loot')"
+  }
+}

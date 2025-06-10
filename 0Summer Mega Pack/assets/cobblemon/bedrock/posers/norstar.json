@@ -1,0 +1,26 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.11, -0.75, 0],
+  "profileScale": 1.15,
+  "profileTranslation": [0, 0.15, 0],
+  "rootBone": "norstar",
+  "animations": {},
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('norstar', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('norstar', 'ground_walk')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": ["q.bedrock('norstar', 'ground_run')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('norstar', 'sleep')"]
+    }
+  }
+}

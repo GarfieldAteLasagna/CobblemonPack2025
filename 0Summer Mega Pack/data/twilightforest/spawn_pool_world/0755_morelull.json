@@ -1,0 +1,57 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "morelull-twilight-1",
+            "pokemon": "morelull",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:underground"
+                ]
+            }
+        },
+        {
+            "id": "morelull-twilight-2",
+            "pokemon": "morelull",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "morelull-twilight-3",
+            "pokemon": "morelull",
+            "presets": [
+                "troll_cave"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        }
+    ]
+}

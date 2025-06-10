@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:braixen",
+  "evolutions": [
+    {
+      "id": "braixen_cafe_braixen",
+      "variant": "item_interact",
+      "result": "cafe_braixen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:white_wool"
+    }
+  ]
+}

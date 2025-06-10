@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:tinkaton",
+  "evolutions": [
+    {
+      "id": "tinkaton_cafe_tinkaton",
+      "variant": "item_interact",
+      "result": "cafe_tinkaton",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:pink_wool"
+    },
+  {
+      "id": "tinkaton_demon_tinkaton",
+      "variant": "item_interact",
+      "result": "demon_tinkaton",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:bamboo"
+    }
+  ]
+}

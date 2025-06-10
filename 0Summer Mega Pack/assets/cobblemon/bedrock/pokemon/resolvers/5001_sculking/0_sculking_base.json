@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:sculking",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:sculking",
+      "model": "cobblemon:sculking.geo",
+      "texture": "cobblemon:textures/pokemon/5001_sculking/sculking.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5001_sculking/sculking_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/5001_sculking/sculking_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5001_sculking/sculking_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shining","shiny"],
+      "texture": "cobblemon:textures/pokemon/5001_sculking/sculking_shining.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5001_sculking/sculking_shining_emissive.png"
+        }
+      ]
+    }
+  ]
+}

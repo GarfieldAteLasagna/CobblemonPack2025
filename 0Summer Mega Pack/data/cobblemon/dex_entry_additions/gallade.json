@@ -1,0 +1,13 @@
+{
+  "entryId": "cobblemon:gallade",
+  "forms": [
+    {
+      "displayForm": "Altered",
+      "unlockForms": ["Altered"]
+    },
+    {
+      "displayForm": "Altered Mega",
+      "unlockForms": ["Altered Mega"]
+    }
+  ]
+}

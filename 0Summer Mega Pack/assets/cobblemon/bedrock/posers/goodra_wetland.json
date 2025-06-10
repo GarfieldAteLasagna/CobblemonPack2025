@@ -1,0 +1,40 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.75, 3, 0],
+  "profileScale": 0.45,
+  "profileTranslation": [0.0, 1.1, 0.0],
+  "rootBone": "goodra",
+  "animations": {
+    "cry": "q.bedrock_stateful('goodra_wetland', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isTouchingWater": false,
+      "isUnderWater": false,
+      "animations": ["q.look('head_ai')","q.bedrock('goodra_wetland', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('goodra_wetland', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "isUnderWater": false,
+      "animations": ["q.look('head')", "q.biped_walk(0.66, 0.6, 'leg_left', 'leg_right')", "q.bimanual_swing(0.66, 0.6, 'arm_left', 'arm_right')", "q.bedrock('goodra_wetland', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('goodra_wetland', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "animations": ["q.look('head_ai')", "q.bedrock('goodra_wetland', 'surfacewater_idle')"],
+      "quirks": ["q.bedrock_quirk('goodra_wetland', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "animations": ["q.look('head_ai')", "q.bedrock('goodra_wetland', 'surfacewater_swim')"],
+      "quirks": ["q.bedrock_quirk('goodra_wetland', 'blink')"]
+    }
+  }
+}

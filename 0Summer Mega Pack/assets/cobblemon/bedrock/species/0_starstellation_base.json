@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:starstellation",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:starstellation",
+      "model": "cobblemon:starstellation.geo",
+      "texture": "cobblemon:textures/pokemon/starstellation/starstellation.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/starstellation/starstellation_gem_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/starstellation/starstellation_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/starstellation/starstellation_gem_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+	"species": "cobblemon:honedge",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["sword-material-normal"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/default/honedge.png"
+		},
+		{
+			"aspects": ["sword-material-diamond"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_diamond.png"
+		},
+		{
+			"aspects": ["sword-material-netherite"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_netherite.png"
+		},
+		{
+			"aspects": ["sword-material-golden"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_golden.png"
+		},
+		{
+			"aspects": ["sword-material-iron"],  
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_iron.png"
+		},
+		{
+			"aspects": ["sword-material-stone"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_stone.png"
+		},
+		{
+			"aspects": ["sword-material-wooden"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_wooden.png"
+		},
+		{
+			"aspects": ["sword-material-emerald"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_emerald.png"
+		},
+		{
+			"aspects": ["sword-material-copper"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_copper.png"
+		},
+		{
+			"aspects": ["sword-material-normal", "shiny"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/default/honedge_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-diamond", "shiny"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_diamond_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-netherite", "shiny"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_netherite_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-golden", "shiny"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_golden_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-iron", "shiny"],  
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_iron_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-stone", "shiny"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_stone_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-wooden", "shiny"],
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_wooden_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-emerald", "shiny"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_emerald_shiny.png"
+		},
+		{
+			"aspects": ["sword-material-copper", "shiny"], 
+			"texture": "cobblemon:textures/pokemon/0679_honedge/honedge_sword/honedge_copper_shiny.png"
+		}
+	]
+}

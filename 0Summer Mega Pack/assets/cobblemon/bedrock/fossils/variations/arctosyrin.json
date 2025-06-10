@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:arctosyrin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:arctosyrin",
+      "model": "cobblemon:arctosyrin_fetus.geo",
+      "texture": "cobblemon:textures/fossils/arctosyrin.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "cobblemon:dawn_stone"
+    },
+    "L": {
+      "item": "cobblemon:metal_coat"
+    },
+    "T": {
+      "item": "minecraft:diamond_block"
+    },
+    "M": {
+      "item": "minecraft:clock"
+    }
+
+  },
+
+  "pattern": [
+    "ILI",
+    "LTL",
+    "IMI"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:adamant_orb"
+  }
+}

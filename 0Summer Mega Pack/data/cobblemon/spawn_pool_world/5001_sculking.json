@@ -1,0 +1,28 @@
+
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sculking-1",
+            "pokemon": "sculking",
+            "presets": [
+                "ancient_city"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "30-70",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        }
+        
+    ]
+ }

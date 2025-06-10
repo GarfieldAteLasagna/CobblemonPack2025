@@ -1,0 +1,100 @@
+{
+  "species": "cobblemon:ecteon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ecteon",
+      "model": "cobblemon:ecteon.geo",
+      "texture": "cobblemon:textures/pokemon/3196_ecteon/ecteon.png",
+      "layers": [
+        {
+          "name": "head_wisp",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp1.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp2.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp3.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp4.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp5.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp6.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp/head_wisp7.png"
+            ],
+            "fps": 10,
+            "loop": true
+          }
+        },
+        {
+          "name": "wisps",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp1.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp2.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp3.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp4.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp5.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp6.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp7.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp8.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp9.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp10.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp11.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp12.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp13.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps/wisp14.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3196_ecteon/ecteon_shiny.png",
+      "layers": [
+        {
+          "name": "head_wisp_shiny",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp1.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp2.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp3.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp4.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp5.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp6.png",
+              "cobblemon:textures/pokemon/3196_ecteon/head_wisp_shiny/head_wisp7.png"
+            ],
+            "fps": 10,
+            "loop": true
+          }
+        },
+        {
+          "name": "wisps_shiny",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp1.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp2.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp3.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp4.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp5.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp6.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp7.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp8.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp9.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp10.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp11.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp12.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp13.png",
+              "cobblemon:textures/pokemon/3196_ecteon/wisps_shiny/wisp14.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

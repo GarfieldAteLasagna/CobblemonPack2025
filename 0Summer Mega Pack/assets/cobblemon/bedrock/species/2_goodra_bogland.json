@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:goodra",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["bogland"],
+      "poser": "cobblemon:goodra_bogland",
+      "model": "cobblemon:goodra_bogland.geo",
+      "texture": "cobblemon:textures/pokemon/0706_goodra/goodra_bogland.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "bogland"],
+      "texture": "cobblemon:textures/pokemon/0706_goodra/goodra_bogland_shiny.png",
+      "layers": []
+    }
+  ]
+}

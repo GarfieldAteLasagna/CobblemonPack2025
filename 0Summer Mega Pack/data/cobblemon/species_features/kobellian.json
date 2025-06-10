@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["kobellian"],
+  "default": "none",
+  "choices": [
+    "lucy",
+    "cyan",
+    "gold",
+    "wild"
+  ],
+  "isAspect": true,
+  "aspectFormat": "kobellian-{{choice}}"
+}

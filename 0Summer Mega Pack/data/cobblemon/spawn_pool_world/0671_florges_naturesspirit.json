@@ -1,0 +1,189 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "florges-pink-naturesspirit",
+            "pokemon": "florges flower=pink",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:bleeding_heart",
+                    "natures_spirit:snapdragon",
+                    "natures_spirit:dwarf_blossoms",
+                    "natures_spirit:protea",
+                    "natures_spirit:lotus_flower",
+                    "natures_spirit:lotus_stem"
+                ]
+            }
+        },
+        {
+            "id": "florges-red-naturesspirit",
+            "pokemon": "florges flower=red",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:carnation",
+                    "natures_spirit:red_heather",
+                    "natures_spirit:hibiscus",
+                    "natures_spirit:ruby_blossoms"
+                ]
+            }
+        },
+        {
+            "id": "florges-orange-naturesspirit",
+            "pokemon": "florges flower=orange",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:begonia",
+                    "natures_spirit:marigold",
+                    "natures_spirit:tiger_lily"
+                ]
+            }
+        },
+        {
+            "id": "florges-yellow-naturesspirit",
+            "pokemon": "florges flower=yellow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:marigold",
+                    "natures_spirit:yellow_wildflower"
+                ]
+            }
+        },
+        {
+            "id": "florges-blue-naturesspirit",
+            "pokemon": "florges flower=blue",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:blue_bulbs",
+                    "natures_spirit:bluebell",
+                    "natures_spirit:blue_iris"
+                ]
+            }
+        },
+        {
+            "id": "florges-white-naturesspirit",
+            "pokemon": "florges flower=white",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "natures_spirit:gardenia",
+                    "natures_spirit:white_heather"
+                ]
+            }
+        }
+    ]
+}

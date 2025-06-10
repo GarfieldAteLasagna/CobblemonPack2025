@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tuligant",
+  "speciesId": "cobblemon:tuligant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

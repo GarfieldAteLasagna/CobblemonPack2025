@@ -1,0 +1,88 @@
+{
+  "species": "cobblemon:papersol",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:papersol",
+      "model": "cobblemon:papersol.geo",
+      "texture": "cobblemon:textures/pokemon/papersol/papersol.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "umbrella-red"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "umbrella-blue"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "umbrella-yellow"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_yellow.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "umbrella-pink"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_pink.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "umbrella-green"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_green.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "umbrella-light_blue"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_light_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/papersol/papersol_shiny.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/papersol/papersol_umbrella_black.png"
+        }
+      ]
+    }
+  ]
+}

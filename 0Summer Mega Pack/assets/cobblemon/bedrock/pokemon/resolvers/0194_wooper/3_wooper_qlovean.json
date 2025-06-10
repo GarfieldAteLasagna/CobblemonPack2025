@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:wooper",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:wooper",
+      "model": "cobblemon:wooper_qlovean.geo",
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_qlovean.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_qlovean_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["qlovean", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_qlovean_shiny.png",
+	  "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0194_wooper/wooper_qlovean_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

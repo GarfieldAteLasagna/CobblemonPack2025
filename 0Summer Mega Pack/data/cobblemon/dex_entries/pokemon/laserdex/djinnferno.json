@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:djinnferno",
+  "speciesId": "cobblemon:djinnferno",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

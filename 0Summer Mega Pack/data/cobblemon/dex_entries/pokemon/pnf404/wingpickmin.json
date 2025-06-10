@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:wingpickmin",
+  "speciesId": "cobblemon:wingpickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

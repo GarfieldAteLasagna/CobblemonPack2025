@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:meganium_jetian",
+    "speciesId": "cobblemon:meganium",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

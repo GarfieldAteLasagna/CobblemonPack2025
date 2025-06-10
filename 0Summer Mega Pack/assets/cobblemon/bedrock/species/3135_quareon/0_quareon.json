@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:quareon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:quareon",
+      "model": "cobblemon:quareon.geo",
+      "texture": "cobblemon:textures/pokemon/3135_quareon/quareon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3135_quareon/quareon_shiny.png"
+    }
+  ]
+}

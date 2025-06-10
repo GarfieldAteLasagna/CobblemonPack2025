@@ -1,0 +1,12 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:cheseia",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:klink-cheseian",
+    "cobblemon:klang-cheseian",
+    "cobblemon:klinklang-cheseian",
+    "cobblemon:rapidash-cheseian",
+    "cobblemon:hunterror"
+  ]
+}

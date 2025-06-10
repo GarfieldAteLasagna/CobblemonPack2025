@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:pumpkaboo_jetian",
+    "speciesId": "cobblemon:pumpkaboo",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

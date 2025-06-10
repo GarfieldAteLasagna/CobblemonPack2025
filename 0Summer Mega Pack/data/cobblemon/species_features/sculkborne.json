@@ -1,0 +1,6 @@
+{
+  "keys": ["sculkborne"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

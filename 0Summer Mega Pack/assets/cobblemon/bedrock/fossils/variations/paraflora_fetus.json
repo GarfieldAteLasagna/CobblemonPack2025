@@ -1,0 +1,14 @@
+{
+    "name": "cobblemon:paraflora_fetus",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:shieldon_fetus",
+        "model": "cobblemon:paraflora_fetus.geo",
+        "texture": "cobblemon:textures/fossils/paraflora.png",
+        "layers": []
+      }
+    ]
+  }
+  

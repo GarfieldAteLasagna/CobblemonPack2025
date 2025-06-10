@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "golbink-1",
+          "pokemon": "golbink",
+          "presets": [
+              "natural"
+          ],
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "30-60",
+          "weight": 100.0,
+          "condition": {
+              "minSkyLight": 0,
+              "maxSkyLight": 7,
+              "biomes": [
+                  "#cobblemon:is_overworld"
+              ],
+              "neededNearbyBlocks": [
+                  "#minecraft:gold_ores"
+              ]
+              
+          }
+      }
+             ]
+ }

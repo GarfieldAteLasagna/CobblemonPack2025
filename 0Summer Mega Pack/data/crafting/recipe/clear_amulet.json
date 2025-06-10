@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "cobblemon:upgrade"
+    },
+    "base": {
+        "item": "cobblemon:covert_cloak"
+    },
+    "addition": {
+        "item": "cobblemon:white_herb"
+    },
+    "result": {
+        "id": "mega_showdown:clear_amulet"
+    }
+}

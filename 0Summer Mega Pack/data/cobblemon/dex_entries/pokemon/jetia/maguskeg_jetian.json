@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:maguskeg_jetian",
+    "speciesId": "cobblemon:maguskeg",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

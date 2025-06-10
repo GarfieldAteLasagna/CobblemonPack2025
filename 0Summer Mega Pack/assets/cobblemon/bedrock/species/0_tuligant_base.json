@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tuligant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lilligant",
+      "model": "cobblemon:tuligant.geo",
+      "texture": "cobblemon:textures/pokemon/tuligant/tuligant.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/tuligant/tuligant_shiny.png"
+    }
+  ]
+}

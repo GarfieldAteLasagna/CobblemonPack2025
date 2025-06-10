@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:floragato",
+  "evolutions": [
+    {
+      "id": "floragato_cafe_floragato",
+      "variant": "item_interact",
+      "result": "cafe_floragato",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:blue_wool"
+    }
+  ]
+}

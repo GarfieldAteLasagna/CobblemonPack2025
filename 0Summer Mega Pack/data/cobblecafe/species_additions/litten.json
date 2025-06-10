@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:litten",
+  "evolutions": [
+    {
+      "id": "litten_cafe_litten",
+      "variant": "item_interact",
+      "result": "cafe_litten",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:purple_wool"
+    }
+  ]
+}

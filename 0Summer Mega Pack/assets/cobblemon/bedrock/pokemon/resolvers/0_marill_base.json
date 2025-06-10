@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:marill",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:marill",
+        "model": "cobblemon:marill.geo",
+        "texture": "cobblemon:textures/pokemon/0183_marill/marill.png",
+        "layers": [
+          {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/0183_marill/marill_emissive.png"
+          }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/0183_marill/marill_shiny.png",
+        "layers": [
+          {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/0183_marill/marill_shiny_emissive.png"
+          }
+        ]
+      }
+    ]
+  }
+  

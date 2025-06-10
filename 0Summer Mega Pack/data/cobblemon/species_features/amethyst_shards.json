@@ -1,0 +1,19 @@
+{
+  "type": "integer",
+  "keys": ["amethyst_shards"],
+  "default": 0,
+  "min": 0,
+  "max": 256,
+  "visible": true,
+  "display": {
+    "name": "cobblemon.ui.stash.amethyst_shards",
+    "colour": [141, 106, 204],
+    "underlay": "cobblemon:textures/gui/summary/summary_stats_other_bar.png",
+    "overlay": "cobblemon:textures/gui/summary/summary_stats_amethyst_overlay.png"
+  },
+  "itemPoints": {
+    "minecraft:amethyst_shard": 1,
+    "minecraft:amethyst_block": 4,
+    "minecraft:amethyst_cluster": 9
+  }
+}

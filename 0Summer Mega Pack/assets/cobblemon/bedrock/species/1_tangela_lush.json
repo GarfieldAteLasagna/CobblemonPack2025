@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:tangela",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["lush"],
+      "poser": "cobblemon:tangela_lush",
+      "model": "cobblemon:tangela_lush.geo",
+      "texture": "cobblemon:textures/pokemon/0114_tangela/tangela_lush.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0114_tangela/tangela_lush_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["lush", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0114_tangela/tangela_lush_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0114_tangela/tangela_lush_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

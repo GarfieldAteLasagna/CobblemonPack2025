@@ -1,0 +1,299 @@
+{
+  "species": "cobblemon:bergmite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:bergmite_ultravariant",
+      "model": "cobblemon:bergmite_ultravariant.geo"
+    },
+    {
+      "aspects": ["ultravariant", "bore-diamond"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_diamond.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_diamond_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-coal"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_coal.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_coal_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-iron"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_iron.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_iron_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-emerald"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_emerald.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_emerald_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-gold"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_gold.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_gold_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-redstone"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_redstone.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_redstone_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-lapis"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_lapis.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_lapis_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-copper"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_copper.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_copper_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-diamond", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_diamond_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_diamond_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-coal", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_coal_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_coal_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-iron", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_iron_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_iron_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-emerald", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_emerald_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_emerald_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-gold", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_gold_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_gold_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-redstone", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_redstone_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_redstone_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-lapis", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_lapis_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_lapis_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-copper", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_copper_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_copper_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-diamond", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_diamond_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_diamond_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-coal", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_coal_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_coal_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-iron", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_iron_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_iron_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-emerald", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_emerald_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_emerald_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-gold", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_gold_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_gold_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-redstone", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_redstone_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_redstone_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-lapis", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_lapis_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_lapis_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "bore-copper", "shining"],
+      "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_copper_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0712_bergmite/bergmite_ultravariant_copper_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

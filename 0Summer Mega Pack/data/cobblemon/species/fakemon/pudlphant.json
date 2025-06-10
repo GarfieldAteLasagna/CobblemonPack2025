@@ -1,0 +1,153 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2437,
+    "name": "Pudlphant",
+    "primaryType": "water",
+    "maleRatio": 0.875,
+    "height": 6,
+    "weight": 95,
+    "pokedex": [
+      "cobblemon.species.pudlphant.desc"
+    ],
+    "labels": ["mythical"],
+    "aspects": [],
+    "abilities": [
+      "runaway",
+      "h:runaway"
+    ],
+    "eggGroups": [
+      "monster",
+      "water_1"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 50,
+      "defence": 65,
+      "special_attack": 85,
+      "special_defence": 70,
+      "speed": 35
+    },
+    "evYield": {
+      "hp": 3,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 63,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "shoulderMountable": false,
+    "baseScale": 1.2,
+    "hitbox": {
+      "width": 0.85,
+      "height": 1.4,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "swim": {
+          "canBreatheUnderwater": true,
+          "canWalkOnWater": true,
+          "canSwimInWater": true,
+          "canSwimInLava": false,
+          "swimSpeed": "0.2"
+        },
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      }
+    },
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "cobblemon:mystic_water",
+          "percentage": 5.0
+        }
+      ]
+    },
+    "moves": [
+      "1:ancientpower",
+      "1:bubble",
+      "1:watersport",
+      "1:stomp",
+      "1:watergun",
+      "9:brine",
+      "16:bodyslam",
+      "24:bubblebeam",
+      "27:superpower",
+      "31:acidarmor",
+      "39:whirlpool",
+      "46:waterpulse",
+      "54:aquaring",
+      "61:liquidation",
+      "69:raindance",
+      "76:waterspout",
+      "tm:ancientpower",
+      "tm:batonpass",
+      "tm:blizzard",
+      "tm:brine",
+      "tm:calmmind",
+      "tm:charm",
+      "tm:chillingwater",
+      "tm:covet",
+      "tm:dazzlinggleam",
+      "tm:disarmingvoice",
+      "tm:dive",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:faketears",
+      "tm:flash",
+      "tm:fling",
+      "tm:flipturn",
+      "tm:gigaimpact",
+      "tm:grassknot",
+      "tm:hail",
+      "tm:haze",
+      "tm:healbell",
+      "tm:helpinghand",
+      "tm:hydropump",
+      "tm:hyperbeam",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:knockoff",
+      "tm:lastresort",
+      "tm:lightscreen",
+      "tm:liquidation",
+      "tm:mudslap",
+      "tm:protect",
+      "tm:psybeam",
+      "tm:psychic",
+      "tm:psychup",
+      "tm:raindance",
+      "tm:reflect",
+      "tm:rest",
+      "tm:safeguard",
+      "tm:scald",
+      "tm:shadowball",
+      "tm:signalbeam",
+      "tm:skillswap",
+      "tm:sleeptalk",
+      "tm:storedpower",
+      "tm:substitute",
+      "tm:surf",
+      "tm:swift",
+      "tm:terablast",
+      "tm:uturn",
+      "tm:waterfall",
+      "tm:waterpulse",
+      "tm:weatherball",
+      "tm:whirlpool",
+      "tm:zenheadbutt"
+    ]
+  }

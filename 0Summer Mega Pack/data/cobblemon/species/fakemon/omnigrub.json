@@ -1,0 +1,318 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2412,
+    "name": "Omnigrub",
+    "primaryType": "bug",
+    "secondaryType": "normal",
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "height": 5,
+    "weight": 102,
+    "pokedex": [
+      "cobblemon.species.omnigrub.desc"
+    ],
+    "labels": ["baby"],
+    "aspects": [],
+    "abilities": [
+      "shielddust",
+      "h:runaway"
+    ],
+    "eggGroups": [
+      "bug"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 30,
+      "defence": 35,
+      "special_attack": 20,
+      "special_defence": 20,
+      "speed": 45
+    },
+    "evYield": {
+      "hp": 1,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 39,
+    "experienceGroup": "slow",
+    "catchRate": 255,
+    "eggCycles": 15,
+    "baseFriendship": 50,
+    "features": [
+    ],
+    "baseScale": 0.5,
+    "hitbox": {
+      "width": 0.8,
+      "height": 0.6,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.26
+        }
+      }
+    },
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:string",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "cobblemon:wepear_berry",
+          "percentage": 2.5
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:stringshot",
+      "9:bugbite",
+      "tm:bugbite",
+      "tm:electroweb",
+      "tm:stringshot",
+      "tm:terablast",
+      "tutor:bugbite",
+      "tutor:electroweb",
+      "tutor:stringshot"
+    ],  
+  "evolutions": [
+    {
+      "id": "omnigrub_wimpod",
+      "variant": "level_up",
+      "result": "wimpod",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    },
+    {
+      "id": "omnigrub_ledyba",
+      "variant": "level_up",
+      "result": "ledyba",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    },
+    {
+      "id": "omnigrub_durant",
+      "variant": "trade",
+      "result": "durant",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ]
+    },
+    {
+      "id": "omnigrub_scyther",
+      "variant": "item_interact",
+      "result": "scyther",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:iron_sword"
+    },
+    {
+      "id": "omnigrub_paras",
+      "variant": "item_interact",
+      "result": "paras",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:red_mushroom"
+    },
+    {
+      "id": "omnigrub_venonat",
+      "variant": "item_interact",
+      "result": "venonat",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:allium"
+    },
+    {
+      "id": "omnigrub_spinarak",
+      "variant": "item_interact",
+      "result": "spinarak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:string"
+    },
+    {
+      "id": "omnigrub_yanma",
+      "variant": "item_interact",
+      "result": "yanma",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:strawberry_sweet"
+    },
+    {
+      "id": "omnigrub_pineco",
+      "variant": "item_interact",
+      "result": "pineco",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:spruce_log"
+        }
+      ],
+      "requiredContext": "minecraft:metal_coat"
+    },
+    {
+      "id": "omnigrub_nincada",
+      "variant": "item_interact",
+      "result": "nincada",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:sand"
+    },
+    {
+      "id": "omnigrub_kricketot",
+      "variant": "item_interact",
+      "result": "kricketot",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:note_block"
+    },
+    {
+      "id": "omnigrub_combee",
+      "variant": "item_interact",
+      "result": "combee",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:flower_sweet"
+    },
+    {
+      "id": "omnigrub_karrablast",
+      "variant": "item_interact",
+      "result": "karrablast",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:kings_rock"
+    },
+    {
+      "id": "omnigrub_shelmet",
+      "variant": "item_interact",
+      "result": "shelmet",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:iron_helmet"
+    },
+    {
+      "id": "omnigrub_larvesta",
+      "variant": "item_interact",
+      "result": "larvesta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    },
+    {
+      "id": "omnigrub_cutiefly",
+      "variant": "item_interact",
+      "result": "cutiefly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:sugar"
+    },
+    {
+      "id": "omnigrub_dewpider",
+      "variant": "item_interact",
+      "result": "dewpider",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "omnigrub_sizzlipede",
+      "variant": "item_interact",
+      "result": "sizzlipede",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:magma_block"
+    },
+    {
+      "id": "omnigrub_crawlcadet",
+      "variant": "item_interact",
+      "result": "crawlcadet",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:iron_chestplate"
+    },
+    {
+      "id": "omnigrub_anorith",
+      "variant": "item_interact",
+      "result": "anorith",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [        
+        {
+        "variant": "friendship",
+        "amount": 160
+        }
+    ],
+      "requiredContext": "cobblemon:peat_block"
+    },
+    {
+      "id": "omnigrub_shuckle",
+      "variant": "trade",
+      "result": "shuckle",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:protector"
+        }
+      ]
+    },
+    {
+      "id": "omnigrub_ultimagrub",
+      "variant": "level_up",
+      "result": "ultimagrub",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 100
+        }
+      ]
+    }
+  ]
+}

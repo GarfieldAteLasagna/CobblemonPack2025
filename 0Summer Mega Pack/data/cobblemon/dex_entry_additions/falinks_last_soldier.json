@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:falinks",
+  "forms": [
+    {
+      "displayForm": "Last-Soldier",
+      "unlockForms": ["Last-Soldier"]
+    }
+  ]
+}

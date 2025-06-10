@@ -1,0 +1,233 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "forms": [
+        {
+            "abilities": [
+                "angerpoint",
+                "pickup",
+                "h:skilllink"
+            ],
+            "aspects": [
+                "qlovean"
+            ],
+            "baseExperienceYield": 72,
+            "baseFriendship": 50,
+            "baseScale": 0.68,
+            "baseStats": {
+                "attack": 75,
+                "defence": 55,
+                "hp": 60,
+                "special_attack": 35,
+                "special_defence": 50,
+                "speed": 90
+            },
+            "behaviour": {
+                "moving": {
+                    "walk": {
+                        "walkSpeed": 0.25
+                    }
+                },
+                "resting": {
+                    "canSleep": true,
+                    "light": "0-4"
+                }
+            },
+            "catchRate": 45,
+            "drops": {
+                "amount": 1,
+                "entries": [
+                    {
+                        "item": "cobblemon:muscle_band",
+                        "percentage": 5.0
+                    }
+                ]
+            },
+            "eggCycles": 20,
+            "eggGroups": [
+                "field"
+            ],
+            "evolutions": [
+                {
+                    "consumeHeldItem": false,
+                    "id": "aipom_ambipom",
+                    "learnableMoves": [
+                    ],
+                    "requirements": [
+                        {
+                            "move": "seismictoss",
+                            "variant": "has_move"
+                        }
+                    ],
+                    "result": "ambipom qlovean",
+                    "variant": "level_up"
+                }
+            ],
+            "evYield": {
+                "attack": 0,
+                "defence": 0,
+                "hp": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 1
+            },
+            "experienceGroup": "fast",
+            "height": 8,
+            "hitbox": {
+                "fixed": false,
+                "height": 1.4,
+                "width": 0.8
+            },
+            "labels": [
+                "gen2",
+                "qlovean"
+            ],
+            "maleRatio": 0.5,
+            "moves": [
+                "1:scratch",
+                "1:tailwhip",
+                "4:sandattack",
+                "8:astonish",
+                "11:batonpass",
+                "15:focusenergy",
+                "18:karatechop",
+                "22:swift",
+                "25:screech",
+                "29:agility",
+                "32:seismictoss",
+                "36:fling",
+                "39:closecombat",
+                "43:lastresort",
+                "egg:beatup",
+                "egg:bounce",
+                "egg:counter",
+                "egg:covet",
+                "egg:doubleslap",
+                "egg:fakeout",
+                "egg:furyswipes",
+                "egg:irontail",
+                "egg:pursuit",
+                "egg:quickguard",
+                "egg:slam",
+                "egg:switcheroo",
+                "tm:acrobatics",
+                "tm:aerialace",
+                "tm:agility",
+                "tm:assurance",
+                "tm:batonpass",
+                "tm:beatup",
+                "tm:bounce",
+                "tm:brickbreak",
+                "tm:brutalswing",
+                "tm:chillingwater",
+                "tm:covet",
+                "tm:cut",
+                "tm:dig",
+                "tm:doubleedge",
+                "tm:dreameater",
+                "tm:endeavor",
+                "tm:endure",
+                "tm:facade",
+                "tm:firepunch",
+                "tm:fling",
+                "tm:focuspunch",
+                "tm:foulplay",
+                "tm:furycutter",
+                "tm:grassknot",
+                "tm:gunkshot",
+                "tm:headbutt",
+                "tm:helpinghand",
+                "tm:honeclaws",
+                "tm:icepunch",
+                "tm:irontail",
+                "tm:knockoff",
+                "tm:lastresort",
+                "tm:lowkick",
+                "tm:lowsweep",
+                "tm:megakick",
+                "tm:megapunch",
+                "tm:metronome",
+                "tm:mudshot",
+                "tm:mudslap",
+                "tm:nastyplot",
+                "tm:payback",
+                "tm:poweruppunch",
+                "tm:protect",
+                "tm:raindance",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:revenge",
+                "tm:rocksmash",
+                "tm:roleplay",
+                "tm:screech",
+                "tm:seedbomb",
+                "tm:shadowball",
+                "tm:shadowclaw",
+                "tm:shockwave",
+                "tm:sleeptalk",
+                "tm:smackdown",
+                "tm:snatch",
+                "tm:seismictoss",
+                "tm:spite",
+                "tm:strength",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:swift",
+                "tm:tailslap",
+                "tm:takedown",
+                "tm:taunt",
+                "tm:terablast",
+                "tm:thief",
+                "tm:throatchop",
+                "tm:thunder",
+                "tm:thunderbolt",
+                "tm:thunderpunch",
+                "tm:thunderwave",
+                "tm:trailblaze",
+                "tm:upperhand",
+                "tm:uturn",
+                "tm:waterpulse",
+                "tm:workup",
+                "tutor:aerialace",
+                "tutor:bounce",
+                "tutor:covet",
+                "tutor:endeavor",
+                "tutor:firepunch",
+                "tutor:focuspunch",
+                "tutor:foulplay",
+                "tutor:furycutter",
+                "tutor:gunkshot",
+                "tutor:helpinghand",
+                "tutor:icepunch",
+                "tutor:irontail",
+                "tutor:knockoff",
+                "tutor:lastresort",
+                "tutor:lowkick",
+                "tutor:mudslap",
+                "tutor:rest",
+                "tutor:rocksmash",
+                "tutor:roleplay",
+                "tutor:seedbomb",
+                "tutor:shadowball",
+                "tutor:shadowclaw",
+                "tutor:shockwave",
+                "tutor:sleeptalk",
+                "tutor:snatch",
+                "tutor:spite",
+                "tutor:swift",
+                "tutor:throatchop",
+                "tutor:thunderbolt",
+                "tutor:thunderpunch",
+                "tutor:waterpulse"
+            ],
+            "name": "Qlovean",
+            "pokedex": [
+                "cobblemon.species.aipom_qlovean.desc"
+            ],
+            "primaryType": "normal",
+            "weight": 115
+        }
+    ],
+    "target": "cobblemon:aipom"
+}

@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:dibink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:dibink",
+        "model": "cobblemon:dibink.geo",
+        "texture": "cobblemon:textures/pokemon/dibink/dibink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/dibink/dibink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/dibink/dibink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/dibink/dibink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

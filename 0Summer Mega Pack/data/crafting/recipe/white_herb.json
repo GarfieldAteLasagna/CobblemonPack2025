@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "cobblemon:heal_powder"
+    },
+    "base": {
+        "item": "cobblemon:medicinal_brew"
+    },
+    "addition": {
+        "item": "cobblemon:guard_spec"
+    },
+    "result": {
+        "id": "cobblemon:white_herb"
+    }
+}

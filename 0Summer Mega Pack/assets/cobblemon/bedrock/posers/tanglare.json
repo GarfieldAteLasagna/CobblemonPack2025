@@ -1,0 +1,22 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [0, 0.5, 0],
+  "profileScale": 0.83,
+  "profileTranslation": [0, 0.68, 0],
+  "rootBone": "tanglare",
+  "animations": {
+    "cry": "q.bedrock_stateful('tanglare', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "HOVER", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('tanglare', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('tanglare', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('tanglare', 'air_walk')"],
+      "quirks": ["q.bedrock_quirk('tanglare', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:relic_coin",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:water_gem",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rock_gem",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fossilized_fish",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:helix_fossil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dome_fossil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:damp_rock",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:mystic_water",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

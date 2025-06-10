@@ -1,0 +1,13 @@
+{
+    "target": "cobblemon:weepinbell",
+    "evolutions": [{
+            "id": "weepinbell_tsubomitto",
+            "variant": "item_interact",
+            "result": "tsubomitto spaceworldmons",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [],
+            "requiredContext": "cobblemon:sun_stone"
+        }
+    ]
+}

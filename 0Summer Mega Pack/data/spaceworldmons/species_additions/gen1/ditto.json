@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:ditto",
+    "evolutions": [{
+            "id": "ditto_animon-spaceworldmons",
+            "variant": "trade",
+            "result": "animon spaceworldmons",
+            "consumeHeldItem": true,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:metal_coat"
+                }
+            ]
+        }
+    ]
+}

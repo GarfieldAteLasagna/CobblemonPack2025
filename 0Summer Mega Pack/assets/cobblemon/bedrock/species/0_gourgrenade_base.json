@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:gourgrenade",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gourgeist",
+      "model": "cobblemon:gourgrenade.geo",
+      "texture": "cobblemon:textures/pokemon/gourgrenade/gourgrenade.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/gourgrenade/gourgrenade_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/gourgrenade/gourgrenade_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/gourgrenade/gourgrenade_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

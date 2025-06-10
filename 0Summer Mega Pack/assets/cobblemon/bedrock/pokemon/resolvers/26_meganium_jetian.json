@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:meganium",
+    "order": 26,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:meganium",
+        "model": "cobblemon:meganium_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0154_meganium/meganium_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0154_meganium/meganium_jetian_shiny.png"
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "mega_showdown:mega_meteorid_block"
+    },
+    "base": {
+        "item": "minecraft:end_stone"
+    },
+    "addition": {
+        "item": "cobblemon:dubious_disc"
+    },
+    "result": {
+        "id": "mega_showdown:deoxys_meteorite"
+    }
+}

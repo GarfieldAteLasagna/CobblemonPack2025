@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:terreon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:terreon",
+      "model": "cobblemon:terreon.geo",
+      "texture": "cobblemon:textures/pokemon/3136_terreon/terreon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3136_terreon/terreon_shiny.png"
+    }
+  ]
+}

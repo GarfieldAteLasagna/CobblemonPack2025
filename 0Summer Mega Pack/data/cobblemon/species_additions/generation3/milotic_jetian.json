@@ -1,0 +1,175 @@
+{
+    
+    "target": "cobblemon:milotic",
+    "features": ["jetian"],
+    "forms": [
+      {
+        "implemented": true,
+        "nationalPokedexNumber": 350,
+        "name": "Jetian",
+        "primaryType": "water",
+        "secondaryType": "dragon",
+        "maleRatio": 0.5,
+        "height": 62,
+        "weight": 1620,
+        "pokedex": [
+          "cobblemon.species.milotic_jetian.desc"
+        ],
+        "labels": [
+          "gen3",
+          "jetian"
+        ],
+        "aspects": ["jetian"],
+        "abilities": [
+          "marvelscale",
+          "competitive",
+          "h:cutecharm"
+        ],
+        "eggGroups": [
+          "water_1",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "attack": 60,
+          "defence": 79,
+          "special_attack": 125,
+          "special_defence": 100,
+          "speed": 81
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 0,
+          "defence": 0,
+          "special_attack": 2,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "baseExperienceYield": 189,
+        "experienceGroup": "erratic",
+        "catchRate": 60,
+        "eggCycles": 20,
+        "baseFriendship": 50,
+        "baseScale": 1.1,
+        "hitbox": {
+          "width": 1.4,
+          "height": 2.3,
+          "fixed": false
+        },
+        "behaviour": {
+          "moving": {
+            "walk": {
+              "avoidsLand": true,
+              "walkSpeed": 0.3
+            },
+            "swim": {
+              "swimSpeed": 0.3,
+              "canBreatheUnderwater": true,
+              "canSwimInWater": true,
+              "canSwimInLava": false
+            }
+          },
+          "resting": {
+            "canSleep": true
+          }
+        },
+        "drops": {
+          "amount": 2,
+          "entries": [
+            {
+              "item": "minecraft:bone_meal",
+              "percentage": 10.0
+            },
+            {
+              "item": "cobblemon:star_sweet",
+              "percentage": 5.0
+            }
+          ]
+        },
+        "moves": [
+          "1:leer",
+          "1:roar",
+          "1:twister",
+          "1:aquajet",
+          "1:sunnyday",
+          "1:honeclaws",
+          "7:bite",
+          "14:waterpulse",
+          "21:nobleroar",
+          "28:dragonbreath",
+          "35:breakingswipe",
+          "42:dragonrush",
+          "56:hydrosteam",
+          "63:dragonpulse",
+          "70:outrage",
+          "77:flamethrower",
+          "84:hydropump",
+          "tm:agility",
+          "tm:bodyslam",
+          "tm:breakingswipe",
+          "tm:chillingwater",
+          "tm:crunch",
+          "tm:doubleedge",
+          "tm:dracometeor",
+          "tm:dragoncheer",
+          "tm:dragonclaw",
+          "tm:dragondance",
+          "tm:dragonpulse",
+          "tm:dragontail",
+          "tm:endure",
+          "tm:facade",
+          "tm:firefang",
+          "tm:flamethrower",
+          "tm:flipturn",
+          "tm:gigaimpact",
+          "tm:honeclaws",
+          "tm:hurricane",
+          "tm:hydropump",
+          "tm:hyperbeam",
+          "tm:knockoff",
+          "tm:liquidation",
+          "tm:lowkick",
+          "tm:mudshot",
+          "tm:outrage",
+          "tm:protect",
+          "tm:raindance",
+          "tm:rest",
+          "tm:roar",
+          "tm:scald",
+          "tm:scaryface",
+          "tm:sleeptalk",
+          "tm:snarl",
+          "tm:substitute",
+          "tm:sunnyday",
+          "tm:surf",
+          "tm:swift",
+          "tm:takedown",
+          "tm:terablast",
+          "tm:twister",
+          "tm:waterfall",
+          "tm:waterpulse",
+          "tm:weatherball",
+          "tm:whirlpool",
+          "tutor:dracometeor",
+          "tutor:dragonpulse",
+          "tutor:firefang",
+          "tutor:flamethrower",
+          "tutor:flipturn",
+          "tutor:gigaimpact",
+          "tutor:hyperbeam",
+          "tutor:knockoff",
+          "tutor:liquidation",
+          "tutor:lowkick",
+          "tutor:outrage",
+          "tutor:rest",
+          "tutor:sleeptalk",
+          "tutor:snarl",
+          "tutor:swift",
+          "tutor:twister",
+          "tutor:waterpulse"
+      
+        ],
+        "preEvolution": "feebas jetian",
+        "evolutions": []
+      }      
+    ]}

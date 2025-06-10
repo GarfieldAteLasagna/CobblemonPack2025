@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:kirlia",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["goth"],
+      "poser": "cobblemon:kirlia",
+      "model": "cobblemon:kirlia_goth.geo",
+      "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_goth.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","goth"],
+      "texture": "cobblemon:textures/pokemon/0281_kirlia/kirlia_goth_shiny.png"
+    }
+  ]
+}

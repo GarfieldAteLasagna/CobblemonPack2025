@@ -1,0 +1,199 @@
+{
+    
+    "target": "cobblemon:lunatone",
+    "features": ["jetian"],
+    "forms": [
+      {
+        "implemented": true,
+        "nationalPokedexNumber": 337,
+        "name": "Jetian",
+        "primaryType": "rock",
+        "secondaryType": "water",
+        "maleRatio": -1,
+        "height": 10,
+        "weight": 1680,
+        "pokedex": [
+          "cobblemon.species.lunatone_jetian.desc"
+        ],
+        "labels": [
+          "gen3",
+          "jetian"
+        ],
+        "aspects": ["jetian"],
+        "abilities": [
+          "levitate",
+          "h:levitate"
+        ],
+        "eggGroups": [
+          "mineral"
+        ],
+        "baseStats": {
+          "hp": 74,
+          "attack": 108,
+          "defence": 133,
+          "special_attack": 83,
+          "special_defence": 65,
+          "speed": 32
+
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 0,
+          "defence": 2,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "baseExperienceYield": 161,
+        "experienceGroup": "fast",
+        "catchRate": 45,
+        "eggCycles": 25,
+        "baseFriendship": 50,
+        "baseScale": 0.8,
+        "hitbox": {
+          "width": 1.15,
+          "height": 1.7,
+          "fixed": false
+        },
+        "behaviour": {
+          "moving": {
+            "fly": {
+              "canFly": true
+            },
+            "swim": {
+              "avoidsWater": true,
+              "canSwimInWater": false
+            }
+          },
+          "resting": {
+            "canSleep": true,
+            "times": "day"
+          }
+        },
+        "drops": {
+          "amount": 2,
+          "entries": [
+            {
+              "item": "cobblemon:moon_stone",
+              "percentage": 5.0
+            },
+            {
+              "item": "cobblemon:colbur_berry",
+              "percentage": 5.0
+            }
+          ]
+        },
+        "moves": [
+          "1:bide",
+          "1:withdraw",
+          "1:watergun",
+          "1:protect",
+          "1:aquajet",
+          "9:smackdown",
+          "12:ancientpower",
+          "15:bite",
+          "18:wideguard",
+          "21:brine",
+          "24:rockslide",
+          "27:crunch",
+          "30:curse",
+          "33:irondefense",
+          "36:aquatail",
+          "41:raindance",
+          "46:hydropump",
+          "51:shellsmash",
+          "egg:bide",
+          "egg:block",
+          "egg:flail",
+          "egg:knockoff",
+          "egg:rockthrow",
+          "egg:rollout",
+          "egg:slam",
+          "egg:waterpulse",
+          "tm:ancientpower",
+          "tm:aquatail",
+          "tm:blizzard",
+          "tm:block",
+          "tm:bodyslam",
+          "tm:brine",
+          "tm:bulldoze",
+          "tm:crunch",
+          "tm:curse",
+          "tm:dig",
+          "tm:dive",
+          "tm:earthpower",
+          "tm:earthquake",
+          "tm:endure",
+          "tm:facade",
+          "tm:focusblast",
+          "tm:gigaimpact",
+          "tm:guardswap",
+          "tm:hydropump",
+          "tm:hyperbeam",
+          "tm:icebeam",
+          "tm:icywind",
+          "tm:irondefense",
+          "tm:ironhead",
+          "tm:irontail",
+          "tm:knockoff",
+          "tm:liquidation",
+          "tm:lowkick",
+          "tm:meteorbeam",
+          "tm:muddywater",
+          "tm:mudshot",
+          "tm:protect",
+          "tm:raindance",
+          "tm:razorshell",
+          "tm:rest",
+          "tm:rockblast",
+          "tm:rockpolish",
+          "tm:rockslide",
+          "tm:rocksmash",
+          "tm:rocktomb",
+          "tm:rollout",
+          "tm:sandstorm",
+          "tm:scald",
+          "tm:sleeptalk",
+          "tm:smackdown",
+          "tm:stealthrock",
+          "tm:stoneedge",
+          "tm:strength",
+          "tm:substitute",
+          "tm:superpower",
+          "tm:surf",
+          "tm:terablast",
+          "tm:waterfall",
+          "tm:waterpulse",
+          "tm:whirlpool",
+          "tm:zenheadbutt",
+          "tutor:ancientpower",
+          "tutor:aquatail",
+          "tutor:block",
+          "tutor:bulldoze",
+          "tutor:dive",
+          "tutor:earthpower",
+          "tutor:gigaimpact",
+          "tutor:hyperbeam",
+          "tutor:icebeam",
+          "tutor:icywind",
+          "tutor:irondefense",
+          "tutor:ironhead",
+          "tutor:irontail",
+          "tutor:knockoff",
+          "tutor:liquidation",
+          "tutor:lowkick",
+          "tutor:meteorbeam",
+          "tutor:rest",
+          "tutor:rockslide",
+          "tutor:rocksmash",
+          "tutor:rollout",
+          "tutor:sleeptalk",
+          "tutor:stealthrock",
+          "tutor:stoneedge",
+          "tutor:superpower",
+          "tutor:waterpulse",
+          "tutor:zenheadbutt"
+        ],
+        "evolutions": []
+      }      
+    ]}

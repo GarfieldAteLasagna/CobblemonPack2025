@@ -1,0 +1,17 @@
+{
+    "target": "cobblemon:shellder",
+    "evolutions": [{
+            "id": "shellder_turbann",
+            "variant": "level_up",
+            "result": "turbann spaceworldmons",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "party_member",
+                    "target": "slowpoke",
+                    "contains": true
+                }
+            ]
+        }
+    ]
+}

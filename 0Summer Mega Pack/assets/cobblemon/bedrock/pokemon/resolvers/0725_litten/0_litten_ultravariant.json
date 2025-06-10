@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:litten",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:litten_ultravariant",
+      "model": "cobblemon:litten_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0725_litten/litten_ultravariant.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0725_litten/litten_ultravariant_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0725_litten/litten_ultravariant_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0725_litten/litten_ultravariant_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shining"],
+      "texture": "cobblemon:textures/pokemon/0725_litten/litten_ultravariant_shining.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0725_litten/litten_ultravariant_shining_emissive.png"
+        }
+      ]
+    }
+  ]
+}

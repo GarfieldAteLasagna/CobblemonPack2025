@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:fomantis_jetian",
+    "speciesId": "cobblemon:fomantis",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

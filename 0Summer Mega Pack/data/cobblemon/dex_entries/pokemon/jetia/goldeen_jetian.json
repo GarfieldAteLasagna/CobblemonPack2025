@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:goldeen_jetian",
+    "speciesId": "cobblemon:goldeen",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

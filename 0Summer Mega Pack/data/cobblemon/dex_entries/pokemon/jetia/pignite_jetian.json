@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:pignite_jetian",
+    "speciesId": "cobblemon:pignite",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

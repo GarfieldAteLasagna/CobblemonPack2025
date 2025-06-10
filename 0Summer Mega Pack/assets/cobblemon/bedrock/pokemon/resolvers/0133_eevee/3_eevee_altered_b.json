@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:eevee",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["altered_b"],
+      "poser": "cobblemon:eevee_altered_b",
+      "model": "cobblemon:eevee_altered_b.geo",
+      "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_altered_b.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_altered_b_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered_b"],
+      "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_altered_b_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_altered_b_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+
+}

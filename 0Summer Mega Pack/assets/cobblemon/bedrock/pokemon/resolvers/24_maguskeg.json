@@ -1,0 +1,29 @@
+{
+    "species": "cobblemon:maguskeg",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:ludicolo",
+        "model": "cobblemon:maguskeg.geo",
+        "texture": "cobblemon:textures/pokemon/maguskeg/maguskeg.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/maguskeg/maguskeg_shiny.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:ludicolo",
+        "model": "cobblemon:maguskeg_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/maguskeg/maguskeg_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/maguskeg/maguskeg_jetian_shiny.png"
+      }
+    ]
+  }

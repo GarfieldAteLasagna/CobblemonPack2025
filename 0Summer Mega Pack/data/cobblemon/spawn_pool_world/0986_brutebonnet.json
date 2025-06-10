@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-brutebonnet-1",
+            "pokemon": "brutebonnet",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "47-67",
+            "weight": 4.18,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

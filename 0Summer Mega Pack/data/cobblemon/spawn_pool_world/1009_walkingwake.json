@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-walkingwake-1",
+            "pokemon": "walkingwake",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65-80",
+            "weight": 3.15,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        },
+        {
+            "id": "deeper-walkingwake-2",
+            "pokemon": "walkingwake",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "65-80",
+            "weight": 3.15,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        },
+        {
+            "id": "deeper-walkingwake-2",
+            "pokemon": "walkingwake",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "65-80",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

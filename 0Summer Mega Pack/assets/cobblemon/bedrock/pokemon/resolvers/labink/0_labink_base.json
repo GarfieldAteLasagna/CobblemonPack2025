@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:labink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:labink",
+        "model": "cobblemon:labink.geo",
+        "texture": "cobblemon:textures/pokemon/labink/labink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/labink/labink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/labink/labink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/labink/labink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

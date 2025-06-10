@@ -1,0 +1,56 @@
+{
+    "portraitScale": 1.4,
+    "portraitTranslation": [ 0.0, 0.1, 0.0 ],
+    "profileScale": 0.85,
+    "profileTranslation": [ 0.0, 0.45, 0.0 ],
+    "animations": {
+      "cry": "q.bedrock_stateful('annihilape', 'cry')"
+    },
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "isBattle": false,
+        "poseTypes": [
+            "STAND",
+            "NONE",
+            "PORTRAIT",
+            "PROFILE"
+          ],
+          "animations": [ "q.bedrock('annihilape', 'ground_idle')", "q.bedrock('annihilape', 'hair_overlay')" ],
+          "quirks": [
+            {
+              "name": "blink",
+              "animations": ["q.bedrock_quirk('annihilape', 'blink')"]
+            }
+          ]
+        },
+        "walk": {
+          "poseName": "walk",
+          "transformTicks": 10,
+          "poseTypes": [ "WALK" ],
+          "animations": [ "q.bedrock('annihilape', 'ground_walk')", "q.bedrock('annihilape', 'hair_overlay')" ],
+          "quirks": [
+            {
+              "name": "blink",
+              "animations": ["q.bedrock_quirk('annihilape', 'blink')"]
+            }
+          ]
+        },
+        "battle": {
+        "poseName": "battle",
+        "transformTicks": 10,
+        "isBattle": true,
+        "poseTypes": [
+            "STAND"
+          ],
+          "animations": [ "q.bedrock('annihilape', 'ground_idle')", "q.bedrock('annihilape', 'hair_overlay')" ],
+          "quirks": [
+            {
+              "name": "blink",
+              "animations": ["q.bedrock_quirk('annihilape', 'blink')"]
+            }
+          ]
+        }
+      }
+     }

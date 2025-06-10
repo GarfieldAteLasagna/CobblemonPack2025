@@ -1,0 +1,27 @@
+{
+    "entryId": "cobblemon:roselia",
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.flower",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+        "roselia-rose-red-red",
+        "roselia-rose-red-blue",
+        "roselia-rose-red-white",
+        "roselia-rose-red-yellow",
+        "roselia-rose-blue-red",
+        "roselia-rose-blue-blue",
+        "roselia-rose-blue-white",
+        "roselia-rose-blue-yellow",
+        "roselia-rose-white-red",
+        "roselia-rose-white-blue",
+        "roselia-rose-white-white",
+        "roselia-rose-white-yellow",
+        "roselia-rose-yellow-red",
+        "roselia-rose-yellow-blue",
+        "roselia-rose-yellow-white",
+        "roselia-rose-yellow-yellow"
+      ]
+    }
+  ]
+}

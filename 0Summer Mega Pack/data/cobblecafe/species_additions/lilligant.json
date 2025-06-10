@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:liligant",
+  "evolutions": [
+    {
+      "id": "liligant_cafe_liligant",
+      "variant": "item_interact",
+      "result": "cafe_liligant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:pink_wool"
+    }
+  ]
+}

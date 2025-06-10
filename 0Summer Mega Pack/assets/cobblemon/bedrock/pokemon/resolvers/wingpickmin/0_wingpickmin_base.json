@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:wingpickmin",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:wingpickmin",
+     "model": "cobblemon:wingpickmin.geo",
+     "texture": "cobblemon:textures/pokemon/wingpickmin/wingpickmin.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/wingpickmin/wingpickmin_shiny.png"
+   }
+ ]
+}

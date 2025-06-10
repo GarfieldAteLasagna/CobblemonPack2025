@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:goodra",
+  "evolutions": [
+    {
+      "id": "goodra_cafe_goodra",
+      "variant": "item_interact",
+      "result": "cafe_goodra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

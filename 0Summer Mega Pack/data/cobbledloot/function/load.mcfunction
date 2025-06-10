@@ -1,0 +1,1 @@
+tellraw @a [{"text":"CobbledLoot made by JoaquimPedro201 ","color":"#f781f8"},{"text":"[","color":"#f513f1"},{"text": "🎁","color":"gold"},{"text":"]","color":"#f513f1"}]

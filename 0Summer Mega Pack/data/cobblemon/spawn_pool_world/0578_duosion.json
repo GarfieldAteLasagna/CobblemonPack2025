@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-duosion-1",
+            "pokemon": "duosion",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "31-43",
+            "weight": 5.8,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

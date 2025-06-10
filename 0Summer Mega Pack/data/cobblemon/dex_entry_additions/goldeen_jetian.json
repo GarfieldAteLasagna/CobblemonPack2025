@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:goldeen",
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": ["Jetian"]
+      }
+    ]
+  }

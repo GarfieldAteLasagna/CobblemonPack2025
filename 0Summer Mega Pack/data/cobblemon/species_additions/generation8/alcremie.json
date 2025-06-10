@@ -1,0 +1,22 @@
+{
+    "target": "cobblemon:alcremie",
+    "forms": [
+        {
+      "name": "Gmax",
+	  "baseScale": 1,
+      "pokedex": [
+        "cobblemon.species.alcremie-gmax.desc"
+      ],
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "aspects": [
+        "gmax"
+      ],
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+    ]
+}

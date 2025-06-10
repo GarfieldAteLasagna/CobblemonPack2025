@@ -1,0 +1,31 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "cobblemon:shiny_stone"
+    },
+    "L": {
+      "item": "cobblemon:dragon_fang"
+    },
+    "T": {
+      "item": "minecraft:diamond_block"
+    },
+    "M": {
+      "item": "mega_showdown:lustrous_orb"
+    }
+
+  },
+
+  "pattern": [
+    "ILI",
+    "LTL",
+    "IMI"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:lustrous_globe"
+  }
+}

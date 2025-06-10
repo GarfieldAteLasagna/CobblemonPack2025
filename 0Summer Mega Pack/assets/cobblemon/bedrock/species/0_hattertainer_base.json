@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:hattertainer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hattertainer",
+      "model": "cobblemon:hattertainer.geo",
+      "texture": "cobblemon:textures/pokemon/hattertainer/hattertainer.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/hattertainer/hattertainer_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/hattertainer/hattertainer_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/hattertainer/hattertainer_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

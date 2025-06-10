@@ -1,0 +1,67 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "purplepickmin-1",
+     "pokemon": "purplepickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "1-22",
+     "weight": 4,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest", "#cobblemon:is_plains" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "purplepickmin-2",
+     "pokemon": "purplepickmin",
+     "presets": [ "natural", "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "1-22",
+     "weight": 6.5,
+     "condition": {
+       "biomes": [ "minecraft:flower_forest", "minecraft:meadow", "minecraft:sunflower_plains", "minecraft:lush_caves" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "purplepickmin-3",
+     "pokemon": "purplepickmin",
+     "presets": [ "wild" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "common",
+     "level": "1-22",
+     "weight": 2.5,
+     "condition": {
+       "biomes": [ "#minecraft:stony_shore", "minecraft:dripstone_caves"],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   },
+   {
+     "id": "purplepickmin-4",
+     "pokemon": "purplepickmin",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "1-22",
+     "weight": 5,
+     "condition": {
+       "structures": [ "#minecraft:village" ],
+       "minSkyLight": 8,
+       "maxSkyLight": 15
+     }
+   }
+ ]
+}

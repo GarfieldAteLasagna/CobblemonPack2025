@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-dusknoir-1",
+            "pokemon": "dusknoir",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "47-61",
+            "weight": 0.35,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

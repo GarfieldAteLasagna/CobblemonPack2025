@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lightning_rod",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:electric_gem",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:light_ball",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

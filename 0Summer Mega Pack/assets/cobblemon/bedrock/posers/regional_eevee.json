@@ -1,0 +1,102 @@
+{
+  "head": "head",
+  "portraitScale": 2.25,
+  "portraitTranslation": [ -0.5, -0.7, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.5, 0 ],
+  "faint": "bedrock(regional_eevee, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "look",
+        "bedrock(regional_eevee, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(regional_eevee, blink)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(regional_eevee, ground_walk)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(regional_eevee, blink)"]
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ "bedrock(regional_eevee, water_idle)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(regional_eevee, blink)"]
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "SWIM" ],
+      "animations": [ "bedrock(regional_eevee, water_swim)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(regional_eevee, blink)"]
+        }
+      ]
+    },
+    "standingleft": {
+      "poseName": "standingleft",
+      "transformTicks": 10,
+      "poseTypes": [ "SHOULDER_LEFT" ],
+      "animations": [
+        "look",
+        "bedrock(regional_eevee, shoulder_left)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(regional_eevee, blink)"]
+        }
+      ]
+    },
+    "standingright": {
+      "poseName": "standingright",
+      "transformTicks": 10,
+      "poseTypes": [ "SHOULDER_RIGHT" ],
+      "animations": [
+        "look",
+        "bedrock(regional_eevee, shoulder_right)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(regional_eevee, blink)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [ "bedrock(regional_eevee, sleep)" ]
+    }
+  }
+}

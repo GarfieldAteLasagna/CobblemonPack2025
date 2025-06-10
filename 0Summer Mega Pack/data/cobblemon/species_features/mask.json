@@ -1,0 +1,16 @@
+{
+  "type": "choice",
+  "keys": ["mask"],
+  "default": "normal",
+  "choices": [
+    "fire",
+    "electric",
+    "grass",
+    "water",
+    "normal"
+
+],
+  "isAspect": true,
+  "visible": true,
+  "aspectFormat": "mask-{{choice}}"
+}

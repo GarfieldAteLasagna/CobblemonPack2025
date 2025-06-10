@@ -1,0 +1,6 @@
+{
+  "keys": ["altered_a"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

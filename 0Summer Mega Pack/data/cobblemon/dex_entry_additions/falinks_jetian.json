@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:falinks",
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": ["Jetian"]
+      }
+    ]
+  }

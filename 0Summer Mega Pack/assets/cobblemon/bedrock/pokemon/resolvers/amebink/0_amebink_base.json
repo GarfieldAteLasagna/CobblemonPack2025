@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:amebink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:amebink",
+        "model": "cobblemon:amebink.geo",
+        "texture": "cobblemon:textures/pokemon/amebink/amebink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/amebink/amebink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/amebink/amebink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/amebink/amebink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

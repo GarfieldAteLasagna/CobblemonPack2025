@@ -1,0 +1,203 @@
+{
+    
+    "target": "cobblemon:cherubi",
+    "features": ["jetian"],
+    "forms": [
+  {
+    "implemented": true,
+    "nationalPokedexNumber": 420,
+    "name": "Jetian",
+    "primaryType": "grass",
+    "secondaryType": "fighting",
+    "maleRatio": 0.875,
+    "shoulderMountable": true,
+    "height": 7,
+    "weight": 96,
+    "pokedex": [
+      "cobblemon.species.cherubi_jetian.desc"
+    ],
+    "labels": [
+      "gen4",
+      "jetian"
+    ],
+    "aspects": ["jetian"],
+    "abilities": [
+      "chlorophyll",
+      "h:ripen"
+    ],
+    "eggGroups": [
+      "grass",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 62,
+      "defence": 35,
+      "special_attack": 35,
+      "special_defence": 53,
+      "speed": 45
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 1,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 0.4,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.1,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.2
+        }
+      }
+    },
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "cobblemon:tamato_berry",
+          "percentage": 60
+        },
+        {
+            "item": "minecraft:red_dye",
+            "percentage": 13   
+        },
+        {
+            "item": "minecraft:beetroot",
+            "percentage": 27
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:growl",
+      "6:absorb",
+      "9:drainpunch",
+      "12:strengthsap",
+      "17:bulkup",
+      "20:magicalleaf",
+      "23:toxic",
+      "28:leafblade",
+      "31:machpunch",
+      "34:bodyslam",
+      "39:swordsdance",
+      "42:gigadrain",
+      "43:dazzlinggleam",
+      "45:solarbeam",
+      "egg:ancientpower",
+      "egg:aromatherapy",
+      "egg:counter",
+      "egg:flail",
+      "egg:grasswhistle",
+      "egg:healpulse",
+      "egg:ingrain",
+      "egg:leechseed",
+      "egg:refresh",
+      "egg:vinewhip",
+      "egg:wringout",
+      "tm:ancientpower",
+      "tm:bodyslam",
+      "tm:bulletseed",
+      "tm:charm",
+      "tm:curse",
+      "tm:cut",
+      "tm:doubleedge",
+      "tm:echoedvoice",
+      "tm:encore",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:faketears",
+      "tm:flash",
+      "tm:furycutter",
+      "tm:gigadrain",
+      "tm:grassknot",
+      "tm:grasspledge",
+      "tm:grassyglide",
+      "tm:grassyterrain",
+      "tm:headbutt",
+      "tm:helpinghand",
+      "tm:irontail",
+      "tm:leafstorm",
+      "tm:lightscreen",
+      "tm:magicalleaf",
+      "tm:magiccoat",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:naturepower",
+      "tm:protect",
+      "tm:reflect",
+      "tm:rest",
+      "tm:safeguard",
+      "tm:seedbomb",
+      "tm:sleeptalk",
+      "tm:solarbeam",
+      "tm:solarblade",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swordsdance",
+      "tm:synthesis",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:trailblaze",
+      "tm:workup",
+      "tm:worryseed",
+      "tutor:ancientpower",
+      "tutor:energyball",
+      "tutor:furycutter",
+      "tutor:gigadrain",
+      "tutor:grasspledge",
+      "tutor:grassyglide",
+      "tutor:helpinghand",
+      "tutor:irontail",
+      "tutor:magicalleaf",
+      "tutor:magiccoat",
+      "tutor:mudslap",
+      "tutor:rest",
+      "tutor:seedbomb",
+      "tutor:sleeptalk",
+      "tutor:synthesis",
+      "tutor:worryseed"
+    ],
+    "evolutions": [
+      {
+        "id": "cherubi_cherrim_jetian",
+        "variant": "level_up",
+        "result": "cherrim jetian",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 25
+          }
+        ]
+      },
+      {
+        "id": "cherubi_pumpkaboo",
+        "variant": "item_interact",
+        "result": "pumpkaboo jetian",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "minecraft:pumpkin"
+      }
+    ]
+  }]}

@@ -1,0 +1,425 @@
+{
+    "target": "cobblemon:wooper",
+    "features": ["kobellian_lucy", "kobellian_wild", "kobellian_gold", "kobellian_cyan"],
+  "forms": [
+    {
+      "name": "Kobel",
+      "primaryType": "water",
+  "secondaryType": "fairy",
+  "abilities": [
+    "damp",
+    "waterabsorb",
+    "h:unaware"
+  ],
+"moves": [
+        "1:mudshot",
+        "1:tailwhip",
+        "4:tackle",
+        "5:bubble",
+        "6:watergun",
+        "8:dazzlinggleam",
+        "10:bubblebeam",
+        "12:aquajet",
+        "16:slam",
+        "21:yawn",
+        "24:fairywind",
+        "26:watersport",
+        "28:muddywater",
+        "32:amnesia",
+        "36:moonblast",
+        "38:mistyterrain",
+        "40:playrough",
+        "43:aquatail",
+        "45:brine",
+        "egg:acidspray",
+        "egg:afteryou",
+        "egg:ancientpower",
+        "egg:counter",
+        "egg:curse",
+        "egg:doublekick",
+        "egg:haze",
+        "egg:mist",
+        "egg:recover",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "tm:mistyterrain",
+        "tm:muddywater",
+        "tm:acidspray",
+        "tm:amnesia",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:facade",
+        "tm:dazzlinggleam",
+        "tm:haze",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:liquidation",
+        "tm:lowkick",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:moonblast",
+        "tm:spikes",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:fairywind",
+        "tm:trailblaze",
+        "tm:waterfall",
+        "tm:waterpulse"
+      ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:glow_berries",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "labels": [
+        "kobel_regional"
+      ],
+      "aspects": [
+        "kobellian-lucy"
+      ],
+      "pokedex": [
+        "cobblemon.species.wooper-kobellian.desc"
+      ]
+
+},
+
+{
+  "name": "Kobel",
+  "primaryType": "water",
+"secondaryType": "fairy",
+"abilities": [
+"damp",
+"waterabsorb",
+"h:unaware"
+],
+"moves": [
+        "1:mudshot",
+        "1:tailwhip",
+        "4:tackle",
+        "5:bubble",
+        "6:watergun",
+        "8:dazzlinggleam",
+        "10:bubblebeam",
+        "12:aquajet",
+        "16:slam",
+        "21:yawn",
+        "24:fairywind",
+        "26:watersport",
+        "28:muddywater",
+        "32:amnesia",
+        "36:moonblast",
+        "38:mistyterrain",
+        "40:playrough",
+        "43:aquatail",
+        "45:brine",
+        "egg:acidspray",
+        "egg:afteryou",
+        "egg:ancientpower",
+        "egg:counter",
+        "egg:curse",
+        "egg:doublekick",
+        "egg:haze",
+        "egg:mist",
+        "egg:recover",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "tm:mistyterrain",
+        "tm:muddywater",
+        "tm:acidspray",
+        "tm:amnesia",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:facade",
+        "tm:dazzlinggleam",
+        "tm:haze",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:liquidation",
+        "tm:lowkick",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:moonblast",
+        "tm:spikes",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:fairywind",
+        "tm:trailblaze",
+        "tm:waterfall",
+        "tm:waterpulse"
+      ],
+"drops": {
+"amount": 2,
+"entries": [
+  {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "0-1"
+  },
+  {
+    "item": "minecraft:glow_berries",
+    "percentage": 2.5
+  }
+]
+},
+"labels": [
+    "kobel_regional"
+  ],
+  "aspects": [
+    "kobellian-wild"
+  ],
+  "pokedex": [
+    "cobblemon.species.wooper-kobellian.desc"
+  ]
+
+},
+
+{
+  "name": "Kobel",
+  "primaryType": "water",
+"secondaryType": "fairy",
+"abilities": [
+"damp",
+"waterabsorb",
+"h:unaware"
+],
+"moves": [
+        "1:mudshot",
+        "1:tailwhip",
+        "4:tackle",
+        "5:bubble",
+        "6:watergun",
+        "8:dazzlinggleam",
+        "10:bubblebeam",
+        "12:aquajet",
+        "16:slam",
+        "21:yawn",
+        "24:fairywind",
+        "26:watersport",
+        "28:muddywater",
+        "32:amnesia",
+        "36:moonblast",
+        "38:mistyterrain",
+        "40:playrough",
+        "43:aquatail",
+        "45:brine",
+        "egg:acidspray",
+        "egg:afteryou",
+        "egg:ancientpower",
+        "egg:counter",
+        "egg:curse",
+        "egg:doublekick",
+        "egg:haze",
+        "egg:mist",
+        "egg:recover",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "tm:mistyterrain",
+        "tm:muddywater",
+        "tm:acidspray",
+        "tm:amnesia",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:facade",
+        "tm:dazzlinggleam",
+        "tm:haze",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:liquidation",
+        "tm:lowkick",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:moonblast",
+        "tm:spikes",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:fairywind",
+        "tm:trailblaze",
+        "tm:waterfall",
+        "tm:waterpulse"
+      ],
+"drops": {
+"amount": 2,
+"entries": [
+  {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "0-1"
+  },
+  {
+    "item": "minecraft:glow_berries",
+    "percentage": 2.5
+  }
+]
+},
+"labels": [
+    "kobel_regional"
+  ],
+  "aspects": [
+    "kobellian-cyan"
+  ],
+  "pokedex": [
+    "cobblemon.species.wooper-kobellian.desc"
+  ]
+
+},
+
+{
+  "name": "Kobel",
+  "primaryType": "water",
+"secondaryType": "fairy",
+"abilities": [
+"damp",
+"waterabsorb",
+"h:unaware"
+],
+"moves": [
+        "1:mudshot",
+        "1:tailwhip",
+        "4:tackle",
+        "5:bubble",
+        "6:watergun",
+        "8:dazzlinggleam",
+        "10:bubblebeam",
+        "12:aquajet",
+        "16:slam",
+        "21:yawn",
+        "24:fairywind",
+        "26:watersport",
+        "28:muddywater",
+        "32:amnesia",
+        "36:moonblast",
+        "38:mistyterrain",
+        "40:playrough",
+        "43:aquatail",
+        "45:brine",
+        "egg:acidspray",
+        "egg:afteryou",
+        "egg:ancientpower",
+        "egg:counter",
+        "egg:curse",
+        "egg:doublekick",
+        "egg:haze",
+        "egg:mist",
+        "egg:recover",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "tm:mistyterrain",
+        "tm:muddywater",
+        "tm:acidspray",
+        "tm:amnesia",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:facade",
+        "tm:dazzlinggleam",
+        "tm:haze",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:liquidation",
+        "tm:lowkick",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:moonblast",
+        "tm:spikes",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:fairywind",
+        "tm:trailblaze",
+        "tm:waterfall",
+        "tm:waterpulse"
+      ],
+"drops": {
+"amount": 2,
+"entries": [
+  {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "0-1"
+  },
+  {
+    "item": "minecraft:glow_berries",
+    "percentage": 2.5
+  }
+]
+},
+"labels": [
+    "kobel_regional"
+  ],
+  "aspects": [
+    "kobellian-gold"
+  ],
+  "pokedex": [
+    "cobblemon.species.wooper-kobellian.desc"
+  ]
+
+}
+]
+
+
+
+      
+    }
+
+    
+
+ 

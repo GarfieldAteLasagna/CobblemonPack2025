@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:redpickmin",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:redpickmin",
+     "model": "cobblemon:redpickmin.geo",
+     "texture": "cobblemon:textures/pokemon/redpickmin/redpickmin.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/redpickmin/redpickmin_shiny.png"
+   }
+ ]
+}

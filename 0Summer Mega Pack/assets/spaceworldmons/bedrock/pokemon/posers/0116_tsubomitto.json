@@ -1,0 +1,38 @@
+
+{
+  "head": "head",
+  "portraitScale": 1.2,
+  "portraitTranslation": [ 0, 1, 0 ],
+  "profileScale": 0.7,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "animations": {
+	"cry": "q.bedrock_stateful('tsubomitto-spaceworldmons', 'ground_idle')",
+	"faint": "q.bedrock_stateful('tsubomitto-spaceworldmons', 'ground_idle')"
+  },
+  "poses": {
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "look",
+        "bedrock(tsubomitto-spaceworldmons, ground_idle)"
+      ],
+	  "quirks": [
+		"q.bedrock_quirk('tsubomitto-spaceworldmons', 'blink')"
+      ]
+    },
+    "walking": {
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(tsubomitto-spaceworldmons, ground_walk)" ],
+	  "quirks": [
+		"q.bedrock_quirk('tsubomitto-spaceworldmons', 'blink')"
+      ]
+    }
+  }
+}

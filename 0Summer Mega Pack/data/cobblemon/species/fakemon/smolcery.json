@@ -1,0 +1,1366 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2416,
+    "name": "Smolcery",
+    "primaryType": "normal",
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "height": 5,
+    "weight": 102,
+    "pokedex": [
+      "cobblemon.species.smolcery.desc"
+    ],
+    "labels": [],
+    "aspects": [],
+  "abilities": [
+    "sweetveil",
+    "h:aromaveil"
+  ],
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 50,
+    "special_defence": 61,
+    "speed": 34
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "0-1"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:aromaticmist",
+    "5:sweetkiss",
+    "10:sweetscent",
+    "15:drainingkiss",
+    "20:aromatherapy",
+    "25:attract",
+    "30:acidarmor",
+    "35:dazzlinggleam",
+    "40:recover",
+    "45:mistyterrain",
+    "50:entrainment",
+    "egg:babydolleyes",
+    "egg:lastresort",
+    "tm:attract",
+    "tm:babydolleyes",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:facade",
+    "tm:helpinghand",
+    "tm:lastresort",
+    "tm:mistyterrain",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:terablast",
+    "tutor:babydolleyes",
+    "tutor:dazzlinggleam",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:rest",
+    "tutor:sleeptalk"
+  ],
+  "evolutions": [
+    {
+      "id": "smolcery_smolcremiestrawberryvanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremielovevanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberryvanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieclovervanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowervanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarvanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonvanillacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=vanilla",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberryrubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieloverubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberryrubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiecloverrubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowerrubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarrubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonrubycream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=ruby",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberrymatchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremielovematchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberrymatchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieclovermatchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowermatchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarmatchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonmatchacream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=matcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberrymintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremielovemintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberrymintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieclovermintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowermintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarmintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonmintcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=mint",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberrylemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremielovelemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberrylemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiecloverlemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowerlemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarlemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonlemoncream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=lemon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberrysaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremielovesaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberrysaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiecloversaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowersaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarsaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonsaltedcream",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=salted",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberryrubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieloverubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberryrubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiecloverrubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowerrubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarrubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonrubyswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=ruby_swirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberrycaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremielovecaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberrycaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieclovercaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowercaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarcaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribboncaramelswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=caramel_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestrawberryrainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=strawberry cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:strawberry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieloverainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=love cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:love_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieberryrainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=berry cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:berry_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiecloverrainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=clover cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:clover_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieflowerrainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=flower cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flower_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremiestarrainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=star cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:star_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "smolcery_smolcremieribbonrainbowswirl",
+      "variant": "level_up",
+      "result": "smolcremie decoration=ribbon cream=rainbow_swirl",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "decorate"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ribbon_sweet"
+        },
+        {
+          "variant": "time_range",
+          "range": "dusk"
+        }
+      ],
+      "permanent": true
+    }
+  ]
+}

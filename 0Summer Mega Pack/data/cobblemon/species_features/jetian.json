@@ -1,0 +1,6 @@
+{
+    "keys": ["jetian"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+}

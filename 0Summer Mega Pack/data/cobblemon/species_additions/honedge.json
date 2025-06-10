@@ -1,0 +1,260 @@
+{
+	"target": "cobblemon:honedge",
+	"forms": [
+		{
+			"aspects": ["sword_material=diamond"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_diamond",
+					"variant": "level_up",
+					"result": "doublade sword_material=diamond",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=netherite"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_netherite",
+					"variant": "level_up",
+					"result": "doublade sword_material=netherite",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=golden"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_golden",
+					"variant": "level_up",
+					"result": "doublade sword_material=golden",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=iron"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_iron",
+					"variant": "level_up",
+					"result": "doublade sword_material=iron",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=stone"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_stone",
+					"variant": "level_up",
+					"result": "doublade sword_material=stone",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=wooden"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_wooden",
+					"variant": "level_up",
+					"result": "doublade sword_material=wooden",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=copper"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_copper",
+					"variant": "level_up",
+					"result": "doublade sword_material=copper",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		},
+		{
+			"aspects": ["sword_material=emerald"],
+			"evolutions": [
+				{
+					"id": "honedge_doublade_emerald",
+					"variant": "level_up",
+					"result": "doublade sword_material=emerald",
+					"consumeHeldItem": false,
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 35
+						}
+					]
+				}
+			]
+		}
+	],
+	"evolutions": [
+		{
+			"id": "honedge_honedge_normal",
+			"variant": "item_interact",
+			"result": "honedge sword_material=normal",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:brush",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_diamond",
+			"variant": "item_interact",
+			"result": "honedge sword_material=diamond",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:diamond",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_netherite",
+			"variant": "item_interact",
+			"result": "honedge sword_material=netherite",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:netherite_ingot",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_golden",
+			"variant": "item_interact",
+			"result": "honedge sword_material=golden",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:gold_ingot",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_iron",
+			"variant": "item_interact",
+			"result": "honedge sword_material=iron",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:iron_ingot",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_stone",
+			"variant": "item_interact",
+			"result": "honedge sword_material=stone",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:cobblestone",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_wooden",
+			"variant": "item_interact",
+			"result": "honedge sword_material=wooden",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:oak_planks",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_emerald",
+			"variant": "item_interact",
+			"result": "honedge sword_material=emerald",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:emerald",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		},
+		{
+			"id": "honedge_honedge_copper",
+			"variant": "item_interact",
+			"result": "honedge sword_material=copper",
+			"consumeHeldItem": false,
+			"requiredContext": "minecraft:copper_ingot",
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 1
+				}
+			]
+		}
+	]
+}

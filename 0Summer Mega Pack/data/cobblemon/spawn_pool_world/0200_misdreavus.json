@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-misdreavus-1",
+            "pokemon": "misdreavus",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

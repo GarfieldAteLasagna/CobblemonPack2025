@@ -1,0 +1,61 @@
+{
+  "species": "cobblemon:espeon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["altered"],
+      "poser": "cobblemon:espeon_altered",
+      "model": "cobblemon:espeon_altered.geo",
+      "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_altered.png",
+      "layers": [
+        {
+          "name": "flame_",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_flame_1.png",
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_flame_2.png",
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_flame_3.png",
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_flame_4.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_altered_emissive.png",
+              "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "altered"],
+      "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_altered_shiny.png",
+      "layers": [
+        {
+          "name": "flame_",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_shiny_flame_1.png",
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_shiny_flame_2.png",
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_shiny_flame_3.png",
+              "cobblemon:textures/pokemon/0196_espeon/animation/espeon_altered_shiny_flame_4.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_altered_shiny_emissive.png",
+              "translucent": false
+        }
+      ]
+    }
+  ]
+
+}

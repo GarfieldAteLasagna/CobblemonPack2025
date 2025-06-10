@@ -1,0 +1,6 @@
+q.npc.config.give_loot ? {
+    q.run_command('execute as ' + c.player.username + ' at ' + q.npc.uuid + ' run function ' + q.npc.config.loot_function);
+    q.run_command('tp ' + q.npc.uuid + ' ~ ~-1000 ~');
+} : {
+};
+return 1;

@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:pumpkaboom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pumpkaboo",
+      "model": "cobblemon:pumpkaboom.geo",
+      "texture": "cobblemon:textures/pokemon/pumpkaboom/pumpkaboom.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/pumpkaboom/pumpkaboom_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/pumpkaboom/pumpkaboom_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/pumpkaboom/pumpkaboom_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

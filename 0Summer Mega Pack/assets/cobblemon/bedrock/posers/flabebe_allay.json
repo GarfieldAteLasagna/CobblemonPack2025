@@ -1,0 +1,33 @@
+{
+  "portraitScale": 2.26,
+  "portraitTranslation": [0, -0.38, 0],
+  "profileScale": 0.95,
+  "profileTranslation": [0.14, 0.53, 0],
+  "rootBone": "flabebe",
+  "animations": {
+    "cry": "q.bedrock_stateful('flabebe_allay', 'cry')",
+    "recoil": "q.bedrock_stateful('flabebe_allay', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "HOVER", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('flabebe_allay', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('flabebe_allay', 'blink')",
+        "q.bedrock_quirk('flabebe_allay', 'quirk_look')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('flabebe_allay', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('flabebe_allay', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('flabebe_allay', 'sleep')"]
+    }
+  }
+}

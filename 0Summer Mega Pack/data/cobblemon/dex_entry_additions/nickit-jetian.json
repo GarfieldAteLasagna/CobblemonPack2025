@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:nickit",
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": ["Jetian"]
+      }
+    ]
+  }

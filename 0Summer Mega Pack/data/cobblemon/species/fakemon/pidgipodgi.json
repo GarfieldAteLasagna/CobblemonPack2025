@@ -1,0 +1,126 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2419,
+    "name": "Pidgipodgi",
+    "primaryType": "flying",
+    "secondaryType":"poison",
+    "maleRatio": 0.5,
+    "height": 6,
+    "weight": 105,
+    "pokedex": [
+      "cobblemon.species.pidgipodgi.desc"
+    ],
+    "labels": [],
+    "aspects": [],
+  "abilities": [
+    "windrider"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defence": 20,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 61,
+  "experienceGroup": "fast",
+  "catchRate": 60,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "features": [],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:feather"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:gust",
+    "1:growl",
+    "1:feintattack",
+    "4:helpinghand",
+    "8:beatup",
+    "12:acidspray",
+    "16:tearfullook",
+    "20:aircutter",
+    "24:sludge",
+    "28:airslash",
+    "32:sludgewave",
+    "36:toxic",
+    "40:sludgebomb",
+    "44:whirlwind",
+    "48:belch",
+    "52:hurricane",
+    "56:aeroblast",
+    "egg:suckerpunch",
+    "egg:bravebird",
+    "egg:poisonjab",
+    "egg:endeavor",
+    "tm:acrobatics",
+    "tm:beatup",
+    "tm:blizzard",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:encore",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fling",
+    "tm:gunkshot",
+    "tm:heatwave",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:metronome",
+    "tm:ominouswind",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:takedown",
+    "tm:tailwind",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:vacuumwave",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:whirlwind"
+  ],
+  "evolutions": []
+}

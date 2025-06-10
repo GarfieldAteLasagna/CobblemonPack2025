@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "#PC",
+        " D "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:psychic_gem"
+        },
+        "P": {
+            "item": "minecraft:ender_chest"
+        },
+        "A": {
+            "item": "minecraft:ender_eye"
+        },
+        "C": {
+            "item": "cobblemon:dark_gem"
+        },
+        "D": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:prison_bottle",
+        "count": 1
+    }
+}

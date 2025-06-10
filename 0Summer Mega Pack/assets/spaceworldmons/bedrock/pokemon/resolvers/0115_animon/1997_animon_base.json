@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:animon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["spaceworldmons"],
+      "poser": "spaceworldmons:0115_animon",
+      "model": "spaceworldmons:animon-spaceworldmons.geo",
+      "texture": "spaceworldmons:textures/pokemon/0115_animon/animon.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spaceworldmons", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0115_animon/animon_shiny.png"
+    }
+  ]
+}

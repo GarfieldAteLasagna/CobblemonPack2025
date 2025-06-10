@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:spiritube",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:spiritube",
+      "model": "cobblemon:spiritube.geo",
+      "texture": "cobblemon:textures/pokemon/spiritube/spiritube.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/spiritube/spiritube_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/spiritube/spiritube_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/spiritube/spiritube_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

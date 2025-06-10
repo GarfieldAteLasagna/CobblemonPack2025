@@ -1,0 +1,162 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "forms": [
+        {
+            "abilities": [
+                "sweetveil",
+                "h:regenerator"
+            ],
+            "aspects": [
+                "qlovean"
+            ],
+            "baseExperienceYield": 162,
+            "baseFriendship": 50,
+            "baseScale": 0.7,
+            "baseStats": {
+                "attack": 85,
+                "defence": 55,
+                "hp": 98,
+                "special_attack": 95,
+                "special_defence": 60,
+                "speed": 35
+            },
+            "behaviour": {
+                "resting": {
+                    "canSleep": true,
+                    "light": "0-4",
+                    "willSleepOnBed": true
+                }
+            },
+            "catchRate": 75,
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:red_mushroom",
+                        "quantityRange": "0-2"
+                    },
+                    {
+                        "item": "cobblemon:cheri_berry",
+                        "percentage": 5.0
+                    }
+                ]
+            },
+            "eggCycles": 20,
+            "eggGroups": [
+                "grass"
+            ],
+            "evolutions": [
+            ],
+            "evYield": {
+                "attack": 0,
+                "defence": 0,
+                "hp": 2,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "experienceGroup": "medium_fast",
+            "height": 6,
+            "hitbox": {
+                "fixed": false,
+                "height": 1.35,
+                "width": 1.2
+            },
+            "labels": [
+                "gen5",
+                "qlovean"
+            ],
+            "maleRatio": 0.5,
+            "moves": [
+                "1:absorb",
+                "1:growth",
+                "1:astonish",
+                "1:bide",
+                "1:babydolleyes",
+                "1:stunspore",
+                "12:drainingkiss",
+                "16:synthesis",
+                "20:clearsmog",
+                "24:sweetscent",
+                "28:gigadrain",
+                "32:charm",
+                "36:toxic",
+                "42:aromaticmist",
+                "44:craftyshield",
+                "48:dazzlinggleam",
+                "54:spore",
+                "egg:clearsmog",
+                "egg:defensecurl",
+                "egg:poisonpowder",
+                "egg:rollout",
+                "egg:worryseed",
+                "tm:afteryou",
+                "tm:bodyslam",
+                "tm:terrainpulse",
+                "tm:endure",
+                "tm:energyball",
+                "tm:facade",
+                "tm:flash",
+                "tm:foulplay",
+                "tm:gastroacid",
+                "tm:gigadrain",
+                "tm:gigaimpact",
+                "tm:craftyshield",
+                "tm:grassyterrain",
+                "tm:hex",
+                "tm:hyperbeam",
+                "tm:floralhealing",
+                "tm:flowershield",
+                "tm:naturepower",
+                "tm:payback",
+                "tm:pollenpuff",
+                "tm:protect",
+                "tm:raindance",
+                "tm:rest",
+                "tm:rollout",
+                "tm:scaryface",
+                "tm:seedbomb",
+                "tm:sleeptalk",
+                "tm:sludgebomb",
+                "tm:moonblast",
+                "tm:stompingtantrum",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:synthesis",
+                "tm:terablast",
+                "tm:toxic",
+                "tm:venoshock",
+                "tm:worryseed",
+                "tutor:afteryou",
+                "tutor:energyball",
+                "tutor:foulplay",
+                "tutor:gastroacid",
+                "tutor:gigadrain",
+                "tutor:gigaimpact",
+                "tutor:hyperbeam",
+                "tutor:magicalleaf",
+                "tutor:rest",
+                "tutor:rollout",
+                "tutor:seedbomb",
+                "tutor:sleeptalk",
+                "tutor:sludgebomb",
+                "tutor:stompingtantrum",
+                "tutor:synthesis",
+                "tutor:worryseed"
+            ],
+            "name": "Qlovean",
+            "pokedex": [
+                "cobblemon.species.amoonguss_qlovean.desc"
+            ],
+            "preEvolution": "foongus qlovean",
+            "primaryType": "fairy",
+            "secondaryType": "poison",
+            "shoulderMountable": true,
+            "standingEyeHeight": 0.6,
+            "weight": 105
+        }
+    ],
+    "target": "cobblemon:amoonguss"
+}

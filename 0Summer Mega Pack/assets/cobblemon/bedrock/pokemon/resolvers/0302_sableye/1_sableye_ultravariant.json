@@ -1,0 +1,230 @@
+{
+  "species": "cobblemon:sableye",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:sableye_ultravariant",
+      "model": "cobblemon:sableye_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant.png"
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_shiny.png"
+    },
+    {
+      "aspects": ["ultravariant", "shiny","shining"],
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_shining.png"
+    },
+    {
+      "aspects": ["ultravariant","mask-fire"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_fire.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_fire_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shiny","mask-fire"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_fire_shiny.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_fire_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining","mask-fire"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_fire_shining.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_fire_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","mask-electric"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_electric.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_electric_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shiny","mask-electric"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_electric_shiny.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_electric_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining","mask-electric"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_electric_shining.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_electric_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","mask-grass"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_grass.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_grass_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shiny","mask-grass"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_grass_shiny.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_grass_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining","mask-grass"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_grass_shining.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_grass_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","mask-water"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_water.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_water_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shiny","mask-water"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_water_shiny.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_water_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining","mask-water"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_water_shining.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_water_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","mask-normal"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_normal.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_normal_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shiny","mask-normal"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_normal_shiny.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_normal_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining","mask-normal"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_normal_shining.png"
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_ultravariant_mask_normal_emissive.png"
+        }
+      ]
+    }
+  ]
+}

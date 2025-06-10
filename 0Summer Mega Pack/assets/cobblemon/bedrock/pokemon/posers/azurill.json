@@ -1,0 +1,103 @@
+{
+    "portraitScale": 2.3,
+    "portraitTranslation": [-0.13, -0.24, 0],
+    "profileScale": 0.75,
+    "profileTranslation": [0, 0.6, 0],
+    "animations": {
+      "cry": "q.bedrock_stateful('azurill', 'cry')",
+      "recoil": "q.bedrock_stateful('azurill', 'recoil')",
+      "status": "q.bedrock_stateful('azurill', 'cry', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isTouchingWater": false,
+        "animations": [
+          "q.bedrock('azurill', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('azurill', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "isTouchingWater": false,
+        "animations": [
+          "q.bedrock('azurill', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"]
+      },
+      "float": {
+        "poseTypes": ["FLOAT"],
+        "animations": [
+          "q.bedrock('azurill', 'water_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"]
+      },
+      "swim": {
+        "poseTypes": ["SWIM"],
+        "animations": [
+          "q.bedrock('azurill', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "isTouchingWater": false,
+        "animations": ["q.bedrock('azurill', 'sleep')"],
+        "namedAnimations": {
+            "cry": "q.bedrock_stateful('dummy', 'cry')"
+          }
+      },
+      "water_sleep": {
+        "poseTypes": ["SLEEP"],
+        "isTouchingWater": true,
+        "animations": ["q.bedrock('azurill', 'water_sleep')"],
+        "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+        }
+      },
+      "surface_idle": {
+        "poseTypes": ["STAND", "FLOAT"],
+        "isTouchingWater": true,
+        "animations": [
+          "q.bedrock('azurill', 'water_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"],
+        "transformedParts": [
+          {
+            "part": "body",
+            "position": [0, -7, 0]
+          }
+        ]
+      },
+      "surface_swim": {
+        "poseTypes": ["WALK", "SWIM"],
+        "isTouchingWater": true,
+        "animations": [
+          "q.bedrock('azurill', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"],
+        "transformedParts": [
+          {
+            "part": "body",
+            "position": [0, -7, 0]
+          }
+        ]
+      },
+      "shoulder_left": {
+        "poseTypes": ["SHOULDER_LEFT"],
+        "animations": [
+          "q.bedrock('azurill', 'shoulder_left')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"]
+      },
+      "shoulder_right": {
+        "poseTypes": ["SHOULDER_RIGHT"],
+        "animations": [
+          "q.bedrock('azurill', 'shoulder_right')"
+        ],
+        "quirks": ["q.bedrock_quirk('azurill', 'blink')"]
+      }
+    }
+   }

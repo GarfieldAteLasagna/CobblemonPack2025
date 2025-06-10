@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "minior-1",
+            "pokemon": "minior meteor_shield=meteor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-40",
+            "weight": 10.0,
+            "condition": {
+		"timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_peak"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:murkrow",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:murkrow",
+      "model": "cobblemon:murkrow_qlovean.geo",
+      "texture": "cobblemon:textures/pokemon/0198_murkrow/murkrow_qlovean.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "qlovean"],
+      "texture": "cobblemon:textures/pokemon/0198_murkrow/murkrow_qlovean_shiny.png"
+    }
+  ]
+}

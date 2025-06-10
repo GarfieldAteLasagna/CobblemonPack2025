@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:clawviathan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:clawviathan",
+      "model": "cobblemon:clawviathan.geo",
+      "texture": "cobblemon:textures/pokemon/clawviathan/clawviathan.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/clawviathan/clawviathan_shiny.png"
+    }
+  ]
+}

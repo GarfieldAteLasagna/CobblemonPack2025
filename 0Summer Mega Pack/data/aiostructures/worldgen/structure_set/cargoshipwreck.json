@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aiostructures:cargoshipwreck",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 55,
+    "separation": 30,
+    "salt": 432933886
+  }
+}

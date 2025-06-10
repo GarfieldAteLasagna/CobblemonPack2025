@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:beryllius",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:beryllius",
+      "model": "cobblemon:beryllius.geo",
+      "texture": "cobblemon:textures/pokemon/beryllius/beryllius.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/beryllius/beryllius_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/beryllius/beryllius_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/beryllius/beryllius_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

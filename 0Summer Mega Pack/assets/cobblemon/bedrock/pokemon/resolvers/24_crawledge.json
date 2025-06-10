@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:crawledge",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:ceruledge",
+        "model": "cobblemon:crawledge.geo",
+        "texture": "cobblemon:textures/pokemon/crawledge/crawledge.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/crawledge/crawledge_shiny.png"
+      }
+    ]
+  }

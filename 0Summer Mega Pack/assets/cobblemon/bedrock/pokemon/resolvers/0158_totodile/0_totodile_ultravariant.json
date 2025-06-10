@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:totodile",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:totodile_ultravariant",
+      "model": "cobblemon:totodile_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0158_totodile/totodile_ultravariant.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0158_totodile/totodile_ultravariant_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0158_totodile/totodile_ultravariant_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0158_totodile/totodile_ultravariant_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shining"],
+      "texture": "cobblemon:textures/pokemon/0158_totodile/totodile_ultravariant_shining.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0158_totodile/totodile_ultravariant_shining_emissive.png"
+        }
+      ]
+    }
+  ]
+}

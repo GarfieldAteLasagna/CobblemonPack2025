@@ -1,0 +1,11 @@
+{
+  "pokemon": [
+    "pumpkaboo",
+    "pumpkaboom",
+    "gourgeist",
+    "gourgrenade"
+  ],
+  "features": [
+    "pumpkin_size"
+  ]
+}

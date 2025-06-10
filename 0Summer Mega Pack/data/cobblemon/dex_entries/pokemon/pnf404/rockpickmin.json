@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:rockpickmin",
+  "speciesId": "cobblemon:rockpickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

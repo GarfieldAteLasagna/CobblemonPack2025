@@ -1,0 +1,24 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:pumpkin"
+	  },
+	  "title": {
+		"translate": "advancements.cobblemon.own_vegonk"
+	  },
+	  "description": {
+		"translate": "advancements.cobblemon.own_vegonk.description"
+	  },
+	  "hidden": false
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+	  "vegonk": {
+		"trigger": "cobblemon:party",
+		"conditions": {
+			"party": [ "cobblemon:vegonk"]
+		}
+	  }
+	}
+  }
+  

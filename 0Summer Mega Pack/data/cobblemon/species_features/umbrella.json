@@ -1,0 +1,17 @@
+{
+  "type": "choice",
+  "keys": [
+    "umbrella"
+  ],
+  "default": "red",
+  "choices": [
+    "red",
+    "yellow",
+    "light_blue",
+    "blue",
+    "green",
+    "pink"
+  ],
+  "isAspect": true,
+  "aspectFormat": "umbrella-{{choice}}"
+}

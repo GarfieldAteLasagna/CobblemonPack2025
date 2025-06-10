@@ -1,0 +1,32 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.11, -0.5, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.35, 0],
+  "rootBone": "starstellation",
+  "animations": {},
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('starstellation', 'battle_idle')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('starstellation', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('starstellation', 'ground_walk')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": ["q.bedrock('starstellation', 'ground_run')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('starstellation', 'sleep')"]
+    }
+  }
+}

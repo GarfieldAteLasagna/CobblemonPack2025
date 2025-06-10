@@ -1,0 +1,1 @@
+delete spawn pool world if you do not wish for the fakemon to be obtainable just delete the Fossils and Spawn pool world files

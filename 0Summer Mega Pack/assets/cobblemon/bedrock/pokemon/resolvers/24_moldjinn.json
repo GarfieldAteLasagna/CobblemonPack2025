@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:moldjinn",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:elgyem",
+        "model": "cobblemon:moldjinn.geo",
+        "texture": "cobblemon:textures/pokemon/moldjinn/moldjinn.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/moldjinn/moldjinn_shiny.png",
+        "layers": []
+      }
+    ]
+  }

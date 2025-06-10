@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:bluepickmin",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:bluepickmin",
+     "model": "cobblemon:bluepickmin.geo",
+     "texture": "cobblemon:textures/pokemon/bluepickmin/bluepickmin.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/bluepickmin/bluepickmin_shiny.png"
+   }
+ ]
+}

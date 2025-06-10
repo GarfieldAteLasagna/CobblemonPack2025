@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:canvette",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:smeargle",
+        "model": "cobblemon:canvette.geo",
+        "texture": "cobblemon:textures/pokemon/canvette/canvette.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/canvette/canvette_shiny.png",
+        "layers": []
+      }
+    ]
+  }

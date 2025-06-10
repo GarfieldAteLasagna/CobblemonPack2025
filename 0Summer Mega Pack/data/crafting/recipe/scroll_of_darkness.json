@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "#PC",
+        " D "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:dark_gem"
+        },
+        "P": {
+            "item": "minecraft:writable_book"
+        },
+        "A": {
+            "item": "minecraft:black_dye"
+        },
+        "C": {
+            "item": "cobblemon:fighting_gem"
+        },
+        "D": {
+            "item": "cobblemon:black_belt"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:scroll_of_darkness",
+        "count": 1
+    }
+}

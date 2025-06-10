@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:arbok",
+  "evolutions": [
+    {
+      "id": "arbok_cafe_arbok",
+      "variant": "item_interact",
+      "result": "cafe_arbok",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

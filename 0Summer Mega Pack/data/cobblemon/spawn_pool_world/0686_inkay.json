@@ -1,0 +1,70 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-inkay-1",
+            "pokemon": "inkay",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "13-31",
+            "weight": 6.45,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ],
+                "neededNearbyBlocks": [
+                        "minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "deeper-inkay-2",
+            "pokemon": "inkay",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "13-31",
+            "weight": 11.2,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        },
+        {
+            "id": "deeper-inkay-3",
+            "pokemon": "inkay",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "13-31",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 2.0,
+                    "condition": {
+                        "minLureLevel": 2
+                    }
+                }
+            ],
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

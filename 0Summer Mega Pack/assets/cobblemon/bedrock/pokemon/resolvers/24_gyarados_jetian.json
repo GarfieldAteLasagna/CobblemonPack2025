@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:gyarados",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:lanturn",
+        "model": "cobblemon:gyarados_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_jetian_shiny.png"
+      },
+    {
+      "aspects": ["gyarados-eye-color-purple"],
+      "layers": [
+        {
+          "name": "purple_eyes",
+          "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_jetian_transparency.png"
+        }
+      ]
+    }]
+  }

@@ -1,0 +1,17 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_hoenn",
+    "sortOrder": 1998,
+    "entries": [
+        "spaceworldmons:komari-spaceworldmons",
+        "spaceworldmons:penpin-spaceworldmons",
+        "spaceworldmons:evolotto-spaceworldmons",
+        "spaceworldmons:ponku-spaceworldmons",
+        "spaceworldmons:tanpu-spaceworldmons",
+        "spaceworldmons:hakogame-spaceworldmons",
+        "spaceworldmons:warabbit-spaceworldmons",
+        "spaceworldmons:ascenshark-spaceworldmons",
+        "spaceworldmons:psykou-spaceworldmons",
+        "spaceworldmons:psyking-spaceworldmons"
+    ]
+}

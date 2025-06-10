@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:noseferatu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:noseferatu",
+      "model": "cobblemon:noseferatu.geo",
+      "texture": "cobblemon:textures/pokemon/noseferatu/noseferatu.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/noseferatu/noseferatu_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/noseferatu/noseferatu_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/noseferatu/noseferatu_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

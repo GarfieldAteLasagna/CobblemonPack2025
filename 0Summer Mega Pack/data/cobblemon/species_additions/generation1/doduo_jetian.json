@@ -1,0 +1,269 @@
+{
+    
+    "target": "cobblemon:doduo",
+    "features": ["jetian"],
+    "forms": [
+      {
+        "implemented": true,
+        "nationalPokedexNumber": 84,
+        "name": "Jetian",
+        "primaryType": "fairy",
+        "secondaryType": "flying",
+        "maleRatio": 0.5,
+        "height": 14,
+        "weight": 392,
+        "pokedex": [
+          "cobblemon.species.doduo_jetian.desc"
+        ],
+        "labels": [
+          "gen1",
+          "jetian"
+        ],
+        "aspects": ["jetian"],
+        "abilities": [
+          "aromaveil",
+          "earlybird",
+          "h:tangledfeet"
+        ],
+        "eggGroups": [
+          "flying",
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 35,
+          "attack": 85,
+          "defence": 45,
+          "special_attack": 35,
+          "special_defence": 35,
+          "speed": 75
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 1,
+          "defence": 0,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "baseExperienceYield": 62,
+        "experienceGroup": "medium_fast",
+        "catchRate": 190,
+        "eggCycles": 20,
+        "baseFriendship": 50,
+        "baseScale": 0.8,
+        "hitbox": {
+          "width": 0.6,
+          "height": 1.4,
+          "fixed": false
+        },
+        "behaviour": {
+          "moving": {
+            "walk": {
+              "walkSpeed": 0.4
+            }
+          },
+          "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4"
+          }
+        },
+        "drops": {
+          "amount": 4,
+          "entries": [
+            {
+              "item": "minecraft:feather",
+              "quantityRange": "0-1"
+            },
+            {
+              "item": "minecraft:sugar"
+            },
+            {
+              "item": "cobblemon:sharp_beak",
+              "percentage": 2.5
+            },
+            {
+              "item": "cobblemon:wacan_berry",
+              "percentage": 2.5
+            }
+          ]
+        },
+        "moves": [
+          "1:growl",
+    "1:sweetkiss",
+    "1:bestow",
+    "1:fairywind",
+    "1:pound",
+    "1:lifedew",
+    "12:charm",
+    "16:ancientpower",
+    "20:yawn",
+    "24:metronome",
+    "28:afteryou",
+    "32:doubleedge",
+    "36:safeguard",
+    "40:followme",
+    "44:batonpass",
+    "48:lastresort",
+    "52:wish",
+    "egg:aerialace",
+    "egg:bestow",
+    "egg:extrasensory",
+    "egg:foresight",
+    "egg:luckychant",
+    "egg:mirrormove",
+    "egg:morningsun",
+    "egg:peck",
+    "egg:present",
+    "egg:psychoshift",
+    "egg:secretpower",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:aircutter",
+    "tm:ancientpower",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:fly",
+    "tm:focuspunch",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:ominouswind",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:twister",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:ancientpower",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:drainpunch",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:mysticalfire",
+    "tutor:ominouswind",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:twister",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+
+        ],
+        "evolutions": [
+          {
+            "id": "doduo_dodrio_jetian",
+            "variant": "level_up",
+            "result": "dodrio jetian",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+              "triattack"
+            ],
+            "requirements": [
+              {
+                "variant": "level",
+                "minLevel": 31
+              }
+            ]
+          }
+        ]
+      }]}

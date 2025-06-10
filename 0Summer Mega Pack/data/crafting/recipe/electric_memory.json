@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#P#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:electric_gem"
+        },
+        "P": {
+            "item": "cobblemon:upgrade"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:electricmemory",
+        "count": 1
+    }
+}

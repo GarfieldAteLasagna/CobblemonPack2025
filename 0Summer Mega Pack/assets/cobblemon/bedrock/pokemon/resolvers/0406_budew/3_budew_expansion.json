@@ -1,0 +1,294 @@
+{
+    "species": "cobblemon:budew",
+    "order": 3,
+    "variations": [
+      {
+        "aspects": ["roselia-rose-red-red"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_red_red.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-blue"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_red_blue.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-white"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_red_white.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-yellow"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_red_yellow.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-red"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_blue_red.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-blue"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_blue_blue.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-white"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_blue_white.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-yellow"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_blue_yellow.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-red"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_white_red.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-blue"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_white_blue.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-white"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_white_white.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-yellow"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_white_yellow.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-red"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_yellow_red.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-blue"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_yellow_blue.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-white"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_yellow_white.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-yellow"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_normal/budew_rose_yellow_yellow.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-red", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_red_red_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-blue", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_red_blue_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-white", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_red_white_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-red-yellow", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_red_yellow_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-red", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_blue_red_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-blue", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_blue_blue_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-white", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_blue_white_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-blue-yellow", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_blue_yellow_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-red", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_white_red_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-blue", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_white_blue_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-white", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_white_white_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-white-yellow", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_white_yellow_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-red", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_yellow_red_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-blue", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_yellow_blue_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-white", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_yellow_white_shiny.png"
+            }
+          ]
+      },
+      {
+        "aspects": ["roselia-rose-yellow-yellow", "shiny"],
+        "layers": [
+            {
+              "name": "rose",
+              "texture": "cobblemon:textures/pokemon/0406_budew/budew_rose_shiny/budew_rose_yellow_yellow_shiny.png"
+            }
+          ]
+      }
+    ]
+  }

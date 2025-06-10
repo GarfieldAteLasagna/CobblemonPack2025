@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:wimpod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["region-bias-ultraspace"],
+      "poser": "cobblemon:wimpod_bias_ultraspace",
+      "model": "cobblemon:wimpod_bias_ultraspace.geo",
+      "texture": "cobblemon:textures/pokemon/0767_wimpod/wimpod_bias_ultraspace.png"
+    },
+    {
+      "aspects": ["region-bias-ultraspace", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0767_wimpod/wimpod_bias_ultraspace_shiny.png"
+    },
+    {
+      "aspects": ["region-bias-ultraspace", "shining"],
+      "texture": "cobblemon:textures/pokemon/0767_wimpod/wimpod_bias_ultraspace_shining.png"
+    }
+  ]
+}

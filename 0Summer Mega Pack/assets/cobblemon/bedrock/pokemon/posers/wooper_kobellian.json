@@ -1,0 +1,49 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.15, -0.65, 0],
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0],
+  "rootBone": "wooper_kobellian",
+  "animations": {
+    "cry": "q.bedrock_stateful('wooper_kobellian', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('wooper_kobellian', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('wooper_kobellian', 'blink')"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('wooper_kobellian', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('wooper_kobellian', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('wooper_kobellian', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('wooper_kobellian', 'blink')"]
+    },
+    "floating": {
+      "poseName": "floating",
+      "poseTypes": ["FLOAT"],
+      "animations": ["q.look('head')", "q.bedrock('wooper_kobellian', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('wooper_kobellian', 'blink')"]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('wooper_kobellian', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('wooper_kobellian', 'blink')"]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('wooper_kobellian', 'sleep')"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_johto",
+    "sortOrder": 1997,
+    "entries": [
+        "spaceworldmons:shibirefugu-spaceworldmons",
+        "spaceworldmons:norowara-spaceworldmons",
+        "spaceworldmons:kyonpan-spaceworldmons",
+        "spaceworldmons:komainu-spaceworldmons",
+        "spaceworldmons:kindachi-spaceworldmons",
+        "spaceworldmons:turbann-spaceworldmons",
+        "spaceworldmons:madamuu-spaceworldmons",
+        "spaceworldmons:plux-spaceworldmons",
+        "spaceworldmons:animon-spaceworldmons",
+        "spaceworldmons:tsubomitto-spaceworldmons"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:dhelmise",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["sculk"],
+      "poser": "cobblemon:dhelmise_sculk",
+      "model": "cobblemon:dhelmise_sculk.geo",
+      "texture": "cobblemon:textures/pokemon/0781_dhelmise/dhelmise_sculk.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0781_dhelmise/dhelmise_sculk_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["sculk", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0781_dhelmise/dhelmise_sculk_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0781_dhelmise/dhelmise_sculk_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

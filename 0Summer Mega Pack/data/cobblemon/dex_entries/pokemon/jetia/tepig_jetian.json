@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:tepig_jetian",
+    "speciesId": "cobblemon:tepig",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

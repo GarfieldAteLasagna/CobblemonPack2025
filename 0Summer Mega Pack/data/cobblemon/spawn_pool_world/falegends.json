@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "falegends-1",
+            "pokemon": "falegends",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 3.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:stone"
+                ],
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

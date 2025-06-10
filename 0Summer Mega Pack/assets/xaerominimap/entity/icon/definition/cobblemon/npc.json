@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "cobblemon:textures/pokeball.png": "normal_sprite:regular/pokeball.png",
+    "cobblemon:textures/greatball.png": "normal_sprite:regular/greatball.png",
+    "cobblemon:textures/ultraball.png": "normal_sprite:regular/ultraball.png",
+    "cobblemon:textures/masterball.png": "normal_sprite:regular/masterball.png"
+  },
+
+  "modelConfigs": [
+    {
+      "baseScale": 1.0,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0
+    }
+  ]
+}

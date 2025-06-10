@@ -1,0 +1,130 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "forms": [
+        {
+            "abilities": [
+                "purifyingsalt",
+                "drizzle",
+                "h:adaptability"
+            ],
+            "aspects": [
+                "qlovean"
+            ],
+            "baseExperienceYield": 165,
+            "baseFriendship": 50,
+            "baseScale": 0.9,
+            "baseStats": {
+                "attack": 90,
+                "defence": 80,
+                "hp": 90,
+                "special_attack": 90,
+                "special_defence": 140,
+                "speed": 10
+            },
+            "behaviour": {
+                "moving": {
+					"swim": {
+                        "canBreatheUnderwater": true,
+                        "canSwimInLava": false,
+                        "canSwimInWater": true,
+                        "swimSpeed": "0.2"
+                    }
+                }
+            },
+            "catchRate": 95,
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:tube_coral",
+                        "quantityRange": "1-3"
+                    },
+                    {
+                        "item": "cobblemon:kings_rock",
+                        "percentage": 5.0
+                    }
+                ]
+            },
+            "eggCycles": 20,
+            "eggGroups": [
+                "field",
+                "water_1"
+            ],
+            "evolutions": [
+            ],
+            "evYield": {
+                "attack": 0,
+                "defence": 0,
+                "hp": 0,
+                "special_attack": 0,
+                "special_defence": 2,
+                "speed": 0
+            },
+            "experienceGroup": "medium_fast",
+            "height": 6,
+            "hitbox": {
+                "fixed": false,
+                "height": 1,
+                "width": 1
+            },
+            "labels": [
+                "gen3",
+                "qlovean"
+            ],
+            "moves": [
+                "1:watergun",
+                "1:smog",
+                "4:withdraw",
+                "8:rapidspin",
+                "14:razorshell",
+                "20:waterpulse",
+                "22:muddywater",
+                "24:protect",
+                "28:scald",
+                "32:boyslam",
+                "36:amnesia",
+                "40:ancientpower",
+                "48:aquaring",
+                "52:irondefence",
+                "60:shellsmash",
+                "64:stockpile",
+                "64:spitup",
+                "64:swallow",
+                "egg:clangoroussoul",
+                "egg:rockpolish",
+                "egg:curse",
+                "tm:shellsidearm",
+                "tm:takedown",
+                "tm:bulldoze",
+                "tm:rocktomb",
+                "tm:rockslide",
+                "tm:raindance",
+                "tm:rest",
+                "tm:stealthrock",
+                "tm:earthpower",
+                "tm:stompingtantrum",
+                "tm:thunder",
+                "tm:bodypress",
+                "tm:facade",
+                "tutor:grudge",
+                "tutor:tripledive",
+                "tutor:waterspout",
+                "tutor:mudsport",
+                "tutor:surf",
+                "tutor:swagger",
+                "tutor:substitute",
+                "tutor:stomp",
+                "tutor:smellingsalts"
+            ],
+            "name": "Qlovean",
+            "pokedex": [
+                "cobblemon.species.torkoal_qlovean.desc"
+            ],
+            "primaryType": "water",
+            "weight": 932
+        }
+    ],
+    "target": "cobblemon:torkoal"
+}

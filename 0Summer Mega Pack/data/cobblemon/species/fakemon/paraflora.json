@@ -1,0 +1,169 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2406,
+  "name": "Paraflora",
+  "primaryType": "dragon",
+  "secondaryType": "grass",
+  "maleRatio": 0.875,
+  "height": 5,
+  "weight": 570,
+  "pokedex": [
+    "cobblemon.species.paraflora.desc"
+  ],
+  "labels": [
+    "fossil"
+  ],
+  "aspects": [],
+  "abilities": [
+    "gluttony",
+    "h:grassysurge"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 118,
+    "attack": 30,
+    "defence": 42,
+    "special_attack": 42,
+    "special_defence": 88,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 70,
+  "experienceGroup": "erratic",
+  "catchRate": 45,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.85,
+    "height": 1.22,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.16
+      },
+      "swim": {
+        "canSwimInLava": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:oak_sapling",
+        "quantityRange": "0-1"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:yawn",
+    "6:taunt",
+    "10:dragontail",
+    "15:takedown",
+    "19:irondefense",
+    "24:swagger",
+    "28:ancientpower",
+    "33:endure",
+    "37:dragonpulse",
+    "42:energyball",
+    "46:powerwhip",
+    "egg:defensecurl",
+    "egg:recycle",
+    "egg:rollout",
+    "egg:suckerpunch",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bugbite",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:uproar",
+    "tutor:bugbite",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:outrage",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:uproar"
+  ],
+  "evolutions": [
+    {
+      "id": "paraflora_parasynthesis",
+      "variant": "level_up",
+      "result": "parasynthesis",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ]
+}

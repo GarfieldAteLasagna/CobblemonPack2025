@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:sableye_jetian",
+    "speciesId": "cobblemon:sableye",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

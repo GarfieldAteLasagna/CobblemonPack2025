@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:bewear_jetian",
+    "speciesId": "cobblemon:bewear",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

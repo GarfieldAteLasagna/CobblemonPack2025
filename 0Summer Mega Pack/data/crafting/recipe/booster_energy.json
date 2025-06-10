@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "cobblemon:cell_battery"
+    },
+    "base": {
+        "item": "cobblemon:upgrade"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "mega_showdown:booster_energy"
+    }
+}

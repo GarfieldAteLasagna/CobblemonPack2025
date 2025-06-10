@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:tutel",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:shroodle",
+        "model": "cobblemon:tutel.geo",
+        "texture": "cobblemon:textures/pokemon/tutel/tutel.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/tutel/tutel_shiny.png"
+      }
+    ]
+  }

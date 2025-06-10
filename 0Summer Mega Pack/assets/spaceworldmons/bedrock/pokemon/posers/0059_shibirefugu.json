@@ -1,0 +1,61 @@
+{
+  "head": "head",
+  "portraitScale": 0.9,
+  "portraitTranslation": [-0.4, 0.15, 0],
+  "profileScale": 0.55,
+  "profileTranslation": [-0.1, 0.4, 0],
+  "animations": {
+	"cry": "q.bedrock_stateful('shibirefugu-spaceworldmons', 'cry')",
+	"faint": "q.bedrock_stateful('shibirefugu-spaceworldmons', 'ground_idle')"
+  },
+  "poses": {
+    "battle-idle": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "transformedParts": [],
+      "animations": ["bedrock(shibirefugu-spaceworldmons, ground_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('shibirefugu-spaceworldmons', 'blink')"
+      ]
+    },
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(shibirefugu-spaceworldmons, ground_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('shibirefugu-spaceworldmons', 'blink')"
+      ]
+	},
+    "walking": {
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(shibirefugu-spaceworldmons, ground_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('shibirefugu-spaceworldmons', 'blink')"
+      ]
+    },
+	"floating": {
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": ["look", "bedrock(shibirefugu-spaceworldmons, water_idle)"],
+	  "quirks": [
+		"q.bedrock_quirk('shibirefugu-spaceworldmons', 'blink')"
+      ]
+    },
+    "swimming": {
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": ["look", "bedrock(shibirefugu-spaceworldmons, water_swim)"],
+	  "quirks": [
+		"q.bedrock_quirk('shibirefugu-spaceworldmons', 'blink')"
+      ]
+ 	},
+	"sleeping": {
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": ["bedrock(shibirefugu-spaceworldmons, sleep)"]
+     }
+  }
+}

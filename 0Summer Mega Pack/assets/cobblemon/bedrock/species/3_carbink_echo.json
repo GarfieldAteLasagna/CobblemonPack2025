@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:carbink",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["echo"],
+      "poser": "cobblemon:carbink",
+      "model": "cobblemon:carbink_echo.geo",
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_echo.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_echo_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["echo", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_echo_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_echo_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

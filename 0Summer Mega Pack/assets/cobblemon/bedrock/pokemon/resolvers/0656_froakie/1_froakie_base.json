@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:froakie",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:froakie2",
+      "model": "cobblemon:froakie.geo",
+      "texture": "cobblemon:textures/pokemon/0656_froakie/froakie.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0656_froakie/froakie_shiny.png"
+    }
+  ]
+}

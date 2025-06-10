@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:regisecto",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:regisecto",
+        "model": "cobblemon:regisecto.geo",
+        "texture": "cobblemon:textures/pokemon/regisecto/regisecto.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/regisecto/regisecto_shiny.png",
+        "layers": []
+      }
+    ]
+  }

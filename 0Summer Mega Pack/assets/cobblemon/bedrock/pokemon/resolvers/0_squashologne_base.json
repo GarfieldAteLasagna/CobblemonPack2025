@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:squashologne",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:squashologne",
+        "model": "cobblemon:squashologne.geo",
+        "texture": "cobblemon:textures/pokemon/squashologne/squashologne.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/squashologne/squashologne_shiny.png",
+        "layers": []
+      }
+    ]
+  }

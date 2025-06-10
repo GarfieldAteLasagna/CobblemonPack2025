@@ -1,0 +1,22 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.08, -1.35, 0],
+  "profileScale": 1.0,
+  "profileTranslation": [0, 0.2, 0],
+  "rootBone": "tangela",
+  "animations": {
+    "cry": "q.bedrock_stateful('tangela_lush', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('tangela_lush', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('tangela_lush', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('tangela_lush', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('tangela_lush', 'blink')"]
+    }
+  }
+}

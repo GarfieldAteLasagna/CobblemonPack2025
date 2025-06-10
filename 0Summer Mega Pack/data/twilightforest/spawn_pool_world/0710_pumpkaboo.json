@@ -1,0 +1,63 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pumpkaboo-twilight-1",
+            "pokemon": "pumpkaboo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-24",
+            "weight": 50.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight_forest"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ]
+            }
+        },
+        {
+            "id": "pumpkaboo-twilight-2",
+            "pokemon": "pumpkaboo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-20",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        },
+        {
+            "id": "pumpkaboo-twilight-3",
+            "pokemon": "pumpkaboo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "portraitScale": 1.65,
+  "portraitTranslation": [-0.23, 0.66, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.7, 0],
+  "rootBone": "grotle",
+  "animations": {
+    "cry": "q.bedrock_stateful('grotle_ultravariant', 'cry')",
+      "faint": "q.bedrock_primary('grotle_ultravariant', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "HOVER", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grotle_ultravariant', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grotle_ultravariant', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grotle_ultravariant', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grotle_ultravariant', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('grotle_ultravariant', 'sleep')"
+    ]
+    }
+  }
+}

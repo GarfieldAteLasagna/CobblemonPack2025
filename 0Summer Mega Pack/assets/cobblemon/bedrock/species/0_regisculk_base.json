@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:regisculk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:regisculk",
+      "model": "cobblemon:regisculk.geo",
+      "texture": "cobblemon:textures/pokemon/regisculk/regisculk.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/regisculk/regisculk_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/regisculk/regisculk_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/regisculk/regisculk_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:pinsir",
+    "evolutions": [{
+            "id": "pinsir_plux",
+            "variant": "trade",
+            "result": "plux spaceworldmons",
+            "consumeHeldItem": true,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "held_item",
+                    "itemCondition": "cobblemon:metal_coat"
+                }
+            ]
+        }
+    ]
+}

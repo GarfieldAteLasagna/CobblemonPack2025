@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "cobblemon:shiny_stone_block"
+    },
+    "base": {
+        "item": "minecraft:diamond_block"
+    },
+    "addition": {
+        "item": "cobblemon:hard_stone"
+    },
+    "result": {
+        "id": "mega_showdown:sparkling_stone_light"
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "portraitScale": 1.37,
+  "portraitTranslation": [-0.68, 0.3, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.93, 0],
+  "rootBone": "torracat",
+  "animations": {
+    "cry": "q.bedrock_stateful('torracat_ultravariant', 'cry')",
+    "recoil": "q.bedrock_stateful('torracat_ultravariant', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('torracat_ultravariant', 'battle_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('torracat_ultravariant', 'blink')",
+        "q.bedrock_quirk('torracat_ultravariant', 'look_quirk')",
+        "q.bedrock_quirk('torracat_ultravariant', 'tailtwitch_quirk', 10, 25, 1)",
+        "q.bedrock_quirk('torracat_ultravariant', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('torracat_ultravariant', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('torracat_ultravariant', 'blink')",
+        "q.bedrock_quirk('torracat_ultravariant', 'look_quirk')",
+        "q.bedrock_quirk('torracat_ultravariant', 'tailtwitch_quirk', 10, 25, 1)",
+        "q.bedrock_quirk('torracat_ultravariant', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('torracat_ultravariant', 'ground_walk')"],
+      "quirks": [
+        "q.bedrock_quirk('torracat_ultravariant', 'blink')",
+        "q.bedrock_quirk('torracat_ultravariant', 'look_quirk')",
+        "q.bedrock_quirk('torracat_ultravariant', 'tailtwitch_quirk', 10, 25, 1)",
+        "q.bedrock_quirk('torracat_ultravariant', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('torracat_ultravariant', 'sleep')"],
+      "quirks": [
+        "q.bedrock_quirk('torracat_ultravariant', 'yawn_quirk', 45, 120, 1)",
+        "q.bedrock_quirk('torracat_ultravariant', 'tailtwitch_quirk', 10, 25, 1)",
+        "q.bedrock_quirk('torracat_ultravariant', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
+      ]
+    }
+  }
+}

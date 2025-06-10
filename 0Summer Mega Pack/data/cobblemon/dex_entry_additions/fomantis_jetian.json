@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:fomantis",
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": ["Jetian"]
+      }
+    ]
+  }

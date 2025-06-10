@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:dreaneuma",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dreaneuma",
+      "model": "cobblemon:dreaneuma.geo",
+      "texture": "cobblemon:textures/pokemon/dreaneuma/dreaneuma.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/dreaneuma/dreaneuma_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/dreaneuma/dreaneuma_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/dreaneuma/dreaneuma_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

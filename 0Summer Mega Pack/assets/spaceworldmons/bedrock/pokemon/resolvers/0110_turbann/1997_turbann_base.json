@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:turbann",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["spaceworldmons"],
+      "poser": "spaceworldmons:0110_turbann",
+      "model": "spaceworldmons:turbann-spaceworldmons.geo",
+      "texture": "spaceworldmons:textures/pokemon/0110_turbann/turbann.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spaceworldmons", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0110_turbann/turbann_shiny.png"
+    }
+  ]
+}

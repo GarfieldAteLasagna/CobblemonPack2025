@@ -1,0 +1,437 @@
+{
+  "species": "cobblemon:haunter",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:haunter_ultravariant",
+      "model": "cobblemon:haunter_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0093_haunter/haunter_ultravariant.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0093_haunter/haunter_ultravariant_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0093_haunter/haunter_ultravariant_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0093_haunter/haunter_ultravariant_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0093_haunter/haunter_ultravariant_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0093_haunter/haunter_ultravariant_shining_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","pokeball-ancient_azure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_azure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_citrine_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_citrine_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_feather_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_feather_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_gigaton_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_gigaton_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_great_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_great_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_heavy_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_heavy_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_ivory_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_ivory_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_jet_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_jet_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_leaden_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_leaden_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_origin_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_origin_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_poke_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_poke_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_roseate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_roseate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_slate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_slate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_ultra_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_ultra_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_verdant_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_verdant_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_wing_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ancient_wing_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-azure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/azure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-beast_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/beast_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-cherish_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/cherish_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-citrine_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/citrine_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-dive_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/dive_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-dream_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/dream_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-dusk_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/dusk_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-fast_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/fast_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-friend_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/friend_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-great_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/great_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-heal_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/heal_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-heavy_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/heavy_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-level_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/level_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-love_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/love_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-lure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/lure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-luxury_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/luxury_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-master_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/master_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-moon_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/moon_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-nest_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/nest_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-net_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/net_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-park_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/park_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-poke_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/poke_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-premier_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/premier_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-quick_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/quick_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-repeat_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/repeat_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-roseate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/roseate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-safari_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/safari_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-slate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/slate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-sport_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/sport_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-strange_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/strange_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-timer_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/timer_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ultra_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/ultra_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-verdant_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0093_haunter/verdant_ball.png"
+        }
+      ]
+    }
+  ]
+}

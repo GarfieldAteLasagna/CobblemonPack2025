@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:chandelure",
+  "evolutions": [
+    {
+      "id": "chandelure_cafe_chandelure",
+      "variant": "item_interact",
+      "result": "cafe_chandelure",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

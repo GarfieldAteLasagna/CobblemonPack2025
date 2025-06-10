@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:carbink",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["amethyst"],
+      "poser": "cobblemon:carbink",
+      "model": "cobblemon:carbink_amethyst.geo",
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_amethyst.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_amethyst_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["amethyst", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_amethyst_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_amethyst_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

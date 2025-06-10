@@ -1,0 +1,214 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "forms": [
+        {
+            "abilities": [
+                "insomnia",
+                "snowcloak",
+                "h:refrigerate"
+            ],
+            "aspects": [
+                "qlovean"
+            ],
+            "baseExperienceYield": 158,
+            "baseFriendship": 50,
+            "baseScale": 0.9,
+            "baseStats": {
+                "attack": 85,
+                "defence": 60,
+                "hp": 100,
+                "special_attack": 85,
+                "special_defence": 65,
+                "speed": 95
+            },
+            "behaviour": {
+                "moving": {
+                    "fly": {
+                        "canFly": true
+                    }
+                }
+            },
+            "catchRate": 90,
+            "drops": {
+                "amount": 5,
+                "entries": [
+                    {
+                        "item": "minecraft:feather",
+                        "quantityRange": "0-2"
+                    },
+                    {
+                        "item": "minecraft:chicken"
+                    },
+                    {
+                        "item": "cobblemon:wise_glasses",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:never_melt_ice",
+                        "percentage": 6.0
+                    }
+                ]
+            },
+            "eggCycles": 15,
+            "eggGroups": [
+                "flying"
+            ],
+            "evolutions": [
+            ],
+            "evYield": {
+                "attack": 0,
+                "defence": 0,
+                "hp": 2,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "experienceGroup": "medium_fast",
+            "height": 16,
+            "hitbox": {
+                "fixed": false,
+                "height": 1.9,
+                "width": 0.8
+            },
+            "labels": [
+                "gen2",
+                "qlovean"
+            ],
+            "moves": [
+                "1:skyattack",
+                "1:tackle",
+                "1:growl",
+                "1:foresight",
+                "1:peck",
+                "1:psychoshift",
+                "1:echoedvoice",
+                "1:synchronoise",
+                "9:confusion",
+                "12:reflect",
+                "15:defog",
+                "18:airslash",
+                "23:hail",
+                "28:freezedry",
+                "33:uproar",
+                "38:roost",
+                "43:echoedvoice",
+                "45:icehammer",
+                "48:hypnosis",
+                "53:swift",
+                "55:icebeam",
+                "egg:featherdance",
+                "egg:feintattack",
+                "egg:meanlook",
+                "egg:mirrormove",
+                "egg:glaciate",
+                "egg:supersonic",
+                "egg:synchronoise",
+                "egg:whirlwind",
+                "egg:wingattack",
+                "tm:acrobatics",
+                "tm:aerialace",
+                "tm:agility",
+                "tm:aircutter",
+                "tm:airslash",
+                "tm:amnesia",
+                "tm:blizzard",
+                "tm:bodyslam",
+                "tm:bravebird",
+                "tm:calmmind",
+                "tm:confuseray",
+                "tm:curse",
+                "tm:defog",
+                "tm:doubleedge",
+                "tm:dreameater",
+                "tm:dualwingbeat",
+                "tm:endure",
+                "tm:extremespeed",
+                "tm:facade",
+                "tm:featherdance",
+                "tm:fly",
+                "tm:futuresight",
+                "tm:gigaimpact",
+                "tm:haze",
+                "tm:heatwave",
+                "tm:hurricane",
+                "tm:hypervoice",
+                "tm:imprison",
+                "tm:laserfocus",
+                "tm:magiccoat",
+                "tm:mist",
+                "tm:nastyplot",
+                "tm:nightshade",
+                "tm:ominouswind",
+                "tm:pluck",
+                "tm:protect",
+                "tm:psybeam",
+                "tm:psychic",
+                "tm:psychicnoise",
+                "tm:psychup",
+                "tm:raindance",
+                "tm:recycle",
+                "tm:reflect",
+                "tm:rest",
+                "tm:roost",
+                "tm:scaryface",
+                "tm:screech",
+                "tm:shadowball",
+                "tm:silverwind",
+                "tm:skillswap",
+                "tm:skyattack",
+                "tm:sleeptalk",
+                "tm:spite",
+                "tm:steelwing",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:swordsdance",
+                "tm:swift",
+                "tm:tailwind",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:thief",
+                "tm:triattack",
+                "tm:twister",
+                "tm:uproar",
+                "tm:workup",
+                "tm:zenheadbutt",
+                "tutor:aerialace",
+                "tutor:aircutter",
+                "tutor:calmmind",
+                "tutor:defog",
+                "tutor:dualwingbeat",
+                "tutor:gigaimpact",
+                "tutor:heatwave",
+                "tutor:hyperbeam",
+                "tutor:hypervoice",
+                "tutor:laserfocus",
+                "tutor:magiccoat",
+                "tutor:ominouswind",
+                "tutor:psychic",
+                "tutor:recycle",
+                "tutor:rest",
+                "tutor:roost",
+                "tutor:skillswap",
+                "tutor:skyattack",
+                "tutor:sleeptalk",
+                "tutor:spite",
+                "tutor:swift",
+                "tutor:tailwind",
+                "tutor:twister",
+                "tutor:uproar",
+                "tutor:zenheadbutt"
+            ],
+            "name": "Qlovean",
+            "pokedex": [
+                "cobblemon.species.noctowl_qlovean.desc"
+            ],
+            "primaryType": "ice",
+            "secondaryType": "flying",
+			"preEvolution": "hoothoot qlovean"
+        }
+    ],
+    "target": "cobblemon:noctowl"
+}

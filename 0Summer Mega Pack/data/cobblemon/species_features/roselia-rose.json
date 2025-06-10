@@ -1,0 +1,25 @@
+{
+  "type": "choice",
+  "keys": ["roselia-rose"],
+  "default": "random",
+  "choices": [
+    "red-red",
+    "red-yellow",
+    "red-blue",
+    "red-white",
+    "yellow-red",
+    "yellow-yellow",
+    "yellow-blue",
+    "yellow-white",
+    "blue-red",
+    "blue-yellow",
+    "blue-blue",
+    "blue-white",
+    "white-red",
+    "white-yellow",
+    "white-blue",
+    "white-white"
+  ],
+  "isAspect": true,
+  "aspectFormat": "roselia-rose-{{choice}}"
+}

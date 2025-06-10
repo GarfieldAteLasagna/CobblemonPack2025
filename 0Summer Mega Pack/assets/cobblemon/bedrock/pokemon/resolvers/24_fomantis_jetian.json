@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:fomantis",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:fomantis",
+        "model": "cobblemon:fomantis_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0753_fomantis/fomantis_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0753_fomantis/fomantis_jetian_shiny.png"
+      }
+    ]
+  }

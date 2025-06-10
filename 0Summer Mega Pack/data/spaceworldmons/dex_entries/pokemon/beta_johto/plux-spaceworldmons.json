@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:plux-spaceworldmons",
+    "speciesId": "cobblemon:plux",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

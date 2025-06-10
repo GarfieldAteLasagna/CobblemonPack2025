@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:yellowpickmin",
+  "speciesId": "cobblemon:yellowpickmin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

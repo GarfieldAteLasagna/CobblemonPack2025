@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:xerfawn",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:xerfawn",
+            "model": "cobblemon:xerfawn.geo",
+            "texture": "cobblemon:textures/pokemon/xerfawn/xerfawn.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/xerfawn/xerfawn_shiny.png",
+            "layers": []
+        }
+    ]
+}

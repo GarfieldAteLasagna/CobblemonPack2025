@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "beta-1",
+            "pokemon": "beta",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70-80",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "#minecraft:birch_forest"
+                ],
+            "maxY": 80
+    }
+},
+         {
+            "id": "beta-2",
+            "pokemon": "beta",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70-80",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:snowy_taiga"
+                ],
+                "maxY": 80
+			}
+        }
+  ]
+}

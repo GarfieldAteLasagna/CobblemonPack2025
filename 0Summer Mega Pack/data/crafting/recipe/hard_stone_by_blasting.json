@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "blocks",
+  "cookingtime": 50,
+  "experience": 5,
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result":{
+    "id": "cobblemon:hard_stone"
+  }
+}

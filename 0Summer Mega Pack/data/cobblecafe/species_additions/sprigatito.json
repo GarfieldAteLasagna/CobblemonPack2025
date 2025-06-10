@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:sprigatito",
+  "evolutions": [
+    {
+      "id": "sprigatito_cafe_sprigatito",
+      "variant": "item_interact",
+      "result": "cafe_sprigatito",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:lime_wool"
+    }
+  ]
+}

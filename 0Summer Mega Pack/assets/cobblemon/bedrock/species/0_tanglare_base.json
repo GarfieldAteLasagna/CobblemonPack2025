@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:tanglare",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tanglare",
+      "model": "cobblemon:tanglare.geo",
+      "texture": "cobblemon:textures/pokemon/tanglare/tanglare.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/tanglare/tanglare_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/tanglare/tanglare_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/tanglare/tanglare_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kotora-spaceworldmons",
+    "speciesId": "cobblemon:kotora",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

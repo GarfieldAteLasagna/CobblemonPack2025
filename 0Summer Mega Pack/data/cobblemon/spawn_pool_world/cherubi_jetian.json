@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cherubi-jetian-1",
+            "pokemon": "cherubi jetian",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+                "timeRange": "day",
+                "canSeeSky": true,
+                "isRaining": false,
+                "isThundering": false
+            }
+        }
+    ]
+}

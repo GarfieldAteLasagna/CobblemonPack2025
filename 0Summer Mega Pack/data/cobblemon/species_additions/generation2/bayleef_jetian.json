@@ -1,0 +1,205 @@
+{
+    
+    "target": "cobblemon:bayleef",
+    "features": ["jetian"],
+    "forms": [
+  {
+    "implemented": true,
+    "nationalPokedexNumber": 153,
+    "name": "Jetian",
+    "primaryType": "grass",
+    "secondaryType": "fairy",
+    "maleRatio": 0.875,
+    "height": 19,
+    "weight": 96,
+    "pokedex": [
+      "cobblemon.species.bayleef_jetian.desc"
+    ],
+    "labels": [
+      "gen2",
+      "starter",
+      "jetian"
+    ],
+    "aspects": ["jetian"],
+    "abilities": [
+      "overgrow",
+      "h:flowerveil"
+    ],
+    "eggGroups": [
+      "monster",
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "attack": 67,
+      "defence": 80,
+      "special_attack": 63,
+      "special_defence": 55,
+      "speed": 20
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 1,
+      "speed": 0
+    },
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 1.5,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.1,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.2
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:miracle_seed",
+          "percentage": 5.0
+        },
+        {
+            "item": "minecraft:allium",
+            "percentage": 85   
+        },
+        {
+            "item": "minecraft:pitcher_pod",
+            "percentage": 20
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:growl",
+      "1:tearfullook",
+      "1:razorleaf",
+      "1:poisonpowder",
+      "1:fairywind",
+      "12:moonlight",
+      "18:reflect",
+      "22:magicalleaf",
+      "26:leechseed",
+      "32:sweetscent",
+      "36:disarmingvoice",
+      "40:bodyslam",
+      "46:drainingkiss",
+      "50:gigadrain",
+      "54:solarbeam",
+      "egg:ancientpower",
+      "egg:aromatherapy",
+      "egg:counter",
+      "egg:flail",
+      "egg:grasswhistle",
+      "egg:healpulse",
+      "egg:ingrain",
+      "egg:leechseed",
+      "egg:refresh",
+      "egg:vinewhip",
+      "egg:wringout",
+      "tm:ancientpower",
+      "tm:bodyslam",
+      "tm:bulletseed",
+      "tm:charm",
+      "tm:curse",
+      "tm:cut",
+      "tm:doubleedge",
+      "tm:echoedvoice",
+      "tm:encore",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:faketears",
+      "tm:flash",
+      "tm:furycutter",
+      "tm:gigadrain",
+      "tm:grassknot",
+      "tm:grasspledge",
+      "tm:grassyglide",
+      "tm:grassyterrain",
+      "tm:headbutt",
+      "tm:helpinghand",
+      "tm:irontail",
+      "tm:knockoff",
+      "tm:laserfocus",
+      "tm:leafstorm",
+      "tm:lightscreen",
+      "tm:magicalleaf",
+      "tm:magiccoat",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:naturepower",
+      "tm:protect",
+      "tm:reflect",
+      "tm:rest",
+      "tm:rocksmash",
+      "tm:safeguard",
+      "tm:seedbomb",
+      "tm:sleeptalk",
+      "tm:solarbeam",
+      "tm:solarblade",
+      "tm:stompingtantrum",
+      "tm:strength",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swordsdance",
+      "tm:synthesis",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:trailblaze",
+      "tm:workup",
+      "tm:worryseed",
+      "tutor:ancientpower",
+      "tutor:energyball",
+      "tutor:furycutter",
+      "tutor:gigadrain",
+      "tutor:grasspledge",
+      "tutor:grassyglide",
+      "tutor:helpinghand",
+      "tutor:irontail",
+      "tutor:knockoff",
+      "tutor:laserfocus",
+      "tutor:magicalleaf",
+      "tutor:magiccoat",
+      "tutor:mudslap",
+      "tutor:rest",
+      "tutor:rocksmash",
+      "tutor:seedbomb",
+      "tutor:sleeptalk",
+      "tutor:stompingtantrum",
+      "tutor:synthesis",
+      "tutor:worryseed"
+  
+    ],
+    "evolutions": [
+      {
+        "id": "bayleef_meganium",
+        "variant": "level_up",
+        "result": "meganium",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 34
+          }
+        ]
+      }
+    ]
+  }]}

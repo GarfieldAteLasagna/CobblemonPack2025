@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:tsubomitto",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["spaceworldmons"],
+      "poser": "spaceworldmons:0116_tsubomitto",
+      "model": "spaceworldmons:tsubomitto-spaceworldmons.geo",
+      "texture": "spaceworldmons:textures/pokemon/0116_tsubomitto/tsubomitto.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spaceworldmons", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0116_tsubomitto/tsubomitto_shiny.png"
+    }
+  ]
+}

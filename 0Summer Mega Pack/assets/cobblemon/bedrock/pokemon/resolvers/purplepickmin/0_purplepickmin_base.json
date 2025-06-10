@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:purplepickmin",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:purplepickmin",
+     "model": "cobblemon:purplepickmin.geo",
+     "texture": "cobblemon:textures/pokemon/purplepickmin/purplepickmin.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/purplepickmin/purplepickmin_shiny.png"
+   }
+ ]
+}

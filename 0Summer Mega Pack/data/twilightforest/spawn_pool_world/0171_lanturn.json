@@ -1,0 +1,41 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lanturn-twilight-1",
+            "pokemon": "lanturn",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "27-46",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        },
+        {
+            "id": "lanturn-twilight-2",
+            "pokemon": "lanturn",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "27-56",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight",
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        }
+    ]
+}

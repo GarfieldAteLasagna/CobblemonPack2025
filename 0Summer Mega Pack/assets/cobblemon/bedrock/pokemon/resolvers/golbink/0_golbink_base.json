@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:golbink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:golbink",
+        "model": "cobblemon:golbink.geo",
+        "texture": "cobblemon:textures/pokemon/golbink/golbink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/golbink/golbink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/golbink/golbink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/golbink/golbink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

@@ -1,0 +1,192 @@
+{
+    
+    "target": "cobblemon:stufful",
+    "features": ["jetian"],
+    "forms": [
+      {
+        "implemented": true,
+        "nationalPokedexNumber": 759,
+        "name": "Jetian",
+        "primaryType": "fighting",
+        "maleRatio": 0.5,
+        "height": 5,
+        "weight": 68,
+        "pokedex": [
+          "cobblemon.species.stufful_jetian.desc"
+        ],
+        "labels": [
+          "gen7",
+          "jetian"
+        ],
+        "aspects": ["jetian"],
+        "abilities": [
+          "fluffy",
+          "klutz",
+          "h:cutecharm"
+        ],
+        "eggGroups": [
+          "field"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "attack": 75,
+          "defence": 50,
+          "special_attack": 45,
+          "special_defence": 50,
+          "speed": 50
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 1,
+          "defence": 0,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "baseExperienceYield": 68,
+        "experienceGroup": "medium_fast",
+        "catchRate": 140,
+        "eggCycles": 15,
+        "baseFriendship": 50,
+        "baseScale": 0.7,
+        "hitbox": {
+          "width": 0.9,
+          "height": 1,
+          "fixed": false
+        },
+        "behaviour": {
+          "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4"
+          }
+        },
+        "drops": {
+          "amount": 1,
+          "entries": [
+            {
+              "item": "cobblemon:chople_berry",
+              "percentage": 2.5
+            }
+          ]
+        },
+        "moves": [
+          "1:pound",
+          "1:meditate",
+          "1:detect",
+          "5:fakeout",
+          "10:reversal",
+          "15:furyswipes",
+          "20:quickguard",
+          "25:forcepalm",
+          "30:uturn",
+          "35:drainpunch",
+          "40:honeclaws",
+          "45:aurasphere",
+          "51:bounce",
+          "55:calmmind",
+          "60:highjumpkick",
+          "egg:doubleslap",
+          "egg:feint",
+          "egg:focuspunch",
+          "egg:jumpkick",
+          "egg:knockoff",
+          "egg:mefirst",
+          "egg:smellingsalts",
+          "egg:vitalthrow",
+          "tm:acrobatics",
+          "tm:aerialace",
+          "tm:agility",
+          "tm:allyswitch",
+          "tm:aurasphere",
+          "tm:batonpass",
+          "tm:bounce",
+          "tm:brickbreak",
+          "tm:bulkup",
+          "tm:calmmind",
+          "tm:closecombat",
+          "tm:coaching",
+          "tm:dig",
+          "tm:drainpunch",
+          "tm:dualchop",
+          "tm:endure",
+          "tm:facade",
+          "tm:fling",
+          "tm:focusblast",
+          "tm:focusenergy",
+          "tm:focuspunch",
+          "tm:grassknot",
+          "tm:helpinghand",
+          "tm:honeclaws",
+          "tm:knockoff",
+          "tm:lowkick",
+          "tm:lowsweep",
+          "tm:megakick",
+          "tm:megapunch",
+          "tm:payback",
+          "tm:poisonjab",
+          "tm:poweruppunch",
+          "tm:protect",
+          "tm:psychup",
+          "tm:raindance",
+          "tm:rest",
+          "tm:retaliate",
+          "tm:revenge",
+          "tm:reversal",
+          "tm:rocksmash",
+          "tm:rocktomb",
+          "tm:roleplay",
+          "tm:sleeptalk",
+          "tm:stoneedge",
+          "tm:strength",
+          "tm:substitute",
+          "tm:sunnyday",
+          "tm:swift",
+          "tm:swordsdance",
+          "tm:takedown",
+          "tm:taunt",
+          "tm:terablast",
+          "tm:trailblaze",
+          "tm:upperhand",
+          "tm:uturn",
+          "tm:workup",
+          "tutor:aerialace",
+          "tutor:allyswitch",
+          "tutor:bounce",
+          "tutor:bulkup",
+          "tutor:calmmind",
+          "tutor:coaching",
+          "tutor:drainpunch",
+          "tutor:dualchop",
+          "tutor:focusenergy",
+          "tutor:focuspunch",
+          "tutor:helpinghand",
+          "tutor:knockoff",
+          "tutor:lowkick",
+          "tutor:poisonjab",
+          "tutor:rest",
+          "tutor:rocksmash",
+          "tutor:roleplay",
+          "tutor:sleeptalk",
+          "tutor:stoneedge",
+          "tutor:swift"      
+        ],
+        "evolutions": [
+          {
+            "id": "stufful_bewear_jetian",
+            "variant": "level_up",
+            "result": "bewear jetian",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+              "bind"
+            ],
+            "requirements": [
+              {
+                "variant": "level",
+                "minLevel": 27
+              }
+            ]
+          }
+        ]
+      }
+      ]}

@@ -1,0 +1,23 @@
+{
+    "species": "cobblemon:emboar",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:emboar",
+        "model": "cobblemon:emboar_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0500_emboar/emboar_jetian.png",
+        "layers": [
+          {
+            "name": "glow",
+            "texture": "cobblemon:textures/pokemon/0500_emboar/emboar_jetian_transparency.png",
+            "translucent": false
+          }
+        ]
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0500_emboar/emboar_jetian_shiny.png"
+      }
+    ]
+  }

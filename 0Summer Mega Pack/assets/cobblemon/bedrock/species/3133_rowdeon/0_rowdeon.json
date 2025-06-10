@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rowdeon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rowdeon",
+      "model": "cobblemon:rowdeon.geo",
+      "texture": "cobblemon:textures/pokemon/3133_rowdeon/rowdeon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3133_rowdeon/rowdeon_shiny.png"
+    }
+  ]
+}

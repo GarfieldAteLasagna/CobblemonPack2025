@@ -1,0 +1,13 @@
+{
+ "type": "choice",
+ "keys": ["y_outfit"],
+ "default": "normal",
+ "choices": [
+   "normal",
+   "frenchfries",
+   "empty3",
+   "empty4"
+ ],
+ "isAspect": true,
+ "aspectFormat": "y-outfit-{{choice}}"
+}

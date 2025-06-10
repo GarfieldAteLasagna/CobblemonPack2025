@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:yellowpickmin",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:yellowpickmin",
+     "model": "cobblemon:yellowpickmin.geo",
+     "texture": "cobblemon:textures/pokemon/yellowpickmin/yellowpickmin.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/yellowpickmin/yellowpickmin_shiny.png"
+   },
+   {
+     "aspects": [
+       "y-outfit-frenchfries"
+     ],
+     "model": "cobblemon:y_pickmin_fries.geo",
+     "texture": "cobblemon:textures/pokemon/y_pickmin_fries/y_pickmin_fries.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny",
+       "y-outfit-frenchfries"
+     ],
+     "texture": "cobblemon:textures/pokemon/y_pickmin_fries/y_pickmin_fries_shiny.png"
+   }
+ ]
+}

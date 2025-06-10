@@ -1,0 +1,251 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1039,
+  "name": "Nosepyre",
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "maleRatio": 1,
+  "height": 10,
+  "weight": 970,
+  "pokedex": [
+    "cobblemon.species.nosepyre.desc"
+  ],
+  "labels": [
+    "gen3",
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "sturdy",
+    "solidrock",
+    "h:thermalexchange"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 120,
+    "special_attack": 30,
+    "special_defence": 90,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 75,
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.35,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInWater": false
+      }
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:charcoal",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:ember",
+    "4:harden",
+    "7:block",
+    "8:firespin",
+    "10:rockthrow",
+    "11:flamecharge",
+    "13:willowisp",
+    "16:rest",
+    "19:firepunch",
+    "22:rockslide",
+    "25:powergem",
+    "28:rockblast",
+    "31:heatcrash",
+    "34:sandstorm",
+    "37:earthquake",
+    "40:stoneedge",
+    "43:flareblitz",
+    "43:shoreup",
+    "egg:doubleedge",
+    "egg:headsmash",
+    "egg:magnitude",
+    "egg:rollout",
+    "egg:wideguard",
+    "egg:ragingfury",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dynamicpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:eruption",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flashcannon",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:painsplit",
+    "tm:powergem",
+    "tm:powershift",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:willowisp",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:drainpunch",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:flashcannon",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:painsplit",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderpunch"
+  ],
+  "evolutions": [
+    {
+      "id": "nosepyre_gildenose",
+      "variant": "level_up",
+      "result": "gildenose",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "teeterdance"
+      ],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "nosepyre oxeye_daisies=256"
+        }
+      ]
+    },
+    {
+      "id": "nosepyre_noseferatu",
+      "variant": "level_up",
+      "result": "noseferatu",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hypnosis"
+      ],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "nosepyre amethyst_shards=256"
+        }
+      ]
+    },
+    {
+      "id": "nosepyre_djinnferno",
+      "variant": "level_up",
+      "result": "djinnferno",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowpunch"
+      ],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "nosepyre enchanted_golden_apple=1"
+        }
+      ]
+    }
+  ]
+}

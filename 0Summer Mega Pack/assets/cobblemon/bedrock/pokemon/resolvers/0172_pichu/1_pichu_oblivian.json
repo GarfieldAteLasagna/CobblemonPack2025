@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pichu",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["oblivian"],
+      "poser": "cobblemon:pichu_oblivian",
+      "model": "cobblemon:pichu_oblivian.geo",
+      "texture": "cobblemon:textures/pokemon/0172_pichu/pichu_oblivian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0172_pichu/pichu_oblivian_shiny.png"
+    }
+  ]
+
+}

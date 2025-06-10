@@ -1,0 +1,122 @@
+{
+    "target": "cobblemon:aegislash",
+    "evolutions": [
+        {
+            "id": "aegislash_aegislash_normal",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=normal",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:brush",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_diamond",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=diamond",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:diamond",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_netherite",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=netherite",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:netherite_ingot",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_golden",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=golden",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:gold_ingot",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_iron",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=iron",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:iron_ingot",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_stone",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=stone",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:cobblestone",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_wooden",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=wooden",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:oak_planks",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_emerald",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=emerald",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:emerald",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "aegislash_aegislash_copper",
+            "variant": "item_interact",
+            "result": "aegislash sword_material=copper",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:copper_ingot",
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        }
+    ]
+}

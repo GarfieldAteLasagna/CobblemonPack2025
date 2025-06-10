@@ -1,0 +1,38 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kabuto-twilight-1",
+            "pokemon": "kabuto",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
+        },
+        {
+            "id": "kabuto-twilight-2",
+            "pokemon": "kabuto",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
+        }
+    ]
+}

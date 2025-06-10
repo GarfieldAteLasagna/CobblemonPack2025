@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:bayleef",
+    "order": 25,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:bayleef",
+        "model": "cobblemon:bayleef_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0153_bayleef/bayleef_jetian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0153_bayleef/bayleef_jetian_shiny.png"
+      }
+    ]
+  }

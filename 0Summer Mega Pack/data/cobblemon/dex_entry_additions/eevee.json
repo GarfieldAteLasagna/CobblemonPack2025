@@ -1,0 +1,13 @@
+{
+  "entryId": "cobblemon:eevee",
+  "forms": [
+    {
+      "displayForm": "Altered A",
+      "unlockForms": ["Altered A"]
+    },
+    {
+      "displayForm": "Altered B",
+      "unlockForms": ["Altered B"]
+    }
+  ]
+}

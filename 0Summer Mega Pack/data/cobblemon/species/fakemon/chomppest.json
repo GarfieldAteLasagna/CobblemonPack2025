@@ -1,0 +1,155 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2431,
+    "name": "Chomppest",
+    "primaryType": "steel",
+    "secondaryType": "poison",
+    "maleRatio": 0.875,
+    "height": 6,
+    "weight": 95,
+    "pokedex": [
+      "cobblemon.species.chomppest.desc"
+    ],
+    "labels": ["mythical"],
+    "aspects": [],
+    "abilities": [
+      "runaway",
+      "h:runaway"
+    ],
+    "eggGroups": [
+      "monster",
+      "water_1"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defence": 100,
+      "special_attack": 100,
+      "special_defence": 100,
+      "speed": 100
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 1,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 63,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "shoulderMountable": true,
+    "baseScale": 0.5,
+    "hitbox": {
+      "width": 0.85,
+      "height": 1.4,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "swim": {
+          "canBreatheUnderwater": true,
+          "canWalkOnWater": true,
+          "canSwimInWater": true,
+          "canSwimInLava": false,
+          "swimSpeed": "0.2"
+        },
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      }
+    },
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "cobblemon:mystic_water",
+          "percentage": 5.0
+        }
+      ]
+    },
+    "moves": [
+          "1:acid",
+          "1:growl",
+          "1:lick",
+          "1:poisongas",
+          "1:ancientpower",
+          "4:smog",
+          "7:taunt",
+          "10:charm",
+          "13:sludge",
+          "17:gyroball",
+          "21:headbutt",
+          "25:screech",
+          "28:ironhead",
+          "32:swagger",
+          "36:poisonjab",
+          "46:uproar",
+          "52:spinout",
+          "58:gunkshot",
+          "egg:haze",
+          "egg:partingshot",
+          "egg:selfdestruct",
+          "egg:torment",
+          "egg:toxic",
+          "tm:acidspray",
+          "tm:assurance",
+          "tm:bodyslam",
+          "tm:bulldoze",
+          "tm:curse",
+          "tm:doubleedge",
+          "tm:endeavor",
+          "tm:endure",
+          "tm:facade",
+          "tm:flashcannon",
+          "tm:gigaimpact",
+          "tm:gunkshot",
+          "tm:gyroball",
+          "tm:hardpress",
+          "tm:haze",
+          "tm:headbutt",
+          "tm:heavyslam",
+          "tm:highhorsepower",
+          "tm:hyperbeam",
+          "tm:irondefense",
+          "tm:ironhead",
+          "tm:lashout",
+          "tm:magnetrise",
+          "tm:metalsound",
+          "tm:overheat",
+          "tm:poisonjab",
+          "tm:protect",
+          "tm:raindance",
+          "tm:rest",
+          "tm:sandstorm",
+          "tm:scaryface",
+          "tm:screech",
+          "tm:selfdestruct",
+          "tm:sleeptalk",
+          "tm:sludgebomb",
+          "tm:sludgewave",
+          "tm:steelbeam",
+          "tm:substitute",
+          "tm:sunnyday",
+          "tm:swagger",
+          "tm:takedown",
+          "tm:taunt",
+          "tm:temperflare",
+          "tm:terablast",
+          "tm:thief",
+          "tm:torment",
+          "tm:toxic",
+          "tm:toxicspikes",
+          "tm:uproar",
+          "tm:venoshock",
+          "tm:zenheadbutt"
+    ]
+  }

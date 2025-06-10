@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kindachi-spaceworldmons",
+    "speciesId": "cobblemon:kindachi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

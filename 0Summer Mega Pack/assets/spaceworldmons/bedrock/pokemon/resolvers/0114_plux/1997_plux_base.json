@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:plux",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["spaceworldmons"],
+      "poser": "spaceworldmons:0114_plux",
+      "model": "spaceworldmons:plux-spaceworldmons.geo",
+      "texture": "spaceworldmons:textures/pokemon/0114_plux/plux.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spaceworldmons", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0114_plux/plux_shiny.png"
+    }
+  ]
+}

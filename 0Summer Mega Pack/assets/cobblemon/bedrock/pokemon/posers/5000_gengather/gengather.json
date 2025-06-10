@@ -1,0 +1,40 @@
+{
+  "portraitScale": 1.18,
+  "portraitTranslation": [0, 0.5, -1],
+  "profileScale": 0.55,
+  "profileTranslation": [0.3, 1.4, 0],
+  "rootBone": "gengather",
+  "animations": {
+    "cry": "q.bedrock_stateful('gengather', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND","NONE","PROFILE"],
+      "animations": ["q.bedrock('gengather', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('gengather', 'blink')",
+      "q.bedrock_quirk('gengather', 'pokeballbounce')",
+      "q.bedrock_quirk('gengather', 'ancientballbounce')"]
+    },
+    "hover": {
+      "poseTypes": ["FLOAT","PORTRAIT", "HOVER"],
+      "animations": ["q.bedrock('gengather', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('gengather', 'blink')",
+      "q.bedrock_quirk('gengather', 'pokeballbounce')",
+      "q.bedrock_quirk('gengather', 'ancientballbounce')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('gengather', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('gengather', 'blink')",
+      "q.bedrock_quirk('gengather', 'pokeballcritical')",
+      "q.bedrock_quirk('gengather', 'ancientballcritical')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": ["q.look('head')", "q.bedrock('gengather', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('gengather', 'blink')",
+      "q.bedrock_quirk('gengather', 'pokeballcritical')",
+  "q.bedrock_quirk('gengather', 'ancientballcritical')"]
+    }
+  }
+}

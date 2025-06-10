@@ -1,0 +1,117 @@
+{
+    
+    "target": "cobblemon:magikarp",
+    "features": ["jetian"],
+    "forms": [
+  {
+    "implemented": true,
+    "nationalPokedexNumber": 129,
+    "name": "Jetian",
+    "primaryType": "water",
+    "secondaryType": "fighting",
+    "shoulderMountable": false,
+    "maleRatio": 0.875,
+    "height": 7,
+    "weight": 96,
+    "pokedex": [
+      "cobblemon.species.magikarp_jetian.desc"
+    ],
+    "labels": [
+      "gen1",
+      "jetian"
+    ],
+    "aspects": ["jetian"],
+    "abilities": [
+       "swiftswim",
+       "h:rattled"
+    ],
+    "eggGroups": [
+      "water_1"
+    ],
+    "baseStats": {
+      "hp": 50,
+    "attack": 48,
+    "defence": 65,
+    "special_attack": 44,
+    "special_defence": 64,
+    "speed": 43
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 1,
+      "speed": 0
+    },
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.1,
+      "fixed": false
+    },
+    "behaviour": {
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true,
+        "canSwimInWater": true,
+        "canSwimInLava": false
+      }
+    }
+  },
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:bone",
+          "percentage": 5.0
+        },
+        {
+            "item": "minecraft:salmon",
+            "percentage": 20
+        }
+      ]
+    },
+    "moves": [
+      "1:splash",
+    "15:tackle",
+    "25:flail",
+    "tm:bounce",
+    "tutor:bounce"
+    ],
+    "evolutions": [
+      {
+        "id": "magikarp_gyarados_jetian",
+        "variant": "level_up",
+        "result": "gyarados jetian",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 20
+          }
+        ]
+      },
+      {
+      "id": "magikarp_maguskeg_jetian",
+      "variant": "item_interact",
+      "result": "maguskeg jetian",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:kings_rock"
+    }
+    ]
+  }]}

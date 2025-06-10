@@ -1,0 +1,24 @@
+{
+	"display": {
+	  "icon": {
+		"id": "cobblemon:razor_fang"
+	  },
+	  "title": {
+		"translate": "advancements.cobblemon.own_ultimagrub"
+	  },
+	  "description": {
+		"translate": "advancements.cobblemon.own_ultimagrub.description"
+	  },
+	  "hidden": false
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+	  "ultimagrub": {
+		"trigger": "cobblemon:party",
+		"conditions": {
+			"party": [ "cobblemon:ultimagrub"]
+		}
+	  }
+	}
+  }
+  

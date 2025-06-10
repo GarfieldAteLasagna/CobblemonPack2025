@@ -1,0 +1,59 @@
+{
+  "portraitScale": 1.46,
+  "portraitTranslation": [-0.11, -0.17, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0, 0.54, 0],
+  "rootBone": "gastly",
+  "animations": {
+    "cry": "q.bedrock_stateful('gastly_ultravariant', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('gastly_ultravariant', 'blink')","q.bedrock_quirk('gastly_ultravariant', 'pokeballopen')",
+        "q.bedrock_quirk('gastly_ultravariant', 'blink')","q.bedrock_quirk('gastly_ultravariant', 'ancientballopen')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('gastly_ultravariant', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('gastly_ultravariant', 'sleep')"
+    ]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant', 'shoulder_left')"
+      ],
+      "quirks": ["q.bedrock_quirk('gastly_ultravariant', 'blink')",
+      "q.bedrock_quirk('gastly_ultravariant', 'pokeballbounce')",
+    "q.bedrock_quirk('gastly_ultravariant', 'blink')","q.bedrock_quirk('gastly_ultravariant', 'ancientballbounce')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant', 'shoulder_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('gastly_ultravariant', 'blink')",
+      "q.bedrock_quirk('gastly_ultravariant', 'pokeballbounce')",
+    "q.bedrock_quirk('gastly_ultravariant', 'blink')","q.bedrock_quirk('gastly_ultravariant', 'ancientballbounce')"]
+    }
+  }
+}
+

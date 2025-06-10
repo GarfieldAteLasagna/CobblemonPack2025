@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:feebas",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:feebas",
+      "model": "cobblemon:feebas_qlovean.geo",
+      "texture": "cobblemon:textures/pokemon/0349_feebas/feebas_qlovean.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "qlovean"],
+      "texture": "cobblemon:textures/pokemon/0349_feebas/feebas_qlovean_shiny.png"
+    }
+  ]
+}

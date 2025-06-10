@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-gible-1",
+            "pokemon": "gible",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "13-27",
+            "weight": 12.38,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["goth"],
+      "poser": "cobblemon:gallade",
+      "model": "cobblemon:gallade_goth.geo",
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_goth.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","goth"],
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_goth_shiny.png"
+    }
+  ]
+}

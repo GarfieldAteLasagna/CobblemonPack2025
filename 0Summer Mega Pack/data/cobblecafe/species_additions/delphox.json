@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:delphox",
+  "evolutions": [
+    {
+      "id": "delphox_cafe_delphox",
+      "variant": "item_interact",
+      "result": "cafe_delphox",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:white_wool"
+    }
+  ]
+}

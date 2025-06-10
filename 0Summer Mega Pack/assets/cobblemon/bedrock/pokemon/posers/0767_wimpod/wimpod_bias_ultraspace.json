@@ -1,0 +1,55 @@
+{
+  "portraitScale": 1.46,
+  "portraitTranslation": [-0.11, -0.17, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0, 0.54, 0],
+  "rootBone": "wimpod",
+  "animations": {
+    "cry": "q.bedrock_stateful('wimpod_bias_ultraspace', 'cry')",
+      "faint": "q.bedrock_primary('wimpod_bias_ultraspace', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wimpod_bias_ultraspace', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('wimpod_bias_ultraspace', 'blink')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_left')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_right')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wimpod_bias_ultraspace', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('wimpod_bias_ultraspace', 'blink')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_left')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_right')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('wimpod_bias_ultraspace', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('wimpod_bias_ultraspace', 'blink')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_left')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_right')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('wimpod_bias_ultraspace', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('wimpod_bias_ultraspace', 'blink')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_left')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_right')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('wimpod_bias_ultraspace', 'sleep')"
+      ],
+      "quirks": ["q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_left')", "q.bedrock_quirk('wimpod_bias_ultraspace', 'twitch_quirk_right')"]
+    }
+  }
+}

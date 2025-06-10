@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:gorochu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["spaceworldmons"],
+      "poser": "spaceworldmons:0043_gorochu",
+      "model": "spaceworldmons:gorochu-spaceworldmons.geo",
+      "texture": "spaceworldmons:textures/pokemon/0043_gorochu/gorochu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spaceworldmons", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0043_gorochu/gorochu_shiny.png"
+    }
+  ]
+}

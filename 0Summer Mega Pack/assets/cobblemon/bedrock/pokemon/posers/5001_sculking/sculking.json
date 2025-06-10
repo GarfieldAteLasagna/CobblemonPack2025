@@ -1,0 +1,33 @@
+{
+  "portraitScale": 1.18,
+  "portraitTranslation": [-0.17, -0.14, 0],
+  "profileScale": 0.55,
+  "profileTranslation": [-0.09, 0.67, 0],
+  "rootBone": "sculking",
+  "animations": {
+    "cry": "q.bedrock_stateful('sculking', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('sculking', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('sculking', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('sculking', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('sculking', 'blink')"]
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('sculking', 'battle_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('sculking', 'blink')"]
+      }
+    }
+  }
+}

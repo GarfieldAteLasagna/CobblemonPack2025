@@ -1,0 +1,28 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"cobblemon"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "cobblemon"
+		}
+	],
+	"template_pools": ["ctov:village/mesa_fortified/house"],
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "cobblemon:village_plains/village_plains_pokecenter",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cobblemon:villages/pokecenter_mossy",
+				"projection": "rigid"
+			},
+			"weight": 50
+		}
+	]
+}

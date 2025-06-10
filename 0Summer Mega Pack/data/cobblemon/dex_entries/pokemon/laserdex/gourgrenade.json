@@ -1,0 +1,33 @@
+{
+  "id": "cobblemon:gourgrenade",
+  "speciesId": "cobblemon:gourgrenade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Small",
+      "unlockForms": [
+        "Small"
+      ]
+    },
+    {
+      "displayForm": "Large",
+      "unlockForms": [
+        "Small"
+      ]
+    },
+    {
+      "displayForm": "Super",
+      "unlockForms": [
+        "Super"
+      ]
+    }
+  ],
+  "variations": []
+}

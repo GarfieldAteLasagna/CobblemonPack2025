@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:bayleef_jetian",
+    "speciesId": "cobblemon:bayleef",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

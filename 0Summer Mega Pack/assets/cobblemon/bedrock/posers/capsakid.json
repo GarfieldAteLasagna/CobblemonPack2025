@@ -1,0 +1,70 @@
+{
+  "head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [ 0, -0.15, 0 ],
+  "profileScale": 1,
+  "profileTranslation": [ 0, 0.15, 0 ],
+  "animations": {
+    "faint": "q.bedrock_primary('capsakid', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('capsakid', 'cry')"
+  },  
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "look",
+        "bedrock(capsakid, ground_idle)"
+      ],
+	  "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(capsakid, blink)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(capsakid, ground_walk)" ],
+	  "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(capsakid, blink)"]
+        }
+      ]
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,        
+      "poseTypes": [
+         "STAND"
+       ],
+       "isBattle": true,
+       "isTouchingWater": false,
+       "animations": [
+         "bedrock(capsakid, ground_idle)"
+       ],
+       "quirks": [
+         {
+           "name": "blink",
+           "animations": ["bedrock(capsakid, blink)"]
+         }
+       ]
+   },
+   "sleeping": {
+       "poseName": "sleeping",
+       "transformTicks": 10,
+       "poseTypes": [ "SLEEP" ],
+       "animations": [ "bedrock(capsakid, sleep)" ]
+   }
+  }
+}

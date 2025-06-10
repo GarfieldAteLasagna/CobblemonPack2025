@@ -1,0 +1,17 @@
+{
+  "type": "choice",
+  "keys": ["bore"],
+  "default": "diamond",
+  "choices": [
+    "diamond",
+    "coal",
+    "iron",
+    "gold",
+    "redstone",
+    "copper",
+    "emerald",
+    "lapis"
+  ],
+  "isAspect": true,
+  "aspectFormat": "bore-{{choice}}"
+}

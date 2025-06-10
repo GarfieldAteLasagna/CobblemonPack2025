@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:lucario",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["y"],
+      "poser": "cobblemon:lucario_y",
+      "model": "cobblemon:lucario_y.geo",
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucario_y.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0448_lucario/lucario_y_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","y"],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucario_y_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0448_lucario/lucario_y_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

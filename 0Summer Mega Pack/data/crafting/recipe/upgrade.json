@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "G#G",
+        "CPC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "cobblemon:white_apricorn"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "P": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "cobblemon:upgrade",
+        "count": 1
+    }
+}

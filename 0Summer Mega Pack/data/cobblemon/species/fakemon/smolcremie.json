@@ -1,0 +1,295 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2417,
+    "name": "Smolcremie",
+    "primaryType": "normal",
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "height": 5,
+    "weight": 102,
+    "pokedex": [
+      "cobblemon.species.smolcremie.desc"
+    ],
+    "labels": [],
+    "aspects": ["cream","decoration"],
+  "abilities": [
+    "sweetveil",
+    "h:aromaveil"
+  ],
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 121,
+    "speed": 64
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "catchRate": 100,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.7,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sugar",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:white_wool",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:decorate",
+    "1:tackle",
+    "1:aromaticmist",
+    "1:sweetkiss",
+    "1:sweetscent",
+    "1:aromatherapy",
+    "15:drainingkiss",
+    "20:charm",
+    "25:attract",
+    "30:acidarmor",
+    "35:dazzlinggleam",
+    "40:recover",
+    "45:mistyterrain",
+    "50:entrainment",
+    "egg:babydolleyes",
+    "egg:lastresort",
+    "tm:alluringvoice",
+    "tm:attract",
+    "tm:babydolleyes",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:painsplit",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:triattack",
+    "tm:wonderroom",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magicroom",
+    "tutor:mistyexplosion",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:wonderroom"
+  ],
+  "preEvolution": "smolcery",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Ruby-Cream",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-rubycream.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-ruby"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Matcha-Cream",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-matchacream.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-matcha"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Mint-Cream",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-mintcream.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-mint"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Lemon-Cream",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-lemoncream.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-lemon"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Salted-Cream",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-saltedcream.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-salted"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Ruby-Swirl",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-rubyswirl.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-ruby_swirl"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Caramel-Swirl",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-caramelswirl.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-caramel_swirl"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Rainbow-Swirl",
+      "primaryType": "normal",
+      "maleRatio": 0,
+      "height": 3,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.smolcremie-rainbowswirl.desc"
+      ],
+      "labels": [],
+      "aspects": [
+        "cream-rainbow_swirl"
+      ],
+      "preEvolution": "smolcery",
+      "evolutions": [],
+      "battleOnly": false
+    }]}

@@ -1,0 +1,15 @@
+{
+    "target": "cobblemon:karrablast",
+    "evolutions": [{
+            "id": "karrablast_kaburion-spaceworldmons",
+            "variant": "level_up",
+            "result": "kaburion spaceworldmons",
+            "consumeHeldItem": false,
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 30
+                }
+            ]
+        }
+    ]
+}

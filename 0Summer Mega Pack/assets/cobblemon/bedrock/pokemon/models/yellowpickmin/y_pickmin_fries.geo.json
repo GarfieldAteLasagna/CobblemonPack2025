@@ -1,0 +1,146 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main",
+					"pivot": [0.25, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Main",
+					"pivot": [0.25, 2.25, -1],
+					"cubes": [
+						{"origin": [-1.5, 2.75, -1], "size": [3, 4, 2], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 6.75, -0.25],
+					"cubes": [
+						{"origin": [-1.5, 6.75, -1.5], "size": [3, 3, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Stem",
+					"parent": "Head",
+					"pivot": [0, 9.5, 0],
+					"cubes": [
+						{"origin": [-0.5, 9.75, -0.5], "size": [1, 2, 1], "uv": [18, 6]}
+					]
+				},
+				{
+					"name": "Leaf",
+					"parent": "Stem",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-1.5, 11.75, 0], "size": [3, 5, 0], "uv": [11, 7]}
+					]
+				},
+				{
+					"name": "Ears",
+					"parent": "Head",
+					"pivot": [0, 7.75, -1.5]
+				},
+				{
+					"name": "LeftEar",
+					"parent": "Ears",
+					"pivot": [0, 7.75, -1.5],
+					"cubes": [
+						{"origin": [1.5, 7.5, 0], "size": [2, 2, 0], "uv": [3, 10]}
+					]
+				},
+				{
+					"name": "RightEar",
+					"parent": "Ears",
+					"pivot": [-5, 7.75, -1.5],
+					"cubes": [
+						{"origin": [-3.5, 7.5, 0], "size": [2, 2, 0], "uv": [3, 10]}
+					]
+				},
+				{
+					"name": "Eyes",
+					"parent": "Head",
+					"pivot": [-1.15, 7.75, -2],
+					"cubes": [
+						{"origin": [-2.15, 7.5, -1.65], "size": [1.75, 1.5, 1], "pivot": [-1.4, 7.75, -0.9], "rotation": [0, 22.5, 0], "uv": [26, 2]},
+						{"origin": [0.4, 7.5, -1.625], "size": [1.75, 1.5, 1], "pivot": [1.65, 8.75, -0.875], "rotation": [0, -22.5, 0], "uv": [26, 2]}
+					]
+				},
+				{
+					"name": "pupil",
+					"parent": "Eyes",
+					"pivot": [-1.15, 7.75, -2],
+					"cubes": [
+						{"origin": [-2.175, 7.75, -2], "size": [1, 1, 0], "pivot": [-1.175, 7.75, -2], "rotation": [0, 22.5, 0], "uv": [29, 7]}
+					]
+				},
+				{
+					"name": "pupil2",
+					"parent": "Eyes",
+					"pivot": [2.1, 7.75, -1.625],
+					"cubes": [
+						{"origin": [1.1, 7.75, -1.625], "size": [1, 1, 0], "pivot": [2.1, 7.75, -1.625], "rotation": [0, -22.5, 0], "uv": [29, 7]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "Body",
+					"pivot": [-1.5, 6.5, 0],
+					"cubes": [
+						{"origin": [1.5, 6, -1.5], "size": [1, 3, 1], "pivot": [2.025, 6, -1], "rotation": [17.5, 0, 22.5], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "Body",
+					"pivot": [-3.5, 6.5, 0],
+					"cubes": [
+						{"origin": [-2.5, 6, -1.5], "size": [1, 3, 1], "pivot": [-1.975, 6, -1], "rotation": [17.5, 0, -22.5], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "frenfry",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.15, 1.75, -1.5], "size": [3, 3, 3], "pivot": [0.85, 2.75, -0.5], "rotation": [0, 0, 17.5], "uv": [20, 26]},
+						{"origin": [-2.85, 1.75, -1.5], "size": [3, 3, 3], "pivot": [-0.85, 2.75, -0.5], "rotation": [0, 0, -17.5], "uv": [20, 26]},
+						{"origin": [-3.375, 3, -2], "size": [6.75, 4, 4], "uv": [2, 23]},
+						{"origin": [1.5, 7, 0.25], "size": [2, 5, 1], "pivot": [2.75, 7, 1.5], "rotation": [0, 20, 0], "uv": [24, 15]},
+						{"origin": [-1, 7, 0.75], "size": [2, 6, 1], "pivot": [0, 7, 1.25], "rotation": [-5, 0, 0], "uv": [23, 12]},
+						{"origin": [-3.5, 7, 0.25], "size": [2, 4, 1], "pivot": [-2.75, 7, 1.5], "rotation": [0, -20, 0], "uv": [24, 15]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "Main",
+					"pivot": [-1, 2.75, 0],
+					"cubes": [
+						{"origin": [-1.475, 0, -0.5], "size": [1, 3, 1], "uv": [16, 16]},
+						{"origin": [-2.5, 0, -1.5], "size": [2, 0, 2], "uv": [11, 13]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "Main",
+					"pivot": [1, 2.75, 0],
+					"cubes": [
+						{"origin": [0.475, 0, -0.5], "size": [1, 3, 1], "uv": [0, 17]},
+						{"origin": [0.5, 0, -1.5], "size": [2, 0, 2], "uv": [0, 14]}
+					]
+				}
+			]
+		}
+	]
+}

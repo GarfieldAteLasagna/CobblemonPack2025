@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-goodra-1",
+            "pokemon": "goodra",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "54-67",
+            "weight": 3.8,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        },
+        {
+            "id": "deeper-goodra-1",
+            "pokemon": "goodra",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "54-67",
+            "weight": 0.96,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

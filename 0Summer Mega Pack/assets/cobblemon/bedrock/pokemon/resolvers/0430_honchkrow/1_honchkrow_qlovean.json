@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:honchkrow",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["qlovean"],
+      "poser": "cobblemon:honchkrow",
+      "model": "cobblemon:honchkrow_qlovean.geo",
+      "texture": "cobblemon:textures/pokemon/0430_honchkrow/honchkrow_qlovean.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "qlovean"],
+      "texture": "cobblemon:textures/pokemon/0430_honchkrow/honchkrow_qlovean_shiny.png"
+    }
+  ]
+}

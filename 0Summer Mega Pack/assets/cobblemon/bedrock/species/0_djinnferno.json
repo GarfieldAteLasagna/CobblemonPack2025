@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:djinnferno",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:djinnferno",
+      "model": "cobblemon:djinnferno.geo",
+      "texture": "cobblemon:textures/pokemon/djinnferno/djinnferno.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/djinnferno/djinnferno_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/djinnferno/djinnferno_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/djinnferno/djinnferno_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

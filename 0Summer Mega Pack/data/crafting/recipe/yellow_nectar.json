@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D ",
+        "AP#",
+        " D "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:flying_gem"
+        },
+        "P": {
+            "item": "minecraft:honey_bottle"
+        },
+        "D": {
+            "item": "cobblemon:yellow_apricorn"
+        },
+        "A": {
+            "item": "cobblemon:electric_gem"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:yellow_nectar",
+        "count": 1
+    }
+}

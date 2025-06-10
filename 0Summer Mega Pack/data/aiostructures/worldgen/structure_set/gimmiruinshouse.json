@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aiostructures:gimmiruinshouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 15,
+    "salt": 274086095
+  }
+}

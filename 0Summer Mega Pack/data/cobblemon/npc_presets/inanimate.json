@@ -1,0 +1,8 @@
+{
+  "isInvulnerable": true,
+  "isMovable": false,
+  "allowProjectileHits": false,
+  "canDespawn": true,
+  "isLeashable": false,
+  "hideNameTag": true
+}

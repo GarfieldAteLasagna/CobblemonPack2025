@@ -1,0 +1,194 @@
+{
+    
+    "target": "cobblemon:chikorita",
+    "features": ["jetian"],
+    "forms": [
+  {
+    "implemented": true,
+    "nationalPokedexNumber": 152,
+    "name": "Jetian",
+    "primaryType": "grass",
+    "secondaryType": "fairy",
+    "maleRatio": 0.875,
+    "height": 7,
+    "weight": 96,
+    "pokedex": [
+      "cobblemon.species.chikorita_jetian.desc"
+    ],
+    "labels": [
+      "gen2",
+      "starter",
+      "jetian"
+    ],
+    "aspects": ["jetian"],
+    "abilities": [
+      "overgrow",
+      "h:flowerveil"
+    ],
+    "eggGroups": [
+      "monster",
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 65,
+      "defence": 49,
+      "special_attack": 45,
+      "special_defence": 45,
+      "speed": 14
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 1,
+      "speed": 0
+    },
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.1,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+        "light": "0-4"
+      },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.2
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:miracle_seed",
+          "percentage": 5.0
+        },
+        {
+            "item": "minecraft:allium",
+            "percentage": 85   
+        },
+        {
+            "item": "minecraft:pitcher_pod",
+            "percentage": 20
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:growl",
+      "6:absorb",
+      "9:fairywind",
+      "12:sweetkiss",
+      "17:charm",
+      "20:magicalleaf",
+      "23:toxic",
+      "28:sweetscent",
+      "31:drainingkiss",
+      "34:bodyslam",
+      "39:bounce",
+      "42:gigadrain",
+      "43:dazzlinggleam",
+      "45:solarbeam",
+      "egg:ancientpower",
+      "egg:aromatherapy",
+      "egg:counter",
+      "egg:flail",
+      "egg:grasswhistle",
+      "egg:healpulse",
+      "egg:ingrain",
+      "egg:leechseed",
+      "egg:refresh",
+      "egg:vinewhip",
+      "egg:wringout",
+      "tm:ancientpower",
+      "tm:bodyslam",
+      "tm:bulletseed",
+      "tm:charm",
+      "tm:curse",
+      "tm:cut",
+      "tm:doubleedge",
+      "tm:echoedvoice",
+      "tm:encore",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:faketears",
+      "tm:flash",
+      "tm:furycutter",
+      "tm:gigadrain",
+      "tm:grassknot",
+      "tm:grasspledge",
+      "tm:grassyglide",
+      "tm:grassyterrain",
+      "tm:headbutt",
+      "tm:helpinghand",
+      "tm:irontail",
+      "tm:leafstorm",
+      "tm:lightscreen",
+      "tm:magicalleaf",
+      "tm:magiccoat",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:naturepower",
+      "tm:protect",
+      "tm:reflect",
+      "tm:rest",
+      "tm:safeguard",
+      "tm:seedbomb",
+      "tm:sleeptalk",
+      "tm:solarbeam",
+      "tm:solarblade",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swordsdance",
+      "tm:synthesis",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:trailblaze",
+      "tm:workup",
+      "tm:worryseed",
+      "tutor:ancientpower",
+      "tutor:energyball",
+      "tutor:furycutter",
+      "tutor:gigadrain",
+      "tutor:grasspledge",
+      "tutor:grassyglide",
+      "tutor:helpinghand",
+      "tutor:irontail",
+      "tutor:magicalleaf",
+      "tutor:magiccoat",
+      "tutor:mudslap",
+      "tutor:rest",
+      "tutor:seedbomb",
+      "tutor:sleeptalk",
+      "tutor:synthesis",
+      "tutor:worryseed"
+    ],
+    "evolutions": [
+      {
+        "id": "chikorita_bayleef_jetian",
+        "variant": "level_up",
+        "result": "bayleef jetian",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 16
+          }
+        ]
+      }
+    ]
+  }]}

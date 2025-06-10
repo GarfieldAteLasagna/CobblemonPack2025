@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "marill-1",
+            "pokemon": "marill",
+            "presets": [
+                "freshwater",
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "10-32",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "marill-2",
+            "pokemon": "marill",
+            "presets": [
+                "freshwater"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "10-32",
+            "weight": 3.0
+        }
+    ]
+ }

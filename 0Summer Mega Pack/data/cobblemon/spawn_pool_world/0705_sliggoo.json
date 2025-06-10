@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-sliggoo-1",
+            "pokemon": "sliggoo",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "37-56",
+            "weight": 2.97,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:deeplands"
+                ]
+            }
+        },
+        {
+            "id": "deeper-sliggoo-2",
+            "pokemon": "sliggoo",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "37-56",
+            "weight": 12.15,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns"
+                ]
+            }
+        }
+    ]
+}

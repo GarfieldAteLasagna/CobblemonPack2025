@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:butterfree",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [ "valencian" ],
+            "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_valencian.png"
+        },
+        {
+            "aspects": [ "shiny", "valencian" ],
+            "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_valencian_shiny.png"
+        },
+		{
+            "aspects": [ "gmax", "valencian" ],
+            "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax_valencian.png"
+        },
+		{
+            "aspects": [ "gmax", "valencian", "shiny" ],
+            "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax_valencian_shiny.png"
+        }
+    ]
+}

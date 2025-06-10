@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:arctozolt",
+  "evolutions": [
+    {
+      "id": "arctozolt_cafe_arctozolt",
+      "variant": "item_interact",
+      "result": "cafe_arctozolt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:brown_wool"
+    }
+  ]
+}

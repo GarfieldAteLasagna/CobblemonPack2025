@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kyonpan-spaceworldmons",
+    "speciesId": "cobblemon:kyonpan",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Spaceworldmons",
+            "unlockForms": [
+                "Spaceworldmons"
+            ]
+        }
+    ],
+    "variations": []
+}

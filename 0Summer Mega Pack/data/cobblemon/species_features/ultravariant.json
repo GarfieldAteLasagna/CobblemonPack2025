@@ -1,0 +1,6 @@
+{
+  "keys": ["ultravariant"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

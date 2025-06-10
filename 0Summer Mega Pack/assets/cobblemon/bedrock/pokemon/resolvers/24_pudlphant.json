@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:pudlphant",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:drowzee",
+        "model": "cobblemon:pudlphant.geo",
+        "texture": "cobblemon:textures/pokemon/pudlphant/pudlphant.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/pudlphant/pudlphant_shiny.png",
+        "layers": []
+      }
+    ]
+  }

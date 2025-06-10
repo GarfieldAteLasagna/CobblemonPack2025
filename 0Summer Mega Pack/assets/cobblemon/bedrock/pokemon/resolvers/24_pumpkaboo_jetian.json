@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:pumpkaboo",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [ "jetian" ],
+        "poser": "cobblemon:pumpkaboo",
+        "model": "cobblemon:pumpkaboo_jetian.geo",
+        "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_jetian.png",
+        "layers": [
+          {
+            "name": "color",
+            "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_jetian_emissive.png",
+            "emissive": true
+          }
+      ]
+      },
+      {
+        "aspects": [ "jetian", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_jetian_shiny.png",
+        "layers": [
+          {
+            "name": "color",
+            "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_jetian_shiny_emissive.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

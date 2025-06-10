@@ -1,0 +1,8 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_hoenn",
+    "sortOrder": 2000,
+    "entries": [
+        "spaceworldmons:kaburion-spaceworldmons"
+    ]
+}

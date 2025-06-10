@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:lapras_jetian",
+    "speciesId": "cobblemon:lapras",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

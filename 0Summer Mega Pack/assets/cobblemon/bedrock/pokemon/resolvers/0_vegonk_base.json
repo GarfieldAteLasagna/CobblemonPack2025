@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:vegonk",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lechonk",
+        "model": "cobblemon:vegonk.geo",
+        "texture": "cobblemon:textures/pokemon/vegonk/vegonk.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/vegonk/vegonk_shiny.png",
+        "layers": []
+      }
+    ]
+  }

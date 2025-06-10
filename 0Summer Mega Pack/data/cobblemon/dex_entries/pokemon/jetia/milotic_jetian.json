@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:milotic_jetian",
+    "speciesId": "cobblemon:milotic",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": [
+          "Jetian"
+        ]
+      }
+    ],
+    "variations": []
+  }

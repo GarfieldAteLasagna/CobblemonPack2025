@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:thievul",
+    "forms": [
+      {
+        "displayForm": "Jetian",
+        "unlockForms": ["Jetian"]
+      }
+    ]
+  }

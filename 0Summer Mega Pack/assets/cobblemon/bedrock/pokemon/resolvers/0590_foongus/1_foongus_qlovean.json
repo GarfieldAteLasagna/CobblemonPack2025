@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:foongus",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["qlovean"],
+        "poser": "cobblemon:foongus",
+        "model": "cobblemon:foongus_qlovean.geo",
+        "texture": "cobblemon:textures/pokemon/0590_foongus/foongus_qlovean.png",
+        "layers": []
+        },
+      {
+        "aspects": ["shiny", "qlovean"],
+        "texture": "cobblemon:textures/pokemon/0590_foongus/foongus_qlovean_shiny.png"
+      }
+    ]
+  }

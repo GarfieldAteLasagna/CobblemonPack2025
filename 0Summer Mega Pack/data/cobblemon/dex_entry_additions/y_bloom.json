@@ -1,0 +1,12 @@
+{
+  "entryId": "cobblemon:yellowpickmin",
+  "variations": [
+    {
+      "displayName": "Bloom",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+        "y-outfit-normal"
+      ]
+    }
+  ]
+}

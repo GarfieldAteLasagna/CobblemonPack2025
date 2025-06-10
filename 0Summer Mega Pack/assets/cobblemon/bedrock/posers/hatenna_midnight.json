@@ -1,0 +1,24 @@
+{
+  "portraitScale": 1.66,
+  "portraitTranslation": [-0.06, 0, 0],
+  "profileScale": 0.54,
+  "profileTranslation": [-0.01, 0.97, 0],
+  "rootBone": "hatenna",
+  "animations": {
+    "cry": "q.bedrock_stateful('hatenna_midnight', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": ["q.bedrock('hatenna_midnight', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('hatenna_midnight', 'ground_idle')",
+        "q.biped_walk(1, 1, 'foot_left', 'foot_right')"
+      ]
+    }
+  }
+}

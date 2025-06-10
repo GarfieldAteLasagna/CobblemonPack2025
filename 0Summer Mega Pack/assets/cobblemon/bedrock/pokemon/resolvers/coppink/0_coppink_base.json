@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:coppink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:coppink",
+        "model": "cobblemon:coppink.geo",
+        "texture": "cobblemon:textures/pokemon/coppink/coppink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/coppink/coppink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/coppink/coppink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/coppink/coppink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

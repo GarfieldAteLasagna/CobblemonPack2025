@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deeper-gabite-1",
+            "pokemon": "gabite",
+            "presets": [
+                "deep_dark"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-51",
+            "weight": 3.7,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

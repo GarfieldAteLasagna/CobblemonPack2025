@@ -1,0 +1,33 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "cobblemon:yellow_apricorn"
+    },
+    "L": {
+      "item": "cobblemon:heal_powder"
+    },
+    "M": {
+      "item": "cobblemon:miracle_seed"
+     },
+    "T": {
+      "item": "minecraft:poppy"
+     },
+    "A": {
+      "item": "cobblemon:flying_gem"
+    }
+  },
+
+  "pattern": [
+    "IAI",
+    "MTM",
+    "ILI"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:gracidea_flower"
+  }
+}

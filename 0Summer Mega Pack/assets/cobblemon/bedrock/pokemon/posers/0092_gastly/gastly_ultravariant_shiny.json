@@ -1,0 +1,58 @@
+{
+  "portraitScale": 1.46,
+  "portraitTranslation": [-0.11, -0.17, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0, 0.54, 0],
+  "rootBone": "gastly",
+  "animations": {
+    "cry": "q.bedrock_stateful('gastly_ultravariant_shiny', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant_shiny', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('gastly_ultravariant_shiny', 'blink')","q.bedrock_quirk('gastly_ultravariant_shiny', 'pokeballopen')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant_shiny', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('gastly_ultravariant_shiny', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('gastly_ultravariant_shiny', 'sleep')"
+    ]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant_shiny', 'shoulder_left')"
+      ],
+      "quirks": ["q.bedrock_quirk('gastly_ultravariant_shiny', 'blink')",
+      "q.bedrock_quirk('gastly_ultravariant_shiny', 'pokeballbounce')",
+    "q.bedrock_quirk('gastly_ultravariant_shiny', 'ancientballbounce')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gastly_ultravariant_shiny', 'shoulder_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('gastly_ultravariant_shiny', 'blink')",
+      "q.bedrock_quirk('gastly_ultravariant_shiny', 'pokeballbounce')",
+      "q.bedrock_quirk('gastly_ultravariant_shiny', 'ancientballbounce')"]
+    }
+  }
+}
+

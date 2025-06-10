@@ -1,0 +1,11 @@
+{
+    "target": "cobblemon:raichu",
+    "evolutions": [{
+            "id": "raichu_gorochu-spaceworldmons",
+            "variant": "trade",
+            "result": "gorochu spaceworldmons",
+            "consumeHeldItem": false,
+            "requirements": []
+        }
+    ]
+}

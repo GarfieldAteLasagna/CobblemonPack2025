@@ -1,0 +1,24 @@
+{
+	"display": {
+	  "icon": {
+		"id": "cobblemon:friend_ball"
+	  },
+	  "title": {
+		"translate": "advancements.cobblemon.own_regisecto"
+	  },
+	  "description": {
+		"translate": "advancements.cobblemon.own_regisecto.description"
+	  },
+	  "hidden": true
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+	  "regisecto": {
+		"trigger": "cobblemon:party",
+		"conditions": {
+			"party": [ "cobblemon:regisecto"]
+		}
+	  }
+	}
+  }
+  

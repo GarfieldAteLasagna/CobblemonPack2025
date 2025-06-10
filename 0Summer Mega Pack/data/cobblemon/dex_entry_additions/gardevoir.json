@@ -1,0 +1,13 @@
+{
+  "entryId": "cobblemon:gardevoir",
+  "forms": [
+    {
+      "displayForm": "Altered",
+      "unlockForms": ["Altered"]
+    },
+    {
+      "displayForm": "Altered Mega",
+      "unlockForms": ["Altered Mega"]
+    }
+  ]
+}

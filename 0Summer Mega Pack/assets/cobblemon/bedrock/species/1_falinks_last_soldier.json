@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:falinks",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["last_soldier"],
+      "poser": "cobblemon:falinks_last_soldier",
+      "model": "cobblemon:falinks_last_soldier.geo",
+      "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_last_soldier.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_last_soldier_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","last_soldier"],
+      "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_last_soldier_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_last_soldier_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

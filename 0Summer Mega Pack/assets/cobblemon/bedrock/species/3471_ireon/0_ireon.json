@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ireon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ireon",
+      "model": "cobblemon:ireon.geo",
+      "texture": "cobblemon:textures/pokemon/3471_ireon/ireon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/3471_ireon/ireon_shiny.png"
+    }
+  ]
+}

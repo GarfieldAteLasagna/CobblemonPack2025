@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:snowwing",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:darumaka",
+        "model": "cobblemon:snowwing.geo",
+        "texture": "cobblemon:textures/pokemon/snowwing/snowwing.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/snowwing/snowwing_shiny.png",
+        "layers": []
+      }
+    ]
+  }

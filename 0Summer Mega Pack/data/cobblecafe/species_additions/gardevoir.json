@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:gardevoir",
+  "evolutions": [
+    {
+      "id": "gardevoir_cafe_gardevoir",
+      "variant": "item_interact",
+      "result": "cafe_gardevoir",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:blue_wool"
+    }
+  ]
+}

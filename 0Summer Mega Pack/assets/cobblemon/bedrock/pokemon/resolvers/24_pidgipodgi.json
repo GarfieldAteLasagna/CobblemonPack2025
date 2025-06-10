@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:pidgipodgi",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:pidgey",
+        "model": "cobblemon:pidgipodgi.geo",
+        "texture": "cobblemon:textures/pokemon/pidgipodgi/pidgipodgi.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/pidgipodgi/pidgipodgi_shiny.png",
+        "layers": []
+      }
+    ]
+  }

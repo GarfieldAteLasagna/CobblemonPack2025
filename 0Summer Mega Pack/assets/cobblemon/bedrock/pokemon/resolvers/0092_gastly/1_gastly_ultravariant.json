@@ -1,0 +1,437 @@
+{
+  "species": "cobblemon:gastly",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ultravariant"],
+      "poser": "cobblemon:gastly_ultravariant",
+      "model": "cobblemon:gastly_ultravariant.geo",
+      "texture": "cobblemon:textures/pokemon/0092_gastly/gastly_ultravariant.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0092_gastly/gastly_ultravariant_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0092_gastly/gastly_ultravariant_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0092_gastly/gastly_ultravariant_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","shining", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0092_gastly/gastly_ultravariant_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0092_gastly/gastly_ultravariant_shining_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["ultravariant","pokeball-ancient_azure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_azure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_citrine_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_citrine_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_feather_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_feather_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_gigaton_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_gigaton_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_great_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_great_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_heavy_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_heavy_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_ivory_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_ivory_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_jet_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_jet_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_leaden_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_leaden_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_origin_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_origin_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_poke_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_poke_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_roseate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_roseate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_slate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_slate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_ultra_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_ultra_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_verdant_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_verdant_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ancient_wing_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ancient_wing_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-azure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/azure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-beast_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/beast_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-cherish_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/cherish_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-citrine_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/citrine_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-dive_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/dive_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-dream_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/dream_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-dusk_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/dusk_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-fast_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/fast_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-friend_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/friend_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-great_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/great_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-heal_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/heal_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-heavy_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/heavy_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-level_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/level_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-love_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/love_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-lure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/lure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-luxury_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/luxury_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-master_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/master_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-moon_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/moon_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-nest_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/nest_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-net_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/net_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-park_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/park_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-poke_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/poke_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-premier_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/premier_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-quick_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/quick_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-repeat_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/repeat_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-roseate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/roseate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-safari_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/safari_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-slate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/slate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-sport_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/sport_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-strange_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/strange_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-timer_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/timer_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-ultra_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/ultra_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["ultravariant","pokeball-verdant_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/0092_gastly/verdant_ball.png"
+        }
+      ]
+    }
+  ]
+}

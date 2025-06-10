@@ -1,0 +1,173 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2434,
+    "name": "Tutel",
+    "primaryType": "dark",
+    "secondaryType": "psychic",
+    "maleRatio": 0.875,
+    "height": 6,
+    "weight": 95,
+    "pokedex": [
+      "cobblemon.species.tutel.desc"
+    ],
+    "labels": ["mythical"],
+    "aspects": [],
+    "abilities": [
+      "runaway",
+      "h:runaway"
+    ],
+    "eggGroups": [
+      "monster",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 50,
+      "defence": 100,
+      "special_attack": 55,
+      "special_defence": 70,
+      "speed": 35
+    },
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 3,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "baseExperienceYield": 63,
+    "experienceGroup": "medium_slow",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "shoulderMountable": true,
+    "baseScale": 1.2,
+    "hitbox": {
+      "width": 0.85,
+      "height": 1.4,
+      "fixed": false
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "light": "0-4"
+      },
+      "moving": {
+        "swim": {
+          "canBreatheUnderwater": true,
+          "canWalkOnWater": true,
+          "canSwimInWater": true,
+          "canSwimInLava": false,
+          "swimSpeed": "0.2"
+        },
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      }
+    },
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:nether_star",
+          "percentage": 5.0
+        }
+      ]
+    },
+    "moves": [
+        "1:ancientpower",
+        "1:irondefense",
+        "1:confusion",
+        "6:gravity",
+        "10:protect",
+        "15:lightscreen",
+        "19:psybeam",
+        "25:skillswap",
+        "29:curse",
+        "29:phantomforce",
+        "46:knockoff",
+        "50:wonderroom",
+        "50:liquidation",
+        "55:darkpulse",
+        "75:psychic",
+        "85:telekinesis",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:brickbreak",
+        "tm:calmmind",
+        "tm:covet",
+        "tm:darkpulse",
+        "tm:dreameater",
+        "tm:dualchop",
+        "tm:embargo",
+        "tm:endure",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flash",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:foulplay",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:gunkshot",
+        "tm:hyperbeam",
+        "tm:icepunch",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:lashout",
+        "tm:lastresort",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magicroom",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:psychicterrain",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:quash",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rocktomb",
+        "tm:roleplay",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:wonderroom",
+        "tm:zenheadbutt"
+    ]
+  }

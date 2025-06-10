@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:meowscarada",
+  "evolutions": [
+    {
+      "id": "meowscarada_cafe_meowscarada",
+      "variant": "item_interact",
+      "result": "cafe_meowscarada",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:white_wool"
+    },
+    {
+      "id": "meowscarada_mephy_meowscarada",
+      "variant": "item_interact",
+      "result": "mephy_meowscarada",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:cherry_sapling"
+    }
+  ]
+}

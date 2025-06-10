@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemon:hard_stone"
+    },
+    {
+      "item": "cobblemon:yache_berry"
+    }
+  ],
+  "result": {
+    "id": "cobblemon:ice_gem",
+    "count": 1
+  }
+}

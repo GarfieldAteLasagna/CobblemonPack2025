@@ -1,0 +1,33 @@
+{
+  "portraitScale": 1.18,
+  "portraitTranslation": [-0.17, -0.14, 0],
+  "profileScale": 0.55,
+  "profileTranslation": [-0.09, 0.67, 0],
+  "rootBone": "haunter",
+  "animations": {
+    "cry": "q.bedrock_stateful('haunter_ultravariant', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('haunter_ultravariant', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('haunter_ultravariant', 'blink')",
+      "q.bedrock_quirk('haunter_ultravariant', 'pokeballbob1')",
+      "q.bedrock_quirk('haunter_ultravariant', 'ancientballbob1')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('haunter_ultravariant', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('haunter_ultravariant', 'blink')",
+      "q.bedrock_quirk('haunter_ultravariant', 'pokeballcritical')",
+      "q.bedrock_quirk('haunter_ultravariant', 'ancientballcritical')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": ["q.look('head')", "q.bedrock('haunter_ultravariant', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('haunter_ultravariant', 'blink')",
+      "q.bedrock_quirk('haunter_ultravariant', 'pokeballcritical')",
+  "q.bedrock_quirk('haunter_ultravariant', 'ancientballcritical')"]
+    }
+  }
+}

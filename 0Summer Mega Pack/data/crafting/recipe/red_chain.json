@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "mega_showdown:lustrous_orb"
+    },
+    "base": {
+        "item": "mega_showdown:griseous_orb"
+    },
+    "addition": {
+        "item": "mega_showdown:adamant_orb"
+    },
+    "result": {
+        "id": "mega_showdown:red_chain"
+    }
+}

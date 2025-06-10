@@ -1,0 +1,224 @@
+{
+    "features": [
+        "qlovean"
+    ],
+    "forms": [
+        {
+            "abilities": [
+                "insomnia",
+                "superluck",
+                "h:prankster"
+            ],
+            "aspects": [
+                "qlovean"
+            ],
+            "baseExperienceYield": 81,
+            "baseFriendship": 35,
+            "baseScale": 0.8,
+            "baseStats": {
+                "attack": 55,
+                "defence": 22,
+                "hp": 40,
+                "special_attack": 55,
+                "special_defence": 22,
+                "speed": 65
+            },
+            "behaviour": {
+                "moving": {
+                    "fly": {
+                        "canFly": true
+                    },
+                    "walk": {
+                        "walkSpeed": 0.28
+                    }
+                },
+                "resting": {
+                    "canSleep": true,
+                    "times": "day"
+                }
+            },
+            "catchRate": 30,
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:feather",
+                        "quantityRange": "0-1"
+                    },
+                    {
+                        "item": "minecraft:chicken"
+                    },
+                    {
+                        "item": "cobblemon:bluk_berry",
+                        "percentage": 2.5
+                    }
+                ]
+            },
+            "eggCycles": 20,
+            "eggGroups": [
+                "flying"
+            ],
+            "evolutions": [
+                {
+                    "consumeHeldItem": true,
+                    "id": "murkrow_honchkrow",
+                    "learnableMoves": [
+                    ],
+                    "requiredContext": "minecraft:totem_of_undying",
+                    "requirements": [
+                    ],
+                    "result": "honchkrow qlovean",
+                    "variant": "item_interact"
+                }
+            ],
+            "evYield": {
+                "attack": 0,
+                "defence": 0,
+                "hp": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 1
+            },
+            "experienceGroup": "medium_slow",
+            "height": 5,
+            "hitbox": {
+                "fixed": false,
+                "height": 1,
+                "width": 0.65
+            },
+            "labels": [
+                "gen2",
+                "qlovean"
+            ],
+            "maleRatio": 0.5,
+            "moves": [
+                "1:peck",
+                "1:astonish",
+                "1:pursuit",
+                "5:gust",
+                "11:haze",
+                "15:wingattack",
+                "21:nightshade",
+                "25:assurance",
+                "31:taunt",
+                "35:feintattack",
+                "40:foulplay",
+                "50:suckerpunch",
+                "55:torment",
+                "60:quash",
+                "egg:bravebird",
+                "egg:confuseray",
+                "egg:drillpeck",
+                "egg:featherdance",
+                "egg:feintattack",
+                "egg:flatter",
+                "egg:meanlook",
+                "egg:mirrormove",
+                "egg:perishsong",
+                "egg:psychoshift",
+                "egg:screech",
+                "egg:skyattack",
+                "egg:whirlwind",
+                "tm:acrobatics",
+                "tm:aerialace",
+                "tm:aircutter",
+                "tm:airslash",
+                "tm:assurance",
+                "tm:bravebird",
+                "tm:calmmind",
+                "tm:confuseray",
+                "tm:darkpulse",
+                "tm:defog",
+                "tm:doubleedge",
+                "tm:dreameater",
+                "tm:dualwingbeat",
+                "tm:embargo",
+                "tm:endure",
+                "tm:facade",
+                "tm:featherdance",
+                "tm:fly",
+                "tm:foulplay",
+                "tm:gigaimpact",
+                "tm:haze",
+                "tm:heatwave",
+                "tm:hex",
+                "tm:hurricane",
+                "tm:hyperbeam",
+                "tm:icywind",
+                "tm:lashout",
+                "tm:mudslap",
+                "tm:nastyplot",
+                "tm:nightshade",
+                "tm:ominouswind",
+                "tm:payback",
+                "tm:pluck",
+                "tm:protect",
+                "tm:psychic",
+                "tm:psychicnoise",
+                "tm:quash",
+                "tm:raindance",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:roost",
+                "tm:scaryface",
+                "tm:screech",
+                "tm:shadowball",
+                "tm:skyattack",
+                "tm:sleeptalk",
+                "tm:snarl",
+                "tm:snatch",
+                "tm:spite",
+                "tm:steelwing",
+                "tm:substitute",
+                "tm:suckerpunch",
+                "tm:sunnyday",
+                "tm:tailwind",
+                "tm:takedown",
+                "tm:taunt",
+                "tm:terablast",
+                "tm:thief",
+                "tm:thunderwave",
+                "tm:torment",
+                "tm:twister",
+                "tm:uproar",
+                "tm:uturn",
+                "tutor:aerialace",
+                "tutor:aircutter",
+                "tutor:calmmind",
+                "tutor:darkpulse",
+                "tutor:defog",
+                "tutor:dualwingbeat",
+                "tutor:foulplay",
+                "tutor:gigaimpact",
+                "tutor:heatwave",
+                "tutor:hyperbeam",
+                "tutor:icywind",
+                "tutor:lashout",
+                "tutor:mudslap",
+                "tutor:ominouswind",
+                "tutor:psychic",
+                "tutor:rest",
+                "tutor:roost",
+                "tutor:shadowball",
+                "tutor:skyattack",
+                "tutor:sleeptalk",
+                "tutor:snarl",
+                "tutor:snatch",
+                "tutor:spite",
+                "tutor:suckerpunch",
+                "tutor:tailwind",
+                "tutor:twister",
+                "tutor:uproar"
+            ],
+            "name": "Qlovean",
+            "pokedex": [
+                "cobblemon.species.murkrow_qlovean.desc"
+            ],
+            "primaryType": "dark",
+            "secondaryType": "flying",
+            "shoulderMountable": true,
+            "weight": 21
+        }
+    ],
+    "target": "cobblemon:murkrow"
+}

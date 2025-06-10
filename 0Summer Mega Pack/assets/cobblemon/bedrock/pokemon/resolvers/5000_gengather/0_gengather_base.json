@@ -1,0 +1,467 @@
+{
+  "species": "cobblemon:gengather",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gengather",
+      "model": "cobblemon:gengather.geo",
+      "texture": "cobblemon:textures/pokemon/5000_gengather/gengather.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_emissive.png",
+          "translucent": true
+        },
+         {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_emissive2.png"
+        },
+        {
+         "name": "emissive2",
+         "emissive": true,
+         "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_emissive3.png"
+       }
+      ]
+    },
+    {
+      "aspects": [ "shiny"],
+      "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shiny.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shiny_emissive.png",
+          "translucent": true
+        },
+        {
+         "name": "emissive",
+         "emissive": true,
+         "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shiny_emissive2.png"
+       },
+       {
+        "name": "emissive2",
+        "emissive": true,
+        "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shiny_emissive3.png"
+      }
+      ]
+    },
+    {
+      "aspects": [ "shiny","shining"],
+      "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shining.png",
+      "layers": [
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shining_emissive.png",
+          "translucent": true
+        },
+        {
+         "name": "emissive",
+         "emissive": true,
+         "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shining_emissive2.png"
+       },
+       {
+        "name": "emissive2",
+        "emissive": true,
+        "texture": "cobblemon:textures/pokemon/5000_gengather/gengather_shining_emissive3.png"
+      }
+      ]
+    },
+    {
+      "aspects": ["pokeball-ancient_azure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_azure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_citrine_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_citrine_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_feather_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_feather_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_gigaton_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_gigaton_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_great_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_great_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_heavy_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_heavy_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_ivory_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_ivory_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_jet_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_jet_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_leaden_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_leaden_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_origin_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_origin_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_poke_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_poke_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_roseate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_roseate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_slate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_slate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_ultra_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_ultra_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_verdant_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_verdant_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ancient_wing_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ancient_wing_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-azure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/azure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-beast_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/beast_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-cherish_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/cherish_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-citrine_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/citrine_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-dive_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/dive_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-dream_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/dream_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-dusk_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/dusk_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-fast_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/fast_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-friend_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/friend_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-great_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/great_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-heal_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/heal_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-heavy_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/heavy_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-level_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/level_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-love_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/love_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-lure_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/lure_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-luxury_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/luxury_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-master_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/master_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-moon_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/moon_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-nest_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/nest_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-net_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/net_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-park_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/park_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-poke_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/poke_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-premier_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/premier_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-quick_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/quick_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-repeat_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/repeat_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-roseate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/roseate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-safari_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/safari_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-slate_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/slate_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-sport_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/sport_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-strange_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/strange_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-timer_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/timer_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-ultra_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/ultra_ball.png"
+        }
+      ]
+    },{
+      "aspects": ["pokeball-verdant_ball"],
+      "layers": [
+        {
+          "name": "",
+          "texture": "cobblemon:textures/pokemon/5000_gengather/verdant_ball.png"
+        }
+      ]
+    }
+  ]
+}

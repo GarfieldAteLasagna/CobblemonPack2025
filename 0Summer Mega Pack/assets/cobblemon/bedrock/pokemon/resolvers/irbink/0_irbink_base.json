@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:irbink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:irbink",
+        "model": "cobblemon:irbink.geo",
+        "texture": "cobblemon:textures/pokemon/irbink/irbink.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/irbink/irbink_emissive.png",
+                "emissive": true
+            }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/irbink/irbink_shiny.png",
+        "layers": [
+            {
+                "name": "emissive",
+                "texture": "cobblemon:textures/pokemon/irbink/irbink_shiny_emissive.png",
+                "emissive": true
+            }
+        ]
+      }
+    ]
+   }

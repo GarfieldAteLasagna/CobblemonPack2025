@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:shibirefugu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["spaceworldmons"],
+      "poser": "spaceworldmons:0059_shibirefugu",
+      "model": "spaceworldmons:shibirefugu-spaceworldmons.geo",
+      "texture": "spaceworldmons:textures/pokemon/0059_shibirefugu/shibirefugu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spaceworldmons", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0059_shibirefugu/shibirefugu_shiny.png"
+    }
+  ]
+}

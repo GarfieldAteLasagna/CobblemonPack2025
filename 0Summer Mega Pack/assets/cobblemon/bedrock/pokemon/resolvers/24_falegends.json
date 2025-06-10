@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:falegends",
+    "order": 24,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:falinks",
+        "model": "cobblemon:falegends.geo",
+        "texture": "cobblemon:textures/pokemon/falegends/falegends.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "cobblemon:textures/pokemon/falegends/falegends_shiny.png"
+      }
+    ]
+  }

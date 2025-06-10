@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:sableye",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["sculkborne"],
+      "poser": "cobblemon:sableye_sculkborne",
+      "model": "cobblemon:sableye_sculkborne.geo",
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_sculkborne.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_sculkborne_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["sculkborne", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_sculkborne_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_sculkborne_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["sculkborne", "shining","shiny"],
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_sculkborne_shining.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_sculkborne_shining_emissive.png"
+        }
+      ]
+    }
+  ]
+}

@@ -12,9 +12,9 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
+            "bucket": "rare",
             "level": "15-35",
-            "weight": 5.0,
+            "weight": 1.5,
             "weightMultipliers": [
                 {
                     "multiplier": 2.5,

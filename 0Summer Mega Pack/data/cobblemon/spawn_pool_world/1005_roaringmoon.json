@@ -13,7 +13,7 @@
             "context": "grounded",
             "bucket": "rare",
             "level": "54-73",
-            "weight": 0.8,
+            "weight": 4.8,
             "condition": {
                 "biomes": [
                     "deeperdarker:deeplands"
@@ -30,7 +30,7 @@
             "context": "grounded",
             "bucket": "ultra-rare",
             "level": "54-73",
-            "weight": 0.5,
+            "weight": 4.5,
             "condition": {
                 "biomes": [
                     "deeperdarker:deeplands"

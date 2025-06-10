@@ -13,7 +13,7 @@
             "context": "grounded",
             "bucket": "ultra-rare",
             "level": "65-80",
-            "weight": 0.98,
+            "weight": 4.98,
             "condition": {
                 "biomes": [
                     "deeperdarker:overcast_columns"

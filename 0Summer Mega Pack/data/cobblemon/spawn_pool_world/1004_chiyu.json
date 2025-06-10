@@ -11,7 +11,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "60",
-      "weight": 4.0,
+      "weight": 2.0,
       "condition": {
         "biomes": ["minecraft:basalt_deltas"]
       }
@@ -24,7 +24,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "60",
-      "weight": 4.0,
+      "weight": 2.0,
       "condition": {
         "biomes": ["#cobblemon:is_volcanic"]
       }

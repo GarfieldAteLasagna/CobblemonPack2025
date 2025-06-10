@@ -13,7 +13,7 @@
             "context": "grounded",
             "bucket": "ultra-rare",
             "level": "65-80",
-            "weight": 3.15,
+            "weight": 4.25,
             "condition": {
                 "biomes": [
                     "deeperdarker:blooming_caverns"
@@ -30,7 +30,7 @@
             "context": "surface",
             "bucket": "ultra-rare",
             "level": "65-80",
-            "weight": 3.15,
+            "weight": 4.25,
             "condition": {
                 "biomes": [
                     "deeperdarker:blooming_caverns"
@@ -44,7 +44,7 @@
             "context": "fishing",
             "bucket": "common",
             "level": "65-80",
-            "weight": 1.0,
+            "weight": 4.15,
             "condition": {
                 "biomes": [
                     "deeperdarker:blooming_caverns",

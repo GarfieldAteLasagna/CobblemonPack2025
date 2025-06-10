@@ -13,7 +13,7 @@
             "context": "grounded",
             "bucket": "rare",
             "level": "47-67",
-            "weight": 3.36,
+            "weight": 7.56,
             "condition": {
                 "biomes": [
                     "deeperdarker:echoing_forest"

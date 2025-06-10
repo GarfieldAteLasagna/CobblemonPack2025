@@ -10,7 +10,7 @@
       "context": "fishing",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 3.0,
+      "weight": 1.0,
       "weightMultipliers": [
         {
           "multiplier": 1.5,

@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "60",
-      "weight": 3.0,
+      "weight": 2.5,
       "condition": {
         "timeRange": "day",
         "isRaining": false,

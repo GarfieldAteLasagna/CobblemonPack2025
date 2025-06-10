@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 3.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"

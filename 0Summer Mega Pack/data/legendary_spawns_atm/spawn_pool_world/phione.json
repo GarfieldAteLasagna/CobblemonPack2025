@@ -10,7 +10,7 @@
       "context": "fishing",
       "bucket": "rare",
       "level": "10",
-      "weight": 6.0,
+      "weight": 2.5,
       "condition": {
         "minLureLevel": 2,
         "biomes": [
